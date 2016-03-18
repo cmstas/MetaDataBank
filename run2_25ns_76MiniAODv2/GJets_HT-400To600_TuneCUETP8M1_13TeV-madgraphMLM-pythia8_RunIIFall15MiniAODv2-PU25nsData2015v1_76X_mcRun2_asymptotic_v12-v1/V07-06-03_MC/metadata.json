@@ -1,0 +1,545 @@
+{
+    "basedir": "/home/users/namin/ntuplizer/NtupleTools/AutoTwopler/", 
+    "checks": {}, 
+    "cms3tag": "CMS3_V07-06-03_MC", 
+    "cmsswver": "CMSSW_7_6_3", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 0, 
+            "finished": 56, 
+            "idle": 0, 
+            "running": 0, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": null, 
+        "datetime": "160315_230103", 
+        "jobs_left_tail": [], 
+        "njobs": 56, 
+        "outputdir": "/hadoop/cms/store/user/namin/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/crab_GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_/160315_230103/0000/", 
+        "requestname": "GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_", 
+        "resubmissions": 2, 
+        "schedd": "crab3-7@vocms0114.cern.ch", 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "", 
+        "task_warning": [], 
+        "taskdir": "crab/crab_GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_", 
+        "time": 1458234476, 
+        "uniquerequestname": "160315_230103:namin_crab_GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_"
+    }, 
+    "dataset": "/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/run2_25ns_76MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/V07-06-03_MC/", 
+    "gtag": "76X_mcRun2_asymptotic_v12", 
+    "ijob_to_miniaod": {
+        "1": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/0C04054E-D4B8-E511-A5AE-00304888A410.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "2": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/0EA657D3-C6B8-E511-BE15-001E6724839F.root"
+        ], 
+        "3": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/16EB2AC5-DCB8-E511-BF1E-001E67460572.root"
+        ], 
+        "4": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/1EF23AC4-DCB8-E511-B114-003048F348B6.root"
+        ], 
+        "5": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/22533BB9-C3B8-E511-9077-001E67247E36.root"
+        ], 
+        "6": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/304304AE-C6B8-E511-9261-001E6724839F.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "7": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/329609AE-C6B8-E511-A1A9-001E67248142.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "8": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/3A0E781D-9AB9-E511-A05E-003048895D40.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "9": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/3A2B7E00-30B9-E511-98F9-001E6724840D.root"
+        ], 
+        "10": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/440BAD1F-DAB8-E511-91EA-001E6724839F.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "11": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/4AD5D2C2-DCB8-E511-8F97-001E67247936.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "12": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/5CCF36D5-DCB8-E511-800D-00304888A410.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "13": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/602F654C-2DB9-E511-836D-003048F348B4.root"
+        ], 
+        "14": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/646603AD-C6B8-E511-A836-001E67248142.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "15": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/72E62739-C9B8-E511-BB41-001E6724839F.root"
+        ], 
+        "16": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/789D3E56-E2B8-E511-9DF1-003048892644.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "17": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/7CF3835F-DFB8-E511-9161-003048892644.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "18": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/7E480612-C7B8-E511-9A6A-00304853EABA.root"
+        ], 
+        "19": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/80B3DA2B-DAB8-E511-A603-003048892644.root"
+        ], 
+        "20": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/8868ACC2-DCB8-E511-B995-001E67247E36.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "21": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/8AFDADAE-C6B8-E511-A1A8-001E6724804D.root"
+        ], 
+        "22": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/9C686B72-9AB9-E511-81FE-003048F35110.root"
+        ], 
+        "23": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/A07F57AE-C6B8-E511-B8C9-001E6724804D.root"
+        ], 
+        "24": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/A6875DAE-C6B8-E511-9B11-001E6724804D.root"
+        ], 
+        "25": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/ACE28EBD-DEB8-E511-B9F4-00304853ED00.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "26": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/ACFACDB8-C3B8-E511-9DA2-001E67248142.root"
+        ], 
+        "27": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/B231A3BF-C3B8-E511-9CA9-001E67247E36.root"
+        ], 
+        "28": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/B890A5FF-2FB9-E511-A672-001E6724839F.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "29": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/BC7837E4-9AB9-E511-A0CA-001E67248296.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "30": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/BE4A30BF-C6B8-E511-B378-00304889263A.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "31": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/C446588D-A0B9-E511-8B8B-001E672481B5.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "32": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/CAAAF3FD-2FB9-E511-9DB0-001E672488B3.root"
+        ], 
+        "33": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/D0B0D603-D7B8-E511-8D6D-001E67247E36.root"
+        ], 
+        "34": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/D2435774-A0B9-E511-88CF-001E67248138.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "35": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/D4083DBB-C6B8-E511-B9AD-00304888A404.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "36": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/D44438FC-2FB9-E511-9404-003048F35234.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "37": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/D49775AD-C6B8-E511-907B-001E6724839F.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "38": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/DC6AF525-DAB8-E511-8715-003048F35110.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "39": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/E43A9BC4-9EB9-E511-AF13-001E672481B5.root"
+        ], 
+        "40": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/E60FD5E6-CFB9-E511-A0EC-00304888A3F2.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "41": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/E6230D39-C9B8-E511-AB3B-001E6724839F.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "42": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/E64C6D86-ABB9-E511-BD74-003048F35234.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "43": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/E6ED45BB-C6B8-E511-8325-00304888A404.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "44": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/EE74C0C3-DCB8-E511-AADE-001E6724839F.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "45": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/FC7ACE2B-DAB8-E511-B750-003048892644.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "46": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/00000/FE5425AD-C6B8-E511-8196-001E67248142.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "47": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/16C5CD19-A2B8-E511-AD7D-003048F34A5E.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "48": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/26D42581-A5B8-E511-8D30-00304853ED96.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "49": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/2E457AEB-E5B8-E511-9C2E-003048F35234.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "50": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/2ED08F8B-7CB9-E511-8854-003048F35204.root"
+        ], 
+        "51": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/44DF158B-7CB9-E511-A204-003048F3521E.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "52": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/5E733B61-7DB9-E511-B0F1-0030488A52FC.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "53": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/7E7D8412-E6B8-E511-9686-00304888A408.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu"
+        ], 
+        "54": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/9065EAE2-E2B8-E511-9E4B-00304888A408.root"
+        ], 
+        "55": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/929A240F-E6B8-E511-B3D7-003048F351EE.root"
+        ], 
+        "56": [
+            "/store/mc/RunIIFall15MiniAODv2/GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/DC283A7B-7CB9-E511-A40B-003048F3511E.root"
+        ]
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            45420, 
+            45420
+        ], 
+        "2": [
+            49733, 
+            49733
+        ], 
+        "3": [
+            45829, 
+            45829
+        ], 
+        "4": [
+            37363, 
+            37363
+        ], 
+        "5": [
+            47641, 
+            47641
+        ], 
+        "6": [
+            49366, 
+            49366
+        ], 
+        "7": [
+            49160, 
+            49160
+        ], 
+        "8": [
+            43408, 
+            43408
+        ], 
+        "9": [
+            47756, 
+            47756
+        ], 
+        "10": [
+            35367, 
+            35367
+        ], 
+        "11": [
+            37428, 
+            37428
+        ], 
+        "12": [
+            36552, 
+            36552
+        ], 
+        "13": [
+            49628, 
+            49628
+        ], 
+        "14": [
+            41654, 
+            41654
+        ], 
+        "15": [
+            47643, 
+            47643
+        ], 
+        "16": [
+            18717, 
+            18717
+        ], 
+        "17": [
+            46572, 
+            46572
+        ], 
+        "18": [
+            45650, 
+            45650
+        ], 
+        "19": [
+            49761, 
+            49761
+        ], 
+        "20": [
+            17146, 
+            17146
+        ], 
+        "21": [
+            46632, 
+            46632
+        ], 
+        "22": [
+            48045, 
+            48045
+        ], 
+        "23": [
+            48948, 
+            48948
+        ], 
+        "24": [
+            45571, 
+            45571
+        ], 
+        "25": [
+            37000, 
+            37000
+        ], 
+        "26": [
+            47010, 
+            47010
+        ], 
+        "27": [
+            46016, 
+            46016
+        ], 
+        "28": [
+            47749, 
+            47749
+        ], 
+        "29": [
+            45844, 
+            45844
+        ], 
+        "30": [
+            42499, 
+            42499
+        ], 
+        "31": [
+            49618, 
+            49618
+        ], 
+        "32": [
+            45401, 
+            45401
+        ], 
+        "33": [
+            49804, 
+            49804
+        ], 
+        "34": [
+            13120, 
+            13120
+        ], 
+        "35": [
+            49019, 
+            49019
+        ], 
+        "36": [
+            46298, 
+            46298
+        ], 
+        "37": [
+            49261, 
+            49261
+        ], 
+        "38": [
+            49881, 
+            49881
+        ], 
+        "39": [
+            46961, 
+            46961
+        ], 
+        "40": [
+            36790, 
+            36790
+        ], 
+        "41": [
+            49897, 
+            49897
+        ], 
+        "42": [
+            49683, 
+            49683
+        ], 
+        "43": [
+            48845, 
+            48845
+        ], 
+        "44": [
+            14517, 
+            14517
+        ], 
+        "45": [
+            37020, 
+            37020
+        ], 
+        "46": [
+            46668, 
+            46668
+        ], 
+        "47": [
+            49122, 
+            49122
+        ], 
+        "48": [
+            40711, 
+            40711
+        ], 
+        "49": [
+            42899, 
+            42899
+        ], 
+        "50": [
+            39089, 
+            39089
+        ], 
+        "51": [
+            41017, 
+            41017
+        ], 
+        "52": [
+            42146, 
+            42146
+        ], 
+        "53": [
+            44845, 
+            44845
+        ], 
+        "54": [
+            37975, 
+            37975
+        ], 
+        "55": [
+            40831, 
+            40831
+        ], 
+        "56": [
+            47759, 
+            47759
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            10, 
+            11
+        ], 
+        "2": [
+            12, 
+            13, 
+            14
+        ], 
+        "3": [
+            15, 
+            16, 
+            17, 
+            18
+        ], 
+        "4": [
+            19, 
+            2, 
+            20
+        ], 
+        "5": [
+            21, 
+            22, 
+            23
+        ], 
+        "6": [
+            24, 
+            25, 
+            26
+        ], 
+        "7": [
+            27, 
+            28, 
+            29
+        ], 
+        "8": [
+            3, 
+            30, 
+            31
+        ], 
+        "9": [
+            32, 
+            33, 
+            34, 
+            35
+        ], 
+        "10": [
+            36, 
+            37, 
+            38
+        ], 
+        "11": [
+            39, 
+            4, 
+            40
+        ], 
+        "12": [
+            41, 
+            42, 
+            43
+        ], 
+        "13": [
+            44, 
+            45, 
+            46, 
+            47
+        ], 
+        "14": [
+            48, 
+            49, 
+            5
+        ], 
+        "15": [
+            50, 
+            51, 
+            52
+        ], 
+        "16": [
+            53, 
+            54, 
+            55
+        ], 
+        "17": [
+            56, 
+            6, 
+            7
+        ], 
+        "18": [
+            8, 
+            9
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.0, 
+    "nevents_DAS": 2406285, 
+    "nevents_merged": 0, 
+    "nevents_unmerged": 2406285, 
+    "postprocessing": {
+        "done": 18, 
+        "running": 0, 
+        "tosubmit": 0, 
+        "total": 18
+    }, 
+    "pset": "MCProduction2015_NoFilter_cfg.py", 
+    "shortname": "GJets_HT-400To600_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1", 
+    "sparms": [], 
+    "specialdir": "run2_25ns_76MiniAODv2", 
+    "status": "postprocessing", 
+    "user": "namin", 
+    "xsec": 273.0
+}
