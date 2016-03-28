@@ -1,0 +1,3053 @@
+{
+    "basedir": "/home/users/namin/forFrank/NtupleTools/AutoTwopler/", 
+    "checks": {}, 
+    "cms3tag": "CMS3_V07-04-12", 
+    "cmsswver": "CMSSW_7_4_14", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 1, 
+            "finished": 373, 
+            "idle": 0, 
+            "running": 0, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": "1 jobs (0.3%) failed with error code 8028: An exception of category 'FallbackFileOpenError' occurred while\n   [0] Constructing the EventProcessor\n   [1] Constructing input source of type PoolSource\n   [2] Calling RootInputFileSequence::initFile()\n   [3] Calling StorageFactory::open()\n   [4] Calling XrdFile::open()\nException Message:\nFailed to open the file 'root://cmsxrootd.fnal.gov//store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_316.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu'\n   Additional Info:\n      [a] open() failed with system error 'No such file or directory' (error code 2)\n      [b] Input file file:///cms/data/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_316.root could not be opened.\nFallback Input file root://cmsxrootd.fnal.gov//store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_316.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu also could not be opened.\nOriginal exception info is above; fallback exception info is below.\n      [c] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_316.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu', flags=0x10, permissions=0660) => error '[ERROR] Server responded with an error: [3011] No servers are available to read the file.\n' (errno=3011, code=400). No additional data servers were found.\n      [d] Last URL tried: root://cms-xrd-transit.cern.ch:1094//store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_316.root?tried=+1098xrdcmsglobal01.cern.ch,+1213cmsxrootd1.fnal.gov1213xrootd.unl.edu,\n      [e] Problematic data server: cms-xrd-transit.cern.ch:1094\n      [f] Disabled source: cms-xrd-transit.cern.ch:1094", 
+        "datetime": "160327_051939", 
+        "jobs_left_tail": [
+            238
+        ], 
+        "njobs": 374, 
+        "outputdir": "/hadoop/cms/store/user/namin/T2bW_500_275_50_step3/crab_T2bW_500_275_50_step3_apatters-T2bW_mSTOP500_mNLSP275_mLSP50_seed54323-eb69b0448a13fda070ca35fd76ab/160327_051939/0000/", 
+        "requestname": "T2bW_500_275_50_step3_apatters-T2bW_mSTOP500_mNLSP275_mLSP50_seed54323-eb69b0448a13fda070ca35fd76ab", 
+        "resubmissions": 1, 
+        "schedd": "crab3-2@vocms0109.cern.ch", 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "", 
+        "task_warning": [], 
+        "taskdir": "crab/crab_T2bW_500_275_50_step3_apatters-T2bW_mSTOP500_mNLSP275_mLSP50_seed54323-eb69b0448a13fda070ca35fd76ab", 
+        "time": 1459108776, 
+        "uniquerequestname": "160327_051939:namin_crab_T2bW_500_275_50_step3_apatters-T2bW_mSTOP500_mNLSP275_mLSP50_seed54323-eb69b0448a13fda070ca35fd76ab"
+    }, 
+    "dataset": "/T2bW_500_275_50_step3/apatters-T2bW_mSTOP500_mNLSP275_mLSP50_seed54323-eb69b0448a13fda070ca35fd76ab4e24/USER", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/test/T2bW_500_275_50_step3_apatters-T2bW_mSTOP500_mNLSP275_mLSP50_seed54323-eb69b0448a13fda070ca35fd76ab4e24/V07-04-12/", 
+    "gtag": "74X_mcRun2_asymptotic_v2", 
+    "ijob_to_miniaod": {
+        "1": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_1.root"
+        ], 
+        "2": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_10.root"
+        ], 
+        "3": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_100.root"
+        ], 
+        "4": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_101.root"
+        ], 
+        "5": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_102.root"
+        ], 
+        "6": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_103.root"
+        ], 
+        "7": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_104.root"
+        ], 
+        "8": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_105.root"
+        ], 
+        "9": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_106.root"
+        ], 
+        "10": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_107.root"
+        ], 
+        "11": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_108.root"
+        ], 
+        "12": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_109.root"
+        ], 
+        "13": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_11.root"
+        ], 
+        "14": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_110.root"
+        ], 
+        "15": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_111.root"
+        ], 
+        "16": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_112.root"
+        ], 
+        "17": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_113.root"
+        ], 
+        "18": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_114.root"
+        ], 
+        "19": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_115.root"
+        ], 
+        "20": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_116.root"
+        ], 
+        "21": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_117.root"
+        ], 
+        "22": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_118.root"
+        ], 
+        "23": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_119.root"
+        ], 
+        "24": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_12.root"
+        ], 
+        "25": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_120.root"
+        ], 
+        "26": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_121.root"
+        ], 
+        "27": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_122.root"
+        ], 
+        "28": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_123.root"
+        ], 
+        "29": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_124.root"
+        ], 
+        "30": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_125.root"
+        ], 
+        "31": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_126.root"
+        ], 
+        "32": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_127.root"
+        ], 
+        "33": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_128.root"
+        ], 
+        "34": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_129.root"
+        ], 
+        "35": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_13.root"
+        ], 
+        "36": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_130.root"
+        ], 
+        "37": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_131.root"
+        ], 
+        "38": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_132.root"
+        ], 
+        "39": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_133.root"
+        ], 
+        "40": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_134.root"
+        ], 
+        "41": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_135.root"
+        ], 
+        "42": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_136.root"
+        ], 
+        "43": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_137.root"
+        ], 
+        "44": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_138.root"
+        ], 
+        "45": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_139.root"
+        ], 
+        "46": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_14.root"
+        ], 
+        "47": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_140.root"
+        ], 
+        "48": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_141.root"
+        ], 
+        "49": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_142.root"
+        ], 
+        "50": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_143.root"
+        ], 
+        "51": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_144.root"
+        ], 
+        "52": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_145.root"
+        ], 
+        "53": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_146.root"
+        ], 
+        "54": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_147.root"
+        ], 
+        "55": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_148.root"
+        ], 
+        "56": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_149.root"
+        ], 
+        "57": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_15.root"
+        ], 
+        "58": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_150.root"
+        ], 
+        "59": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_151.root"
+        ], 
+        "60": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_152.root"
+        ], 
+        "61": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_153.root"
+        ], 
+        "62": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_154.root"
+        ], 
+        "63": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_155.root"
+        ], 
+        "64": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_156.root"
+        ], 
+        "65": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_157.root"
+        ], 
+        "66": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_158.root"
+        ], 
+        "67": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_159.root"
+        ], 
+        "68": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_16.root"
+        ], 
+        "69": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_160.root"
+        ], 
+        "70": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_161.root"
+        ], 
+        "71": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_162.root"
+        ], 
+        "72": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_163.root"
+        ], 
+        "73": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_164.root"
+        ], 
+        "74": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_165.root"
+        ], 
+        "75": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_166.root"
+        ], 
+        "76": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_167.root"
+        ], 
+        "77": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_168.root"
+        ], 
+        "78": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_169.root"
+        ], 
+        "79": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_17.root"
+        ], 
+        "80": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_170.root"
+        ], 
+        "81": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_171.root"
+        ], 
+        "82": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_172.root"
+        ], 
+        "83": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_173.root"
+        ], 
+        "84": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_174.root"
+        ], 
+        "85": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_175.root"
+        ], 
+        "86": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_176.root"
+        ], 
+        "87": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_177.root"
+        ], 
+        "88": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_178.root"
+        ], 
+        "89": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_179.root"
+        ], 
+        "90": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_18.root"
+        ], 
+        "91": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_180.root"
+        ], 
+        "92": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_181.root"
+        ], 
+        "93": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_182.root"
+        ], 
+        "94": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_183.root"
+        ], 
+        "95": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_184.root"
+        ], 
+        "96": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_185.root"
+        ], 
+        "97": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_186.root"
+        ], 
+        "98": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_187.root"
+        ], 
+        "99": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_188.root"
+        ], 
+        "100": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_189.root"
+        ], 
+        "101": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_19.root"
+        ], 
+        "102": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_190.root"
+        ], 
+        "103": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_191.root"
+        ], 
+        "104": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_192.root"
+        ], 
+        "105": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_193.root"
+        ], 
+        "106": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_194.root"
+        ], 
+        "107": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_195.root"
+        ], 
+        "108": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_196.root"
+        ], 
+        "109": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_197.root"
+        ], 
+        "110": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_198.root"
+        ], 
+        "111": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_199.root"
+        ], 
+        "112": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_2.root"
+        ], 
+        "113": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_20.root"
+        ], 
+        "114": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_200.root"
+        ], 
+        "115": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_202.root"
+        ], 
+        "116": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_203.root"
+        ], 
+        "117": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_204.root"
+        ], 
+        "118": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_205.root"
+        ], 
+        "119": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_206.root"
+        ], 
+        "120": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_207.root"
+        ], 
+        "121": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_208.root"
+        ], 
+        "122": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_209.root"
+        ], 
+        "123": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_21.root"
+        ], 
+        "124": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_210.root"
+        ], 
+        "125": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_211.root"
+        ], 
+        "126": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_212.root"
+        ], 
+        "127": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_213.root"
+        ], 
+        "128": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_214.root"
+        ], 
+        "129": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_215.root"
+        ], 
+        "130": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_216.root"
+        ], 
+        "131": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_217.root"
+        ], 
+        "132": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_218.root"
+        ], 
+        "133": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_219.root"
+        ], 
+        "134": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_22.root"
+        ], 
+        "135": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_220.root"
+        ], 
+        "136": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_221.root"
+        ], 
+        "137": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_222.root"
+        ], 
+        "138": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_223.root"
+        ], 
+        "139": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_224.root"
+        ], 
+        "140": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_226.root"
+        ], 
+        "141": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_227.root"
+        ], 
+        "142": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_228.root"
+        ], 
+        "143": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_229.root"
+        ], 
+        "144": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_23.root"
+        ], 
+        "145": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_230.root"
+        ], 
+        "146": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_231.root"
+        ], 
+        "147": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_232.root"
+        ], 
+        "148": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_233.root"
+        ], 
+        "149": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_234.root"
+        ], 
+        "150": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_235.root"
+        ], 
+        "151": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_236.root"
+        ], 
+        "152": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_237.root"
+        ], 
+        "153": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_238.root"
+        ], 
+        "154": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_239.root"
+        ], 
+        "155": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_24.root"
+        ], 
+        "156": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_240.root"
+        ], 
+        "157": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_241.root"
+        ], 
+        "158": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_242.root"
+        ], 
+        "159": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_243.root"
+        ], 
+        "160": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_244.root"
+        ], 
+        "161": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_245.root"
+        ], 
+        "162": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_246.root"
+        ], 
+        "163": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_247.root"
+        ], 
+        "164": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_248.root"
+        ], 
+        "165": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_249.root"
+        ], 
+        "166": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_25.root"
+        ], 
+        "167": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_250.root"
+        ], 
+        "168": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_251.root"
+        ], 
+        "169": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_252.root"
+        ], 
+        "170": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_253.root"
+        ], 
+        "171": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_254.root"
+        ], 
+        "172": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_255.root"
+        ], 
+        "173": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_257.root"
+        ], 
+        "174": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_258.root"
+        ], 
+        "175": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_259.root"
+        ], 
+        "176": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_26.root"
+        ], 
+        "177": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_260.root"
+        ], 
+        "178": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_261.root"
+        ], 
+        "179": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_262.root"
+        ], 
+        "180": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_263.root"
+        ], 
+        "181": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_264.root"
+        ], 
+        "182": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_265.root"
+        ], 
+        "183": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_266.root"
+        ], 
+        "184": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_267.root"
+        ], 
+        "185": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_268.root"
+        ], 
+        "186": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_269.root"
+        ], 
+        "187": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_27.root"
+        ], 
+        "188": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_271.root"
+        ], 
+        "189": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_272.root"
+        ], 
+        "190": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_273.root"
+        ], 
+        "191": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_274.root"
+        ], 
+        "192": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_275.root"
+        ], 
+        "193": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_276.root"
+        ], 
+        "194": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_277.root"
+        ], 
+        "195": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_278.root"
+        ], 
+        "196": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_279.root"
+        ], 
+        "197": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_28.root"
+        ], 
+        "198": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_280.root"
+        ], 
+        "199": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_281.root"
+        ], 
+        "200": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_282.root"
+        ], 
+        "201": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_283.root"
+        ], 
+        "202": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_284.root"
+        ], 
+        "203": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_285.root"
+        ], 
+        "204": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_286.root"
+        ], 
+        "205": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_287.root"
+        ], 
+        "206": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_288.root"
+        ], 
+        "207": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_289.root"
+        ], 
+        "208": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_29.root"
+        ], 
+        "209": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_290.root"
+        ], 
+        "210": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_291.root"
+        ], 
+        "211": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_292.root"
+        ], 
+        "212": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_293.root"
+        ], 
+        "213": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_294.root"
+        ], 
+        "214": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_295.root"
+        ], 
+        "215": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_296.root"
+        ], 
+        "216": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_297.root"
+        ], 
+        "217": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_298.root"
+        ], 
+        "218": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_299.root"
+        ], 
+        "219": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_3.root"
+        ], 
+        "220": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_30.root"
+        ], 
+        "221": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_300.root"
+        ], 
+        "222": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_301.root"
+        ], 
+        "223": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_302.root"
+        ], 
+        "224": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_303.root"
+        ], 
+        "225": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_304.root"
+        ], 
+        "226": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_305.root"
+        ], 
+        "227": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_306.root"
+        ], 
+        "228": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_307.root"
+        ], 
+        "229": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_308.root"
+        ], 
+        "230": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_309.root"
+        ], 
+        "231": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_31.root"
+        ], 
+        "232": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_310.root"
+        ], 
+        "233": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_311.root"
+        ], 
+        "234": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_312.root"
+        ], 
+        "235": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_313.root"
+        ], 
+        "236": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_314.root"
+        ], 
+        "237": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_315.root"
+        ], 
+        "239": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_317.root"
+        ], 
+        "240": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_318.root"
+        ], 
+        "241": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_319.root"
+        ], 
+        "242": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_32.root"
+        ], 
+        "243": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_320.root"
+        ], 
+        "244": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_321.root"
+        ], 
+        "245": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_322.root"
+        ], 
+        "246": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_323.root"
+        ], 
+        "247": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_324.root"
+        ], 
+        "248": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_325.root"
+        ], 
+        "249": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_326.root"
+        ], 
+        "250": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_327.root"
+        ], 
+        "251": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_328.root"
+        ], 
+        "252": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_329.root"
+        ], 
+        "253": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_33.root"
+        ], 
+        "254": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_330.root"
+        ], 
+        "255": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_331.root"
+        ], 
+        "256": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_332.root"
+        ], 
+        "257": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_333.root"
+        ], 
+        "258": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_334.root"
+        ], 
+        "259": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_335.root"
+        ], 
+        "260": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_336.root"
+        ], 
+        "261": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_337.root"
+        ], 
+        "262": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_338.root"
+        ], 
+        "263": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_339.root"
+        ], 
+        "264": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_34.root"
+        ], 
+        "265": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_340.root"
+        ], 
+        "266": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_341.root"
+        ], 
+        "267": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_342.root"
+        ], 
+        "268": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_343.root"
+        ], 
+        "269": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_344.root"
+        ], 
+        "270": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_345.root"
+        ], 
+        "271": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_346.root"
+        ], 
+        "272": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_347.root"
+        ], 
+        "273": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_348.root"
+        ], 
+        "274": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_349.root"
+        ], 
+        "275": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_35.root"
+        ], 
+        "276": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_350.root"
+        ], 
+        "277": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_351.root"
+        ], 
+        "278": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_352.root"
+        ], 
+        "279": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_353.root"
+        ], 
+        "280": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_354.root"
+        ], 
+        "281": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_355.root"
+        ], 
+        "282": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_356.root"
+        ], 
+        "283": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_357.root"
+        ], 
+        "284": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_358.root"
+        ], 
+        "285": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_359.root"
+        ], 
+        "286": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_36.root"
+        ], 
+        "287": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_360.root"
+        ], 
+        "288": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_361.root"
+        ], 
+        "289": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_362.root"
+        ], 
+        "290": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_363.root"
+        ], 
+        "291": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_364.root"
+        ], 
+        "292": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_365.root"
+        ], 
+        "293": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_366.root"
+        ], 
+        "294": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_367.root"
+        ], 
+        "295": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_368.root"
+        ], 
+        "296": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_369.root"
+        ], 
+        "297": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_37.root"
+        ], 
+        "298": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_370.root"
+        ], 
+        "299": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_371.root"
+        ], 
+        "300": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_372.root"
+        ], 
+        "301": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_373.root"
+        ], 
+        "302": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_374.root"
+        ], 
+        "303": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_375.root"
+        ], 
+        "304": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_376.root"
+        ], 
+        "305": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_377.root"
+        ], 
+        "306": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_378.root"
+        ], 
+        "307": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_379.root"
+        ], 
+        "308": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_38.root"
+        ], 
+        "309": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_39.root"
+        ], 
+        "310": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_4.root"
+        ], 
+        "311": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_40.root"
+        ], 
+        "312": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_41.root"
+        ], 
+        "313": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_42.root"
+        ], 
+        "314": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_43.root"
+        ], 
+        "315": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_44.root"
+        ], 
+        "316": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_45.root"
+        ], 
+        "317": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_46.root"
+        ], 
+        "318": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_47.root"
+        ], 
+        "319": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_48.root"
+        ], 
+        "320": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_49.root"
+        ], 
+        "321": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_5.root"
+        ], 
+        "322": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_50.root"
+        ], 
+        "323": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_51.root"
+        ], 
+        "324": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_52.root"
+        ], 
+        "325": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_53.root"
+        ], 
+        "326": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_54.root"
+        ], 
+        "327": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_55.root"
+        ], 
+        "328": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_56.root"
+        ], 
+        "329": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_57.root"
+        ], 
+        "330": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_58.root"
+        ], 
+        "331": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_59.root"
+        ], 
+        "332": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_6.root"
+        ], 
+        "333": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_60.root"
+        ], 
+        "334": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_61.root"
+        ], 
+        "335": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_62.root"
+        ], 
+        "336": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_63.root"
+        ], 
+        "337": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_64.root"
+        ], 
+        "338": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_65.root"
+        ], 
+        "339": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_66.root"
+        ], 
+        "340": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_67.root"
+        ], 
+        "341": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_68.root"
+        ], 
+        "342": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_69.root"
+        ], 
+        "343": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_7.root"
+        ], 
+        "344": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_70.root"
+        ], 
+        "345": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_71.root"
+        ], 
+        "346": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_72.root"
+        ], 
+        "347": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_73.root"
+        ], 
+        "348": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_74.root"
+        ], 
+        "349": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_75.root"
+        ], 
+        "350": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_76.root"
+        ], 
+        "351": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_77.root"
+        ], 
+        "352": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_78.root"
+        ], 
+        "353": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_79.root"
+        ], 
+        "354": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_8.root"
+        ], 
+        "355": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_80.root"
+        ], 
+        "356": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_81.root"
+        ], 
+        "357": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_82.root"
+        ], 
+        "358": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_83.root"
+        ], 
+        "359": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_84.root"
+        ], 
+        "360": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_85.root"
+        ], 
+        "361": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_86.root"
+        ], 
+        "362": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_87.root"
+        ], 
+        "363": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_88.root"
+        ], 
+        "364": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_89.root"
+        ], 
+        "365": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_90.root"
+        ], 
+        "366": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_91.root"
+        ], 
+        "367": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_92.root"
+        ], 
+        "368": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_93.root"
+        ], 
+        "369": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_94.root"
+        ], 
+        "370": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_95.root"
+        ], 
+        "371": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_96.root"
+        ], 
+        "372": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_97.root"
+        ], 
+        "373": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_98.root"
+        ], 
+        "374": [
+            "/store/user/apatters/T2bW/T2bW_500_275_50_step3/T2bW_mSTOP500_mNLSP275_mLSP50_seed54323/160313_062230/0000/T2bW_500_seed54323_decayed_1000024_275__1000022_50_step3_99.root"
+        ]
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            68, 
+            68
+        ], 
+        "2": [
+            61, 
+            61
+        ], 
+        "3": [
+            65, 
+            65
+        ], 
+        "4": [
+            54, 
+            54
+        ], 
+        "5": [
+            64, 
+            64
+        ], 
+        "6": [
+            68, 
+            68
+        ], 
+        "7": [
+            64, 
+            64
+        ], 
+        "8": [
+            74, 
+            74
+        ], 
+        "9": [
+            64, 
+            64
+        ], 
+        "10": [
+            77, 
+            77
+        ], 
+        "11": [
+            46, 
+            46
+        ], 
+        "12": [
+            44, 
+            44
+        ], 
+        "13": [
+            54, 
+            54
+        ], 
+        "14": [
+            62, 
+            62
+        ], 
+        "15": [
+            65, 
+            65
+        ], 
+        "16": [
+            58, 
+            58
+        ], 
+        "17": [
+            58, 
+            58
+        ], 
+        "18": [
+            59, 
+            59
+        ], 
+        "19": [
+            58, 
+            58
+        ], 
+        "20": [
+            59, 
+            59
+        ], 
+        "21": [
+            52, 
+            52
+        ], 
+        "22": [
+            60, 
+            60
+        ], 
+        "23": [
+            70, 
+            70
+        ], 
+        "24": [
+            66, 
+            66
+        ], 
+        "25": [
+            58, 
+            58
+        ], 
+        "26": [
+            63, 
+            63
+        ], 
+        "27": [
+            57, 
+            57
+        ], 
+        "28": [
+            68, 
+            68
+        ], 
+        "29": [
+            49, 
+            49
+        ], 
+        "30": [
+            63, 
+            63
+        ], 
+        "31": [
+            62, 
+            62
+        ], 
+        "32": [
+            67, 
+            67
+        ], 
+        "33": [
+            48, 
+            48
+        ], 
+        "34": [
+            62, 
+            62
+        ], 
+        "35": [
+            56, 
+            56
+        ], 
+        "36": [
+            54, 
+            54
+        ], 
+        "37": [
+            60, 
+            60
+        ], 
+        "38": [
+            61, 
+            61
+        ], 
+        "39": [
+            70, 
+            70
+        ], 
+        "40": [
+            46, 
+            46
+        ], 
+        "41": [
+            63, 
+            63
+        ], 
+        "42": [
+            67, 
+            67
+        ], 
+        "43": [
+            75, 
+            75
+        ], 
+        "44": [
+            55, 
+            55
+        ], 
+        "45": [
+            49, 
+            49
+        ], 
+        "46": [
+            62, 
+            62
+        ], 
+        "47": [
+            83, 
+            83
+        ], 
+        "48": [
+            66, 
+            66
+        ], 
+        "49": [
+            60, 
+            60
+        ], 
+        "50": [
+            62, 
+            62
+        ], 
+        "51": [
+            70, 
+            70
+        ], 
+        "52": [
+            66, 
+            66
+        ], 
+        "53": [
+            59, 
+            59
+        ], 
+        "54": [
+            66, 
+            66
+        ], 
+        "55": [
+            57, 
+            57
+        ], 
+        "56": [
+            68, 
+            68
+        ], 
+        "57": [
+            46, 
+            46
+        ], 
+        "58": [
+            58, 
+            58
+        ], 
+        "59": [
+            67, 
+            67
+        ], 
+        "60": [
+            77, 
+            77
+        ], 
+        "61": [
+            59, 
+            59
+        ], 
+        "62": [
+            56, 
+            56
+        ], 
+        "63": [
+            59, 
+            59
+        ], 
+        "64": [
+            70, 
+            70
+        ], 
+        "65": [
+            61, 
+            61
+        ], 
+        "66": [
+            54, 
+            54
+        ], 
+        "67": [
+            57, 
+            57
+        ], 
+        "68": [
+            66, 
+            66
+        ], 
+        "69": [
+            66, 
+            66
+        ], 
+        "70": [
+            50, 
+            50
+        ], 
+        "71": [
+            69, 
+            69
+        ], 
+        "72": [
+            71, 
+            71
+        ], 
+        "73": [
+            64, 
+            64
+        ], 
+        "74": [
+            55, 
+            55
+        ], 
+        "75": [
+            58, 
+            58
+        ], 
+        "76": [
+            73, 
+            73
+        ], 
+        "77": [
+            61, 
+            61
+        ], 
+        "78": [
+            58, 
+            58
+        ], 
+        "79": [
+            76, 
+            76
+        ], 
+        "80": [
+            67, 
+            67
+        ], 
+        "81": [
+            70, 
+            70
+        ], 
+        "82": [
+            57, 
+            57
+        ], 
+        "83": [
+            56, 
+            56
+        ], 
+        "84": [
+            54, 
+            54
+        ], 
+        "85": [
+            70, 
+            70
+        ], 
+        "86": [
+            56, 
+            56
+        ], 
+        "87": [
+            56, 
+            56
+        ], 
+        "88": [
+            56, 
+            56
+        ], 
+        "89": [
+            48, 
+            48
+        ], 
+        "90": [
+            53, 
+            53
+        ], 
+        "91": [
+            55, 
+            55
+        ], 
+        "92": [
+            53, 
+            53
+        ], 
+        "93": [
+            58, 
+            58
+        ], 
+        "94": [
+            70, 
+            70
+        ], 
+        "95": [
+            68, 
+            68
+        ], 
+        "96": [
+            68, 
+            68
+        ], 
+        "97": [
+            65, 
+            65
+        ], 
+        "98": [
+            62, 
+            62
+        ], 
+        "99": [
+            64, 
+            64
+        ], 
+        "100": [
+            68, 
+            68
+        ], 
+        "101": [
+            65, 
+            65
+        ], 
+        "102": [
+            73, 
+            73
+        ], 
+        "103": [
+            51, 
+            51
+        ], 
+        "104": [
+            59, 
+            59
+        ], 
+        "105": [
+            73, 
+            73
+        ], 
+        "106": [
+            67, 
+            67
+        ], 
+        "107": [
+            54, 
+            54
+        ], 
+        "108": [
+            76, 
+            76
+        ], 
+        "109": [
+            60, 
+            60
+        ], 
+        "110": [
+            50, 
+            50
+        ], 
+        "111": [
+            59, 
+            59
+        ], 
+        "112": [
+            45, 
+            45
+        ], 
+        "113": [
+            72, 
+            72
+        ], 
+        "114": [
+            58, 
+            58
+        ], 
+        "115": [
+            56, 
+            56
+        ], 
+        "116": [
+            65, 
+            65
+        ], 
+        "117": [
+            65, 
+            65
+        ], 
+        "118": [
+            57, 
+            57
+        ], 
+        "119": [
+            63, 
+            63
+        ], 
+        "120": [
+            51, 
+            51
+        ], 
+        "121": [
+            68, 
+            68
+        ], 
+        "122": [
+            64, 
+            64
+        ], 
+        "123": [
+            65, 
+            65
+        ], 
+        "124": [
+            58, 
+            58
+        ], 
+        "125": [
+            57, 
+            57
+        ], 
+        "126": [
+            53, 
+            53
+        ], 
+        "127": [
+            51, 
+            51
+        ], 
+        "128": [
+            77, 
+            77
+        ], 
+        "129": [
+            55, 
+            55
+        ], 
+        "130": [
+            52, 
+            52
+        ], 
+        "131": [
+            61, 
+            61
+        ], 
+        "132": [
+            75, 
+            75
+        ], 
+        "133": [
+            66, 
+            66
+        ], 
+        "134": [
+            53, 
+            53
+        ], 
+        "135": [
+            61, 
+            61
+        ], 
+        "136": [
+            58, 
+            58
+        ], 
+        "137": [
+            63, 
+            63
+        ], 
+        "138": [
+            57, 
+            57
+        ], 
+        "139": [
+            72, 
+            72
+        ], 
+        "140": [
+            77, 
+            77
+        ], 
+        "141": [
+            62, 
+            62
+        ], 
+        "142": [
+            73, 
+            73
+        ], 
+        "143": [
+            52, 
+            52
+        ], 
+        "144": [
+            68, 
+            68
+        ], 
+        "145": [
+            63, 
+            63
+        ], 
+        "146": [
+            61, 
+            61
+        ], 
+        "147": [
+            65, 
+            65
+        ], 
+        "148": [
+            56, 
+            56
+        ], 
+        "149": [
+            57, 
+            57
+        ], 
+        "150": [
+            61, 
+            61
+        ], 
+        "151": [
+            63, 
+            63
+        ], 
+        "152": [
+            53, 
+            53
+        ], 
+        "153": [
+            63, 
+            63
+        ], 
+        "154": [
+            53, 
+            53
+        ], 
+        "155": [
+            52, 
+            52
+        ], 
+        "156": [
+            63, 
+            63
+        ], 
+        "157": [
+            68, 
+            68
+        ], 
+        "158": [
+            64, 
+            64
+        ], 
+        "159": [
+            57, 
+            57
+        ], 
+        "160": [
+            68, 
+            68
+        ], 
+        "161": [
+            67, 
+            67
+        ], 
+        "162": [
+            62, 
+            62
+        ], 
+        "163": [
+            62, 
+            62
+        ], 
+        "164": [
+            75, 
+            75
+        ], 
+        "165": [
+            67, 
+            67
+        ], 
+        "166": [
+            63, 
+            63
+        ], 
+        "167": [
+            67, 
+            67
+        ], 
+        "168": [
+            64, 
+            64
+        ], 
+        "169": [
+            68, 
+            68
+        ], 
+        "170": [
+            62, 
+            62
+        ], 
+        "171": [
+            63, 
+            63
+        ], 
+        "172": [
+            55, 
+            55
+        ], 
+        "173": [
+            68, 
+            68
+        ], 
+        "174": [
+            65, 
+            65
+        ], 
+        "175": [
+            53, 
+            53
+        ], 
+        "176": [
+            69, 
+            69
+        ], 
+        "177": [
+            71, 
+            71
+        ], 
+        "178": [
+            55, 
+            55
+        ], 
+        "179": [
+            59, 
+            59
+        ], 
+        "180": [
+            59, 
+            59
+        ], 
+        "181": [
+            63, 
+            63
+        ], 
+        "182": [
+            58, 
+            58
+        ], 
+        "183": [
+            80, 
+            80
+        ], 
+        "184": [
+            67, 
+            67
+        ], 
+        "185": [
+            60, 
+            60
+        ], 
+        "186": [
+            66, 
+            66
+        ], 
+        "187": [
+            72, 
+            72
+        ], 
+        "188": [
+            60, 
+            60
+        ], 
+        "189": [
+            62, 
+            62
+        ], 
+        "190": [
+            52, 
+            52
+        ], 
+        "191": [
+            63, 
+            63
+        ], 
+        "192": [
+            73, 
+            73
+        ], 
+        "193": [
+            60, 
+            60
+        ], 
+        "194": [
+            64, 
+            64
+        ], 
+        "195": [
+            68, 
+            68
+        ], 
+        "196": [
+            63, 
+            63
+        ], 
+        "197": [
+            53, 
+            53
+        ], 
+        "198": [
+            68, 
+            68
+        ], 
+        "199": [
+            60, 
+            60
+        ], 
+        "200": [
+            74, 
+            74
+        ], 
+        "201": [
+            66, 
+            66
+        ], 
+        "202": [
+            65, 
+            65
+        ], 
+        "203": [
+            52, 
+            52
+        ], 
+        "204": [
+            61, 
+            61
+        ], 
+        "205": [
+            52, 
+            52
+        ], 
+        "206": [
+            58, 
+            58
+        ], 
+        "207": [
+            67, 
+            67
+        ], 
+        "208": [
+            58, 
+            58
+        ], 
+        "209": [
+            59, 
+            59
+        ], 
+        "210": [
+            62, 
+            62
+        ], 
+        "211": [
+            65, 
+            65
+        ], 
+        "212": [
+            59, 
+            59
+        ], 
+        "213": [
+            59, 
+            59
+        ], 
+        "214": [
+            67, 
+            67
+        ], 
+        "215": [
+            53, 
+            53
+        ], 
+        "216": [
+            63, 
+            63
+        ], 
+        "217": [
+            66, 
+            66
+        ], 
+        "218": [
+            65, 
+            65
+        ], 
+        "219": [
+            67, 
+            67
+        ], 
+        "220": [
+            64, 
+            64
+        ], 
+        "221": [
+            74, 
+            74
+        ], 
+        "222": [
+            61, 
+            61
+        ], 
+        "223": [
+            55, 
+            55
+        ], 
+        "224": [
+            61, 
+            61
+        ], 
+        "225": [
+            71, 
+            71
+        ], 
+        "226": [
+            67, 
+            67
+        ], 
+        "227": [
+            65, 
+            65
+        ], 
+        "228": [
+            69, 
+            69
+        ], 
+        "229": [
+            44, 
+            44
+        ], 
+        "230": [
+            68, 
+            68
+        ], 
+        "231": [
+            64, 
+            64
+        ], 
+        "232": [
+            59, 
+            59
+        ], 
+        "233": [
+            54, 
+            54
+        ], 
+        "234": [
+            62, 
+            62
+        ], 
+        "235": [
+            65, 
+            65
+        ], 
+        "236": [
+            59, 
+            59
+        ], 
+        "237": [
+            51, 
+            51
+        ], 
+        "239": [
+            57, 
+            57
+        ], 
+        "240": [
+            65, 
+            65
+        ], 
+        "241": [
+            59, 
+            59
+        ], 
+        "242": [
+            55, 
+            55
+        ], 
+        "243": [
+            63, 
+            63
+        ], 
+        "244": [
+            65, 
+            65
+        ], 
+        "245": [
+            68, 
+            68
+        ], 
+        "246": [
+            52, 
+            52
+        ], 
+        "247": [
+            43, 
+            43
+        ], 
+        "248": [
+            64, 
+            64
+        ], 
+        "249": [
+            53, 
+            53
+        ], 
+        "250": [
+            65, 
+            65
+        ], 
+        "251": [
+            70, 
+            70
+        ], 
+        "252": [
+            60, 
+            60
+        ], 
+        "253": [
+            60, 
+            60
+        ], 
+        "254": [
+            65, 
+            65
+        ], 
+        "255": [
+            66, 
+            66
+        ], 
+        "256": [
+            59, 
+            59
+        ], 
+        "257": [
+            58, 
+            58
+        ], 
+        "258": [
+            69, 
+            69
+        ], 
+        "259": [
+            63, 
+            63
+        ], 
+        "260": [
+            69, 
+            69
+        ], 
+        "261": [
+            74, 
+            74
+        ], 
+        "262": [
+            54, 
+            54
+        ], 
+        "263": [
+            58, 
+            58
+        ], 
+        "264": [
+            57, 
+            57
+        ], 
+        "265": [
+            68, 
+            68
+        ], 
+        "266": [
+            62, 
+            62
+        ], 
+        "267": [
+            61, 
+            61
+        ], 
+        "268": [
+            62, 
+            62
+        ], 
+        "269": [
+            63, 
+            63
+        ], 
+        "270": [
+            60, 
+            60
+        ], 
+        "271": [
+            65, 
+            65
+        ], 
+        "272": [
+            65, 
+            65
+        ], 
+        "273": [
+            67, 
+            67
+        ], 
+        "274": [
+            69, 
+            69
+        ], 
+        "275": [
+            61, 
+            61
+        ], 
+        "276": [
+            67, 
+            67
+        ], 
+        "277": [
+            63, 
+            63
+        ], 
+        "278": [
+            64, 
+            64
+        ], 
+        "279": [
+            56, 
+            56
+        ], 
+        "280": [
+            70, 
+            70
+        ], 
+        "281": [
+            62, 
+            62
+        ], 
+        "282": [
+            49, 
+            49
+        ], 
+        "283": [
+            62, 
+            62
+        ], 
+        "284": [
+            68, 
+            68
+        ], 
+        "285": [
+            62, 
+            62
+        ], 
+        "286": [
+            59, 
+            59
+        ], 
+        "287": [
+            68, 
+            68
+        ], 
+        "288": [
+            57, 
+            57
+        ], 
+        "289": [
+            60, 
+            60
+        ], 
+        "290": [
+            43, 
+            43
+        ], 
+        "291": [
+            64, 
+            64
+        ], 
+        "292": [
+            67, 
+            67
+        ], 
+        "293": [
+            46, 
+            46
+        ], 
+        "294": [
+            58, 
+            58
+        ], 
+        "295": [
+            55, 
+            55
+        ], 
+        "296": [
+            52, 
+            52
+        ], 
+        "297": [
+            43, 
+            43
+        ], 
+        "298": [
+            49, 
+            49
+        ], 
+        "299": [
+            65, 
+            65
+        ], 
+        "300": [
+            57, 
+            57
+        ], 
+        "301": [
+            68, 
+            68
+        ], 
+        "302": [
+            78, 
+            78
+        ], 
+        "303": [
+            53, 
+            53
+        ], 
+        "304": [
+            62, 
+            62
+        ], 
+        "305": [
+            63, 
+            63
+        ], 
+        "306": [
+            60, 
+            60
+        ], 
+        "307": [
+            62, 
+            62
+        ], 
+        "308": [
+            59, 
+            59
+        ], 
+        "309": [
+            54, 
+            54
+        ], 
+        "310": [
+            64, 
+            64
+        ], 
+        "311": [
+            59, 
+            59
+        ], 
+        "312": [
+            64, 
+            64
+        ], 
+        "313": [
+            66, 
+            66
+        ], 
+        "314": [
+            74, 
+            74
+        ], 
+        "315": [
+            51, 
+            51
+        ], 
+        "316": [
+            69, 
+            69
+        ], 
+        "317": [
+            62, 
+            62
+        ], 
+        "318": [
+            63, 
+            63
+        ], 
+        "319": [
+            64, 
+            64
+        ], 
+        "320": [
+            69, 
+            69
+        ], 
+        "321": [
+            55, 
+            55
+        ], 
+        "322": [
+            67, 
+            67
+        ], 
+        "323": [
+            64, 
+            64
+        ], 
+        "324": [
+            63, 
+            63
+        ], 
+        "325": [
+            59, 
+            59
+        ], 
+        "326": [
+            59, 
+            59
+        ], 
+        "327": [
+            61, 
+            61
+        ], 
+        "328": [
+            55, 
+            55
+        ], 
+        "329": [
+            69, 
+            69
+        ], 
+        "330": [
+            56, 
+            56
+        ], 
+        "331": [
+            60, 
+            60
+        ], 
+        "332": [
+            57, 
+            57
+        ], 
+        "333": [
+            62, 
+            62
+        ], 
+        "334": [
+            63, 
+            63
+        ], 
+        "335": [
+            66, 
+            66
+        ], 
+        "336": [
+            63, 
+            63
+        ], 
+        "337": [
+            61, 
+            61
+        ], 
+        "338": [
+            63, 
+            63
+        ], 
+        "339": [
+            78, 
+            78
+        ], 
+        "340": [
+            66, 
+            66
+        ], 
+        "341": [
+            57, 
+            57
+        ], 
+        "342": [
+            66, 
+            66
+        ], 
+        "343": [
+            60, 
+            60
+        ], 
+        "344": [
+            75, 
+            75
+        ], 
+        "345": [
+            53, 
+            53
+        ], 
+        "346": [
+            61, 
+            61
+        ], 
+        "347": [
+            65, 
+            65
+        ], 
+        "348": [
+            58, 
+            58
+        ], 
+        "349": [
+            58, 
+            58
+        ], 
+        "350": [
+            59, 
+            59
+        ], 
+        "351": [
+            72, 
+            72
+        ], 
+        "352": [
+            56, 
+            56
+        ], 
+        "353": [
+            60, 
+            60
+        ], 
+        "354": [
+            67, 
+            67
+        ], 
+        "355": [
+            64, 
+            64
+        ], 
+        "356": [
+            56, 
+            56
+        ], 
+        "357": [
+            71, 
+            71
+        ], 
+        "358": [
+            61, 
+            61
+        ], 
+        "359": [
+            58, 
+            58
+        ], 
+        "360": [
+            64, 
+            64
+        ], 
+        "361": [
+            62, 
+            62
+        ], 
+        "362": [
+            62, 
+            62
+        ], 
+        "363": [
+            56, 
+            56
+        ], 
+        "364": [
+            74, 
+            74
+        ], 
+        "365": [
+            61, 
+            61
+        ], 
+        "366": [
+            67, 
+            67
+        ], 
+        "367": [
+            70, 
+            70
+        ], 
+        "368": [
+            68, 
+            68
+        ], 
+        "369": [
+            64, 
+            64
+        ], 
+        "370": [
+            72, 
+            72
+        ], 
+        "371": [
+            77, 
+            77
+        ], 
+        "372": [
+            66, 
+            66
+        ], 
+        "373": [
+            65, 
+            65
+        ], 
+        "374": [
+            70, 
+            70
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            10, 
+            100, 
+            101, 
+            102, 
+            103, 
+            104, 
+            105, 
+            106, 
+            107, 
+            108, 
+            109, 
+            11, 
+            110, 
+            111, 
+            112, 
+            113, 
+            114, 
+            115, 
+            116, 
+            117, 
+            118, 
+            119, 
+            12, 
+            120, 
+            121, 
+            122, 
+            123, 
+            124, 
+            125, 
+            126, 
+            127, 
+            128, 
+            129, 
+            13, 
+            130, 
+            131, 
+            132, 
+            133, 
+            134, 
+            135, 
+            136, 
+            137, 
+            138, 
+            139, 
+            14, 
+            140, 
+            141, 
+            142, 
+            143, 
+            144, 
+            145, 
+            146, 
+            147, 
+            148, 
+            149, 
+            15, 
+            150, 
+            151, 
+            152, 
+            153, 
+            154, 
+            155, 
+            156, 
+            157, 
+            158, 
+            159, 
+            16, 
+            160, 
+            161, 
+            162, 
+            163, 
+            164, 
+            165, 
+            166, 
+            167, 
+            168, 
+            169, 
+            17, 
+            170, 
+            171, 
+            172, 
+            173, 
+            174, 
+            175, 
+            176, 
+            177, 
+            178, 
+            179, 
+            18, 
+            180, 
+            181, 
+            182, 
+            183, 
+            184, 
+            185, 
+            186, 
+            187, 
+            188, 
+            189, 
+            19, 
+            190, 
+            191, 
+            192, 
+            193, 
+            194, 
+            195, 
+            196, 
+            197, 
+            198, 
+            199, 
+            2, 
+            20, 
+            200, 
+            201, 
+            202, 
+            203, 
+            204, 
+            205, 
+            206, 
+            207, 
+            208, 
+            209, 
+            21, 
+            210, 
+            211, 
+            212, 
+            213, 
+            214, 
+            215, 
+            216, 
+            217, 
+            218, 
+            219, 
+            22, 
+            220, 
+            221, 
+            222, 
+            223, 
+            224, 
+            225, 
+            226, 
+            227, 
+            228, 
+            229, 
+            23, 
+            230, 
+            231, 
+            232, 
+            233, 
+            234, 
+            235, 
+            236, 
+            237, 
+            239, 
+            24, 
+            240, 
+            241, 
+            242, 
+            243, 
+            244, 
+            245, 
+            246, 
+            247, 
+            248, 
+            249, 
+            25, 
+            250, 
+            251, 
+            252, 
+            253, 
+            254, 
+            255, 
+            256, 
+            257, 
+            258, 
+            259, 
+            26, 
+            260, 
+            261, 
+            262, 
+            263, 
+            264, 
+            265, 
+            266, 
+            267, 
+            268, 
+            269, 
+            27, 
+            270, 
+            271, 
+            272, 
+            273, 
+            274, 
+            275, 
+            276, 
+            277, 
+            278, 
+            279, 
+            28, 
+            280, 
+            281, 
+            282, 
+            283, 
+            284, 
+            285, 
+            286, 
+            287, 
+            288, 
+            289, 
+            29, 
+            290, 
+            291, 
+            292, 
+            293, 
+            294, 
+            295, 
+            296, 
+            297, 
+            298, 
+            299, 
+            3, 
+            30, 
+            300, 
+            301, 
+            302, 
+            303, 
+            304, 
+            305, 
+            306, 
+            307, 
+            308, 
+            309, 
+            31, 
+            310, 
+            311, 
+            312, 
+            313, 
+            314, 
+            315, 
+            316, 
+            317, 
+            318, 
+            319, 
+            32, 
+            320, 
+            321, 
+            322, 
+            323, 
+            324, 
+            325, 
+            326, 
+            327, 
+            328, 
+            329, 
+            33, 
+            330, 
+            331, 
+            332, 
+            333, 
+            334, 
+            335, 
+            336, 
+            337, 
+            338, 
+            339, 
+            34, 
+            340, 
+            341, 
+            342, 
+            343, 
+            344, 
+            345, 
+            346, 
+            347, 
+            348, 
+            349, 
+            35, 
+            350, 
+            351, 
+            352, 
+            353, 
+            354, 
+            355, 
+            356, 
+            357, 
+            358, 
+            359, 
+            36, 
+            360, 
+            361, 
+            362, 
+            363, 
+            364, 
+            365, 
+            366, 
+            367, 
+            368, 
+            369, 
+            37, 
+            370, 
+            371, 
+            372, 
+            373, 
+            374, 
+            38, 
+            39, 
+            4, 
+            40, 
+            41, 
+            42, 
+            43, 
+            44, 
+            45, 
+            46, 
+            47, 
+            48, 
+            49, 
+            5, 
+            50, 
+            51, 
+            52, 
+            53, 
+            54, 
+            55, 
+            56, 
+            57, 
+            58, 
+            59, 
+            6, 
+            60, 
+            61, 
+            62, 
+            63, 
+            64, 
+            65, 
+            66, 
+            67, 
+            68, 
+            69, 
+            7, 
+            70, 
+            71, 
+            72, 
+            73, 
+            74, 
+            75, 
+            76, 
+            77, 
+            78, 
+            79, 
+            8, 
+            80, 
+            81, 
+            82, 
+            83, 
+            84, 
+            85, 
+            86, 
+            87, 
+            88, 
+            89, 
+            9, 
+            90, 
+            91, 
+            92, 
+            93, 
+            94, 
+            95, 
+            96, 
+            97, 
+            98, 
+            99
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.0, 
+    "nevents_DAS": 0, 
+    "nevents_merged": 0, 
+    "nevents_unmerged": 23114, 
+    "postprocessing": {
+        "done": 1, 
+        "running": 0, 
+        "tosubmit": 0, 
+        "total": 1
+    }, 
+    "pset": "MCProduction2015_FastSim_NoFilter_cfg.py", 
+    "shortname": "T2bW_500_275_50_step3_apatters-T2bW_mSTOP500_mNLSP275_mLSP50_seed54323-eb69b0448a13fda070ca35fd76ab4e24", 
+    "sparms": [
+        "mStop", 
+        "mChargino", 
+        "mLSP"
+    ], 
+    "specialdir": "test", 
+    "status": "postprocessing", 
+    "user": "namin", 
+    "xsec": 1.0
+}
