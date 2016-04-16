@@ -1,0 +1,4036 @@
+{
+    "basedir": "/home/users/namin/forFrank/NtupleTools/AutoTwopler/", 
+    "checks": {
+        "nproblems": 0, 
+        "problems": []
+    }, 
+    "cms3tag": "CMS3_V07-04-12", 
+    "cmsswver": "CMSSW_7_4_14", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 0, 
+            "finished": 492, 
+            "idle": 0, 
+            "running": 0, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": null, 
+        "datetime": "160414_035114", 
+        "jobs_left_tail": [], 
+        "njobs": 492, 
+        "outputdir": "/hadoop/cms/store/user/namin/SMS-T2tt/crab_SMS-T2tt_SMS_T2tt_mStop-172_mLSP-1_Private74X-v2/160414_035114/0000/", 
+        "requestname": "SMS-T2tt_SMS_T2tt_mStop-172_mLSP-1_Private74X-v2", 
+        "resubmissions": 0, 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "", 
+        "task_warning": [], 
+        "taskdir": "crab/crab_SMS-T2tt_SMS_T2tt_mStop-172_mLSP-1_Private74X-v2", 
+        "time": 1460616434, 
+        "uniquerequestname": "160414_035114:namin_crab_SMS-T2tt_SMS_T2tt_mStop-172_mLSP-1_Private74X-v2"
+    }, 
+    "dataset": "/SMS-T2tt/SMS_T2tt_mStop-172_mLSP-1_Private74X-v2/USER", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/run2_fastsim_private/SMS-T2tt_SMS_T2tt_mStop-172_mLSP-1_Private74X-v2/V07-04-12/", 
+    "gtag": "74X_mcRun2_asymptotic_v2", 
+    "ijob_to_miniaod": {
+        "1": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b1.root"
+        ], 
+        "2": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b10.root"
+        ], 
+        "3": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b100.root"
+        ], 
+        "4": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b101.root"
+        ], 
+        "5": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b102.root"
+        ], 
+        "6": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b103.root"
+        ], 
+        "7": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b104.root"
+        ], 
+        "8": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b105.root"
+        ], 
+        "9": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b106.root"
+        ], 
+        "10": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b107.root"
+        ], 
+        "11": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b108.root"
+        ], 
+        "12": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b109.root"
+        ], 
+        "13": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b11.root"
+        ], 
+        "14": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b110.root"
+        ], 
+        "15": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b111.root"
+        ], 
+        "16": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b112.root"
+        ], 
+        "17": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b113.root"
+        ], 
+        "18": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b114.root"
+        ], 
+        "19": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b115.root"
+        ], 
+        "20": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b116.root"
+        ], 
+        "21": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b117.root"
+        ], 
+        "22": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b118.root"
+        ], 
+        "23": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b119.root"
+        ], 
+        "24": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b12.root"
+        ], 
+        "25": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b120.root"
+        ], 
+        "26": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b121.root"
+        ], 
+        "27": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b122.root"
+        ], 
+        "28": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b123.root"
+        ], 
+        "29": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b124.root"
+        ], 
+        "30": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b125.root"
+        ], 
+        "31": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b126.root"
+        ], 
+        "32": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b127.root"
+        ], 
+        "33": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b128.root"
+        ], 
+        "34": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b129.root"
+        ], 
+        "35": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b13.root"
+        ], 
+        "36": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b130.root"
+        ], 
+        "37": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b131.root"
+        ], 
+        "38": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b132.root"
+        ], 
+        "39": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b133.root"
+        ], 
+        "40": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b134.root"
+        ], 
+        "41": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b135.root"
+        ], 
+        "42": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b136.root"
+        ], 
+        "43": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b137.root"
+        ], 
+        "44": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b138.root"
+        ], 
+        "45": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b139.root"
+        ], 
+        "46": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b14.root"
+        ], 
+        "47": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b140.root"
+        ], 
+        "48": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b141.root"
+        ], 
+        "49": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b142.root"
+        ], 
+        "50": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b143.root"
+        ], 
+        "51": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b144.root"
+        ], 
+        "52": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b145.root"
+        ], 
+        "53": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b146.root"
+        ], 
+        "54": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b147.root"
+        ], 
+        "55": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b148.root"
+        ], 
+        "56": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b149.root"
+        ], 
+        "57": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b15.root"
+        ], 
+        "58": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b150.root"
+        ], 
+        "59": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b151.root"
+        ], 
+        "60": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b152.root"
+        ], 
+        "61": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b153.root"
+        ], 
+        "62": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b154.root"
+        ], 
+        "63": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b155.root"
+        ], 
+        "64": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b156.root"
+        ], 
+        "65": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b157.root"
+        ], 
+        "66": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b158.root"
+        ], 
+        "67": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b159.root"
+        ], 
+        "68": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b16.root"
+        ], 
+        "69": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b160.root"
+        ], 
+        "70": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b161.root"
+        ], 
+        "71": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b162.root"
+        ], 
+        "72": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b163.root"
+        ], 
+        "73": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b164.root"
+        ], 
+        "74": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b165.root"
+        ], 
+        "75": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b166.root"
+        ], 
+        "76": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b167.root"
+        ], 
+        "77": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b168.root"
+        ], 
+        "78": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b169.root"
+        ], 
+        "79": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b17.root"
+        ], 
+        "80": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b170.root"
+        ], 
+        "81": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b171.root"
+        ], 
+        "82": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b172.root"
+        ], 
+        "83": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b173.root"
+        ], 
+        "84": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b174.root"
+        ], 
+        "85": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b175.root"
+        ], 
+        "86": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b176.root"
+        ], 
+        "87": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b177.root"
+        ], 
+        "88": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b178.root"
+        ], 
+        "89": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b179.root"
+        ], 
+        "90": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b18.root"
+        ], 
+        "91": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b180.root"
+        ], 
+        "92": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b181.root"
+        ], 
+        "93": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b182.root"
+        ], 
+        "94": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b183.root"
+        ], 
+        "95": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b184.root"
+        ], 
+        "96": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b185.root"
+        ], 
+        "97": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b186.root"
+        ], 
+        "98": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b187.root"
+        ], 
+        "99": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b188.root"
+        ], 
+        "100": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b189.root"
+        ], 
+        "101": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b19.root"
+        ], 
+        "102": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b190.root"
+        ], 
+        "103": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b191.root"
+        ], 
+        "104": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b192.root"
+        ], 
+        "105": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b193.root"
+        ], 
+        "106": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b194.root"
+        ], 
+        "107": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b195.root"
+        ], 
+        "108": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b196.root"
+        ], 
+        "109": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b197.root"
+        ], 
+        "110": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b198.root"
+        ], 
+        "111": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b199.root"
+        ], 
+        "112": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b2.root"
+        ], 
+        "113": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b20.root"
+        ], 
+        "114": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b200.root"
+        ], 
+        "115": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b201.root"
+        ], 
+        "116": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b202.root"
+        ], 
+        "117": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b203.root"
+        ], 
+        "118": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b205.root"
+        ], 
+        "119": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b206.root"
+        ], 
+        "120": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b207.root"
+        ], 
+        "121": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b208.root"
+        ], 
+        "122": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b209.root"
+        ], 
+        "123": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b21.root"
+        ], 
+        "124": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b210.root"
+        ], 
+        "125": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b211.root"
+        ], 
+        "126": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b213.root"
+        ], 
+        "127": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b214.root"
+        ], 
+        "128": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b215.root"
+        ], 
+        "129": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b217.root"
+        ], 
+        "130": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b218.root"
+        ], 
+        "131": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b219.root"
+        ], 
+        "132": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b22.root"
+        ], 
+        "133": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b221.root"
+        ], 
+        "134": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b222.root"
+        ], 
+        "135": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b223.root"
+        ], 
+        "136": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b225.root"
+        ], 
+        "137": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b226.root"
+        ], 
+        "138": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b227.root"
+        ], 
+        "139": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b229.root"
+        ], 
+        "140": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b23.root"
+        ], 
+        "141": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b230.root"
+        ], 
+        "142": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b231.root"
+        ], 
+        "143": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b232.root"
+        ], 
+        "144": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b233.root"
+        ], 
+        "145": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b234.root"
+        ], 
+        "146": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b235.root"
+        ], 
+        "147": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b236.root"
+        ], 
+        "148": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b237.root"
+        ], 
+        "149": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b238.root"
+        ], 
+        "150": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b239.root"
+        ], 
+        "151": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b24.root"
+        ], 
+        "152": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b240.root"
+        ], 
+        "153": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b241.root"
+        ], 
+        "154": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b242.root"
+        ], 
+        "155": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b243.root"
+        ], 
+        "156": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b244.root"
+        ], 
+        "157": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b245.root"
+        ], 
+        "158": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b246.root"
+        ], 
+        "159": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b247.root"
+        ], 
+        "160": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b248.root"
+        ], 
+        "161": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b249.root"
+        ], 
+        "162": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b25.root"
+        ], 
+        "163": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b250.root"
+        ], 
+        "164": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b251.root"
+        ], 
+        "165": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b252.root"
+        ], 
+        "166": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b253.root"
+        ], 
+        "167": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b254.root"
+        ], 
+        "168": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b255.root"
+        ], 
+        "169": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b256.root"
+        ], 
+        "170": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b257.root"
+        ], 
+        "171": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b258.root"
+        ], 
+        "172": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b259.root"
+        ], 
+        "173": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b26.root"
+        ], 
+        "174": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b260.root"
+        ], 
+        "175": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b262.root"
+        ], 
+        "176": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b263.root"
+        ], 
+        "177": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b264.root"
+        ], 
+        "178": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b265.root"
+        ], 
+        "179": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b266.root"
+        ], 
+        "180": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b267.root"
+        ], 
+        "181": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b268.root"
+        ], 
+        "182": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b269.root"
+        ], 
+        "183": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b27.root"
+        ], 
+        "184": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b270.root"
+        ], 
+        "185": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b271.root"
+        ], 
+        "186": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b272.root"
+        ], 
+        "187": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b273.root"
+        ], 
+        "188": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b274.root"
+        ], 
+        "189": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b275.root"
+        ], 
+        "190": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b276.root"
+        ], 
+        "191": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b277.root"
+        ], 
+        "192": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b278.root"
+        ], 
+        "193": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b279.root"
+        ], 
+        "194": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b28.root"
+        ], 
+        "195": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b280.root"
+        ], 
+        "196": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b281.root"
+        ], 
+        "197": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b282.root"
+        ], 
+        "198": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b283.root"
+        ], 
+        "199": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b284.root"
+        ], 
+        "200": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b285.root"
+        ], 
+        "201": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b286.root"
+        ], 
+        "202": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b287.root"
+        ], 
+        "203": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b288.root"
+        ], 
+        "204": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b289.root"
+        ], 
+        "205": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b29.root"
+        ], 
+        "206": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b290.root"
+        ], 
+        "207": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b291.root"
+        ], 
+        "208": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b292.root"
+        ], 
+        "209": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b293.root"
+        ], 
+        "210": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b294.root"
+        ], 
+        "211": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b295.root"
+        ], 
+        "212": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b296.root"
+        ], 
+        "213": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b297.root"
+        ], 
+        "214": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b298.root"
+        ], 
+        "215": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b299.root"
+        ], 
+        "216": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b3.root"
+        ], 
+        "217": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b30.root"
+        ], 
+        "218": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b300.root"
+        ], 
+        "219": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b301.root"
+        ], 
+        "220": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b302.root"
+        ], 
+        "221": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b303.root"
+        ], 
+        "222": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b304.root"
+        ], 
+        "223": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b305.root"
+        ], 
+        "224": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b306.root"
+        ], 
+        "225": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b307.root"
+        ], 
+        "226": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b308.root"
+        ], 
+        "227": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b309.root"
+        ], 
+        "228": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b31.root"
+        ], 
+        "229": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b310.root"
+        ], 
+        "230": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b311.root"
+        ], 
+        "231": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b312.root"
+        ], 
+        "232": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b313.root"
+        ], 
+        "233": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b314.root"
+        ], 
+        "234": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b315.root"
+        ], 
+        "235": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b316.root"
+        ], 
+        "236": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b317.root"
+        ], 
+        "237": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b318.root"
+        ], 
+        "238": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b319.root"
+        ], 
+        "239": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b32.root"
+        ], 
+        "240": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b320.root"
+        ], 
+        "241": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b321.root"
+        ], 
+        "242": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b322.root"
+        ], 
+        "243": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b323.root"
+        ], 
+        "244": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b324.root"
+        ], 
+        "245": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b325.root"
+        ], 
+        "246": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b326.root"
+        ], 
+        "247": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b327.root"
+        ], 
+        "248": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b328.root"
+        ], 
+        "249": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b329.root"
+        ], 
+        "250": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b33.root"
+        ], 
+        "251": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b330.root"
+        ], 
+        "252": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b331.root"
+        ], 
+        "253": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b332.root"
+        ], 
+        "254": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b333.root"
+        ], 
+        "255": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b334.root"
+        ], 
+        "256": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b335.root"
+        ], 
+        "257": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b336.root"
+        ], 
+        "258": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b337.root"
+        ], 
+        "259": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b338.root"
+        ], 
+        "260": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b339.root"
+        ], 
+        "261": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b34.root"
+        ], 
+        "262": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b340.root"
+        ], 
+        "263": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b341.root"
+        ], 
+        "264": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b342.root"
+        ], 
+        "265": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b343.root"
+        ], 
+        "266": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b344.root"
+        ], 
+        "267": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b345.root"
+        ], 
+        "268": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b346.root"
+        ], 
+        "269": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b347.root"
+        ], 
+        "270": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b348.root"
+        ], 
+        "271": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b349.root"
+        ], 
+        "272": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b35.root"
+        ], 
+        "273": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b350.root"
+        ], 
+        "274": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b351.root"
+        ], 
+        "275": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b352.root"
+        ], 
+        "276": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b353.root"
+        ], 
+        "277": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b354.root"
+        ], 
+        "278": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b355.root"
+        ], 
+        "279": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b356.root"
+        ], 
+        "280": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b357.root"
+        ], 
+        "281": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b358.root"
+        ], 
+        "282": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b359.root"
+        ], 
+        "283": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b36.root"
+        ], 
+        "284": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b360.root"
+        ], 
+        "285": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b361.root"
+        ], 
+        "286": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b362.root"
+        ], 
+        "287": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b363.root"
+        ], 
+        "288": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b364.root"
+        ], 
+        "289": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b365.root"
+        ], 
+        "290": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b366.root"
+        ], 
+        "291": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b367.root"
+        ], 
+        "292": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b368.root"
+        ], 
+        "293": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b369.root"
+        ], 
+        "294": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b37.root"
+        ], 
+        "295": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b370.root"
+        ], 
+        "296": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b371.root"
+        ], 
+        "297": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b372.root"
+        ], 
+        "298": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b373.root"
+        ], 
+        "299": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b374.root"
+        ], 
+        "300": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b375.root"
+        ], 
+        "301": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b376.root"
+        ], 
+        "302": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b377.root"
+        ], 
+        "303": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b378.root"
+        ], 
+        "304": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b379.root"
+        ], 
+        "305": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b38.root"
+        ], 
+        "306": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b380.root"
+        ], 
+        "307": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b381.root"
+        ], 
+        "308": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b382.root"
+        ], 
+        "309": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b383.root"
+        ], 
+        "310": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b384.root"
+        ], 
+        "311": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b385.root"
+        ], 
+        "312": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b386.root"
+        ], 
+        "313": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b387.root"
+        ], 
+        "314": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b388.root"
+        ], 
+        "315": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b389.root"
+        ], 
+        "316": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b39.root"
+        ], 
+        "317": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b390.root"
+        ], 
+        "318": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b391.root"
+        ], 
+        "319": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b392.root"
+        ], 
+        "320": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b393.root"
+        ], 
+        "321": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b394.root"
+        ], 
+        "322": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b395.root"
+        ], 
+        "323": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b396.root"
+        ], 
+        "324": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b397.root"
+        ], 
+        "325": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b398.root"
+        ], 
+        "326": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b399.root"
+        ], 
+        "327": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b4.root"
+        ], 
+        "328": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b40.root"
+        ], 
+        "329": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b400.root"
+        ], 
+        "330": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b401.root"
+        ], 
+        "331": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b402.root"
+        ], 
+        "332": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b403.root"
+        ], 
+        "333": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b404.root"
+        ], 
+        "334": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b405.root"
+        ], 
+        "335": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b406.root"
+        ], 
+        "336": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b407.root"
+        ], 
+        "337": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b408.root"
+        ], 
+        "338": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b409.root"
+        ], 
+        "339": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b41.root"
+        ], 
+        "340": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b410.root"
+        ], 
+        "341": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b411.root"
+        ], 
+        "342": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b412.root"
+        ], 
+        "343": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b413.root"
+        ], 
+        "344": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b414.root"
+        ], 
+        "345": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b415.root"
+        ], 
+        "346": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b416.root"
+        ], 
+        "347": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b417.root"
+        ], 
+        "348": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b418.root"
+        ], 
+        "349": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b419.root"
+        ], 
+        "350": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b42.root"
+        ], 
+        "351": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b420.root"
+        ], 
+        "352": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b421.root"
+        ], 
+        "353": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b422.root"
+        ], 
+        "354": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b423.root"
+        ], 
+        "355": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b424.root"
+        ], 
+        "356": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b425.root"
+        ], 
+        "357": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b426.root"
+        ], 
+        "358": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b427.root"
+        ], 
+        "359": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b428.root"
+        ], 
+        "360": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b429.root"
+        ], 
+        "361": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b43.root"
+        ], 
+        "362": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b430.root"
+        ], 
+        "363": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b431.root"
+        ], 
+        "364": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b432.root"
+        ], 
+        "365": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b433.root"
+        ], 
+        "366": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b434.root"
+        ], 
+        "367": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b435.root"
+        ], 
+        "368": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b436.root"
+        ], 
+        "369": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b437.root"
+        ], 
+        "370": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b438.root"
+        ], 
+        "371": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b439.root"
+        ], 
+        "372": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b44.root"
+        ], 
+        "373": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b440.root"
+        ], 
+        "374": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b441.root"
+        ], 
+        "375": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b442.root"
+        ], 
+        "376": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b443.root"
+        ], 
+        "377": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b444.root"
+        ], 
+        "378": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b445.root"
+        ], 
+        "379": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b446.root"
+        ], 
+        "380": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b447.root"
+        ], 
+        "381": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b448.root"
+        ], 
+        "382": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b449.root"
+        ], 
+        "383": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b45.root"
+        ], 
+        "384": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b450.root"
+        ], 
+        "385": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b451.root"
+        ], 
+        "386": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b452.root"
+        ], 
+        "387": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b453.root"
+        ], 
+        "388": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b454.root"
+        ], 
+        "389": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b455.root"
+        ], 
+        "390": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b456.root"
+        ], 
+        "391": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b457.root"
+        ], 
+        "392": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b458.root"
+        ], 
+        "393": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b459.root"
+        ], 
+        "394": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b46.root"
+        ], 
+        "395": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b460.root"
+        ], 
+        "396": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b461.root"
+        ], 
+        "397": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b462.root"
+        ], 
+        "398": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b463.root"
+        ], 
+        "399": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b464.root"
+        ], 
+        "400": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b465.root"
+        ], 
+        "401": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b466.root"
+        ], 
+        "402": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b467.root"
+        ], 
+        "403": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b468.root"
+        ], 
+        "404": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b469.root"
+        ], 
+        "405": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b47.root"
+        ], 
+        "406": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b470.root"
+        ], 
+        "407": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b471.root"
+        ], 
+        "408": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b472.root"
+        ], 
+        "409": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b473.root"
+        ], 
+        "410": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b474.root"
+        ], 
+        "411": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b475.root"
+        ], 
+        "412": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b476.root"
+        ], 
+        "413": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b477.root"
+        ], 
+        "414": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b478.root"
+        ], 
+        "415": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b479.root"
+        ], 
+        "416": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b48.root"
+        ], 
+        "417": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b480.root"
+        ], 
+        "418": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b481.root"
+        ], 
+        "419": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b482.root"
+        ], 
+        "420": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b483.root"
+        ], 
+        "421": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b484.root"
+        ], 
+        "422": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b485.root"
+        ], 
+        "423": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b486.root"
+        ], 
+        "424": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b487.root"
+        ], 
+        "425": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b488.root"
+        ], 
+        "426": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b489.root"
+        ], 
+        "427": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b49.root"
+        ], 
+        "428": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b490.root"
+        ], 
+        "429": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b491.root"
+        ], 
+        "430": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b492.root"
+        ], 
+        "431": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b493.root"
+        ], 
+        "432": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b494.root"
+        ], 
+        "433": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b495.root"
+        ], 
+        "434": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b496.root"
+        ], 
+        "435": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b497.root"
+        ], 
+        "436": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b498.root"
+        ], 
+        "437": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b499.root"
+        ], 
+        "438": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b5.root"
+        ], 
+        "439": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b50.root"
+        ], 
+        "440": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b51.root"
+        ], 
+        "441": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b52.root"
+        ], 
+        "442": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b53.root"
+        ], 
+        "443": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b54.root"
+        ], 
+        "444": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b55.root"
+        ], 
+        "445": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b56.root"
+        ], 
+        "446": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b57.root"
+        ], 
+        "447": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b58.root"
+        ], 
+        "448": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b59.root"
+        ], 
+        "449": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b6.root"
+        ], 
+        "450": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b60.root"
+        ], 
+        "451": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b61.root"
+        ], 
+        "452": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b62.root"
+        ], 
+        "453": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b63.root"
+        ], 
+        "454": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b64.root"
+        ], 
+        "455": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b65.root"
+        ], 
+        "456": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b66.root"
+        ], 
+        "457": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b67.root"
+        ], 
+        "458": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b68.root"
+        ], 
+        "459": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b69.root"
+        ], 
+        "460": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b7.root"
+        ], 
+        "461": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b70.root"
+        ], 
+        "462": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b71.root"
+        ], 
+        "463": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b72.root"
+        ], 
+        "464": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b73.root"
+        ], 
+        "465": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b74.root"
+        ], 
+        "466": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b75.root"
+        ], 
+        "467": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b76.root"
+        ], 
+        "468": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b77.root"
+        ], 
+        "469": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b78.root"
+        ], 
+        "470": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b79.root"
+        ], 
+        "471": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b8.root"
+        ], 
+        "472": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b80.root"
+        ], 
+        "473": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b81.root"
+        ], 
+        "474": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b82.root"
+        ], 
+        "475": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b83.root"
+        ], 
+        "476": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b84.root"
+        ], 
+        "477": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b85.root"
+        ], 
+        "478": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b86.root"
+        ], 
+        "479": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b87.root"
+        ], 
+        "480": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b88.root"
+        ], 
+        "481": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b89.root"
+        ], 
+        "482": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b9.root"
+        ], 
+        "483": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b90.root"
+        ], 
+        "484": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b91.root"
+        ], 
+        "485": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b92.root"
+        ], 
+        "486": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b93.root"
+        ], 
+        "487": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b94.root"
+        ], 
+        "488": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b95.root"
+        ], 
+        "489": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b96.root"
+        ], 
+        "490": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b97.root"
+        ], 
+        "491": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b98.root"
+        ], 
+        "492": [
+            "/store/user/namin/ana_MC/SMST2tt/SMS-T2tt_mStop-172/SMS-T2tt_mStop-172_mLSP-1_madgraphMLM-pythia8_RunIISpring15MiniAODv2-FastAsympt25ns_74X_MINIAODSIM_b99.root"
+        ]
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            3909, 
+            3909
+        ], 
+        "2": [
+            3910, 
+            3910
+        ], 
+        "3": [
+            3880, 
+            3880
+        ], 
+        "4": [
+            3820, 
+            3820
+        ], 
+        "5": [
+            3817, 
+            3817
+        ], 
+        "6": [
+            3946, 
+            3946
+        ], 
+        "7": [
+            3830, 
+            3830
+        ], 
+        "8": [
+            3829, 
+            3829
+        ], 
+        "9": [
+            3850, 
+            3850
+        ], 
+        "10": [
+            3817, 
+            3817
+        ], 
+        "11": [
+            3798, 
+            3798
+        ], 
+        "12": [
+            3804, 
+            3804
+        ], 
+        "13": [
+            3892, 
+            3892
+        ], 
+        "14": [
+            3816, 
+            3816
+        ], 
+        "15": [
+            3856, 
+            3856
+        ], 
+        "16": [
+            3711, 
+            3711
+        ], 
+        "17": [
+            3868, 
+            3868
+        ], 
+        "18": [
+            3900, 
+            3900
+        ], 
+        "19": [
+            3783, 
+            3783
+        ], 
+        "20": [
+            3836, 
+            3836
+        ], 
+        "21": [
+            3819, 
+            3819
+        ], 
+        "22": [
+            3854, 
+            3854
+        ], 
+        "23": [
+            3883, 
+            3883
+        ], 
+        "24": [
+            3969, 
+            3969
+        ], 
+        "25": [
+            3806, 
+            3806
+        ], 
+        "26": [
+            3864, 
+            3864
+        ], 
+        "27": [
+            3901, 
+            3901
+        ], 
+        "28": [
+            3807, 
+            3807
+        ], 
+        "29": [
+            3812, 
+            3812
+        ], 
+        "30": [
+            3842, 
+            3842
+        ], 
+        "31": [
+            3848, 
+            3848
+        ], 
+        "32": [
+            3862, 
+            3862
+        ], 
+        "33": [
+            3925, 
+            3925
+        ], 
+        "34": [
+            3821, 
+            3821
+        ], 
+        "35": [
+            3843, 
+            3843
+        ], 
+        "36": [
+            3847, 
+            3847
+        ], 
+        "37": [
+            3854, 
+            3854
+        ], 
+        "38": [
+            3872, 
+            3872
+        ], 
+        "39": [
+            3849, 
+            3849
+        ], 
+        "40": [
+            3803, 
+            3803
+        ], 
+        "41": [
+            3812, 
+            3812
+        ], 
+        "42": [
+            3917, 
+            3917
+        ], 
+        "43": [
+            3876, 
+            3876
+        ], 
+        "44": [
+            3809, 
+            3809
+        ], 
+        "45": [
+            3842, 
+            3842
+        ], 
+        "46": [
+            3810, 
+            3810
+        ], 
+        "47": [
+            3939, 
+            3939
+        ], 
+        "48": [
+            3841, 
+            3841
+        ], 
+        "49": [
+            3833, 
+            3833
+        ], 
+        "50": [
+            3851, 
+            3851
+        ], 
+        "51": [
+            3836, 
+            3836
+        ], 
+        "52": [
+            3825, 
+            3825
+        ], 
+        "53": [
+            3809, 
+            3809
+        ], 
+        "54": [
+            3905, 
+            3905
+        ], 
+        "55": [
+            3889, 
+            3889
+        ], 
+        "56": [
+            3908, 
+            3908
+        ], 
+        "57": [
+            3899, 
+            3899
+        ], 
+        "58": [
+            3751, 
+            3751
+        ], 
+        "59": [
+            3782, 
+            3782
+        ], 
+        "60": [
+            3830, 
+            3830
+        ], 
+        "61": [
+            3798, 
+            3798
+        ], 
+        "62": [
+            3952, 
+            3952
+        ], 
+        "63": [
+            3756, 
+            3756
+        ], 
+        "64": [
+            3903, 
+            3903
+        ], 
+        "65": [
+            3847, 
+            3847
+        ], 
+        "66": [
+            3858, 
+            3858
+        ], 
+        "67": [
+            3804, 
+            3804
+        ], 
+        "68": [
+            3845, 
+            3845
+        ], 
+        "69": [
+            3776, 
+            3776
+        ], 
+        "70": [
+            3824, 
+            3824
+        ], 
+        "71": [
+            3882, 
+            3882
+        ], 
+        "72": [
+            3781, 
+            3781
+        ], 
+        "73": [
+            3882, 
+            3882
+        ], 
+        "74": [
+            3863, 
+            3863
+        ], 
+        "75": [
+            3871, 
+            3871
+        ], 
+        "76": [
+            3786, 
+            3786
+        ], 
+        "77": [
+            3822, 
+            3822
+        ], 
+        "78": [
+            3857, 
+            3857
+        ], 
+        "79": [
+            3869, 
+            3869
+        ], 
+        "80": [
+            3873, 
+            3873
+        ], 
+        "81": [
+            3745, 
+            3745
+        ], 
+        "82": [
+            3865, 
+            3865
+        ], 
+        "83": [
+            3820, 
+            3820
+        ], 
+        "84": [
+            3856, 
+            3856
+        ], 
+        "85": [
+            3820, 
+            3820
+        ], 
+        "86": [
+            3789, 
+            3789
+        ], 
+        "87": [
+            3819, 
+            3819
+        ], 
+        "88": [
+            3843, 
+            3843
+        ], 
+        "89": [
+            3837, 
+            3837
+        ], 
+        "90": [
+            3922, 
+            3922
+        ], 
+        "91": [
+            3891, 
+            3891
+        ], 
+        "92": [
+            3838, 
+            3838
+        ], 
+        "93": [
+            3875, 
+            3875
+        ], 
+        "94": [
+            3783, 
+            3783
+        ], 
+        "95": [
+            3813, 
+            3813
+        ], 
+        "96": [
+            3859, 
+            3859
+        ], 
+        "97": [
+            3802, 
+            3802
+        ], 
+        "98": [
+            3734, 
+            3734
+        ], 
+        "99": [
+            3801, 
+            3801
+        ], 
+        "100": [
+            3842, 
+            3842
+        ], 
+        "101": [
+            3830, 
+            3830
+        ], 
+        "102": [
+            3868, 
+            3868
+        ], 
+        "103": [
+            3825, 
+            3825
+        ], 
+        "104": [
+            3782, 
+            3782
+        ], 
+        "105": [
+            3881, 
+            3881
+        ], 
+        "106": [
+            3863, 
+            3863
+        ], 
+        "107": [
+            3832, 
+            3832
+        ], 
+        "108": [
+            3935, 
+            3935
+        ], 
+        "109": [
+            3824, 
+            3824
+        ], 
+        "110": [
+            3905, 
+            3905
+        ], 
+        "111": [
+            3842, 
+            3842
+        ], 
+        "112": [
+            3877, 
+            3877
+        ], 
+        "113": [
+            3848, 
+            3848
+        ], 
+        "114": [
+            3846, 
+            3846
+        ], 
+        "115": [
+            3875, 
+            3875
+        ], 
+        "116": [
+            3940, 
+            3940
+        ], 
+        "117": [
+            3764, 
+            3764
+        ], 
+        "118": [
+            3778, 
+            3778
+        ], 
+        "119": [
+            3874, 
+            3874
+        ], 
+        "120": [
+            3817, 
+            3817
+        ], 
+        "121": [
+            3902, 
+            3902
+        ], 
+        "122": [
+            3844, 
+            3844
+        ], 
+        "123": [
+            3835, 
+            3835
+        ], 
+        "124": [
+            3793, 
+            3793
+        ], 
+        "125": [
+            3919, 
+            3919
+        ], 
+        "126": [
+            3891, 
+            3891
+        ], 
+        "127": [
+            3917, 
+            3917
+        ], 
+        "128": [
+            3813, 
+            3813
+        ], 
+        "129": [
+            3814, 
+            3814
+        ], 
+        "130": [
+            3973, 
+            3973
+        ], 
+        "131": [
+            3831, 
+            3831
+        ], 
+        "132": [
+            3835, 
+            3835
+        ], 
+        "133": [
+            3912, 
+            3912
+        ], 
+        "134": [
+            3854, 
+            3854
+        ], 
+        "135": [
+            3794, 
+            3794
+        ], 
+        "136": [
+            3883, 
+            3883
+        ], 
+        "137": [
+            3895, 
+            3895
+        ], 
+        "138": [
+            3910, 
+            3910
+        ], 
+        "139": [
+            3885, 
+            3885
+        ], 
+        "140": [
+            3822, 
+            3822
+        ], 
+        "141": [
+            3774, 
+            3774
+        ], 
+        "142": [
+            3822, 
+            3822
+        ], 
+        "143": [
+            3818, 
+            3818
+        ], 
+        "144": [
+            3788, 
+            3788
+        ], 
+        "145": [
+            3823, 
+            3823
+        ], 
+        "146": [
+            3825, 
+            3825
+        ], 
+        "147": [
+            3866, 
+            3866
+        ], 
+        "148": [
+            3851, 
+            3851
+        ], 
+        "149": [
+            3850, 
+            3850
+        ], 
+        "150": [
+            3838, 
+            3838
+        ], 
+        "151": [
+            3800, 
+            3800
+        ], 
+        "152": [
+            3815, 
+            3815
+        ], 
+        "153": [
+            3836, 
+            3836
+        ], 
+        "154": [
+            3816, 
+            3816
+        ], 
+        "155": [
+            3964, 
+            3964
+        ], 
+        "156": [
+            3804, 
+            3804
+        ], 
+        "157": [
+            3818, 
+            3818
+        ], 
+        "158": [
+            3759, 
+            3759
+        ], 
+        "159": [
+            3821, 
+            3821
+        ], 
+        "160": [
+            3823, 
+            3823
+        ], 
+        "161": [
+            3927, 
+            3927
+        ], 
+        "162": [
+            3821, 
+            3821
+        ], 
+        "163": [
+            3757, 
+            3757
+        ], 
+        "164": [
+            3832, 
+            3832
+        ], 
+        "165": [
+            3852, 
+            3852
+        ], 
+        "166": [
+            3934, 
+            3934
+        ], 
+        "167": [
+            3816, 
+            3816
+        ], 
+        "168": [
+            3933, 
+            3933
+        ], 
+        "169": [
+            3819, 
+            3819
+        ], 
+        "170": [
+            3782, 
+            3782
+        ], 
+        "171": [
+            3808, 
+            3808
+        ], 
+        "172": [
+            3835, 
+            3835
+        ], 
+        "173": [
+            3901, 
+            3901
+        ], 
+        "174": [
+            3784, 
+            3784
+        ], 
+        "175": [
+            3925, 
+            3925
+        ], 
+        "176": [
+            3849, 
+            3849
+        ], 
+        "177": [
+            3761, 
+            3761
+        ], 
+        "178": [
+            3845, 
+            3845
+        ], 
+        "179": [
+            3790, 
+            3790
+        ], 
+        "180": [
+            3851, 
+            3851
+        ], 
+        "181": [
+            3867, 
+            3867
+        ], 
+        "182": [
+            3802, 
+            3802
+        ], 
+        "183": [
+            3888, 
+            3888
+        ], 
+        "184": [
+            3883, 
+            3883
+        ], 
+        "185": [
+            3792, 
+            3792
+        ], 
+        "186": [
+            3899, 
+            3899
+        ], 
+        "187": [
+            3780, 
+            3780
+        ], 
+        "188": [
+            3853, 
+            3853
+        ], 
+        "189": [
+            3768, 
+            3768
+        ], 
+        "190": [
+            3820, 
+            3820
+        ], 
+        "191": [
+            3920, 
+            3920
+        ], 
+        "192": [
+            3830, 
+            3830
+        ], 
+        "193": [
+            3844, 
+            3844
+        ], 
+        "194": [
+            3835, 
+            3835
+        ], 
+        "195": [
+            3900, 
+            3900
+        ], 
+        "196": [
+            3839, 
+            3839
+        ], 
+        "197": [
+            3816, 
+            3816
+        ], 
+        "198": [
+            3835, 
+            3835
+        ], 
+        "199": [
+            3813, 
+            3813
+        ], 
+        "200": [
+            3782, 
+            3782
+        ], 
+        "201": [
+            3931, 
+            3931
+        ], 
+        "202": [
+            3849, 
+            3849
+        ], 
+        "203": [
+            3829, 
+            3829
+        ], 
+        "204": [
+            3814, 
+            3814
+        ], 
+        "205": [
+            3881, 
+            3881
+        ], 
+        "206": [
+            3805, 
+            3805
+        ], 
+        "207": [
+            3939, 
+            3939
+        ], 
+        "208": [
+            3915, 
+            3915
+        ], 
+        "209": [
+            3821, 
+            3821
+        ], 
+        "210": [
+            3832, 
+            3832
+        ], 
+        "211": [
+            3876, 
+            3876
+        ], 
+        "212": [
+            3831, 
+            3831
+        ], 
+        "213": [
+            3885, 
+            3885
+        ], 
+        "214": [
+            3847, 
+            3847
+        ], 
+        "215": [
+            3800, 
+            3800
+        ], 
+        "216": [
+            3887, 
+            3887
+        ], 
+        "217": [
+            3752, 
+            3752
+        ], 
+        "218": [
+            3837, 
+            3837
+        ], 
+        "219": [
+            3782, 
+            3782
+        ], 
+        "220": [
+            3883, 
+            3883
+        ], 
+        "221": [
+            3893, 
+            3893
+        ], 
+        "222": [
+            3808, 
+            3808
+        ], 
+        "223": [
+            3947, 
+            3947
+        ], 
+        "224": [
+            3880, 
+            3880
+        ], 
+        "225": [
+            3771, 
+            3771
+        ], 
+        "226": [
+            3907, 
+            3907
+        ], 
+        "227": [
+            3844, 
+            3844
+        ], 
+        "228": [
+            3923, 
+            3923
+        ], 
+        "229": [
+            3855, 
+            3855
+        ], 
+        "230": [
+            3818, 
+            3818
+        ], 
+        "231": [
+            3814, 
+            3814
+        ], 
+        "232": [
+            3907, 
+            3907
+        ], 
+        "233": [
+            3784, 
+            3784
+        ], 
+        "234": [
+            3791, 
+            3791
+        ], 
+        "235": [
+            3829, 
+            3829
+        ], 
+        "236": [
+            3883, 
+            3883
+        ], 
+        "237": [
+            3763, 
+            3763
+        ], 
+        "238": [
+            3821, 
+            3821
+        ], 
+        "239": [
+            3815, 
+            3815
+        ], 
+        "240": [
+            3886, 
+            3886
+        ], 
+        "241": [
+            3780, 
+            3780
+        ], 
+        "242": [
+            3868, 
+            3868
+        ], 
+        "243": [
+            3794, 
+            3794
+        ], 
+        "244": [
+            3811, 
+            3811
+        ], 
+        "245": [
+            3903, 
+            3903
+        ], 
+        "246": [
+            3854, 
+            3854
+        ], 
+        "247": [
+            3791, 
+            3791
+        ], 
+        "248": [
+            3805, 
+            3805
+        ], 
+        "249": [
+            3811, 
+            3811
+        ], 
+        "250": [
+            3879, 
+            3879
+        ], 
+        "251": [
+            3849, 
+            3849
+        ], 
+        "252": [
+            3864, 
+            3864
+        ], 
+        "253": [
+            3806, 
+            3806
+        ], 
+        "254": [
+            3982, 
+            3982
+        ], 
+        "255": [
+            3851, 
+            3851
+        ], 
+        "256": [
+            3844, 
+            3844
+        ], 
+        "257": [
+            3846, 
+            3846
+        ], 
+        "258": [
+            3850, 
+            3850
+        ], 
+        "259": [
+            3778, 
+            3778
+        ], 
+        "260": [
+            3871, 
+            3871
+        ], 
+        "261": [
+            3813, 
+            3813
+        ], 
+        "262": [
+            3920, 
+            3920
+        ], 
+        "263": [
+            3852, 
+            3852
+        ], 
+        "264": [
+            3923, 
+            3923
+        ], 
+        "265": [
+            3818, 
+            3818
+        ], 
+        "266": [
+            3736, 
+            3736
+        ], 
+        "267": [
+            3815, 
+            3815
+        ], 
+        "268": [
+            3838, 
+            3838
+        ], 
+        "269": [
+            3785, 
+            3785
+        ], 
+        "270": [
+            3810, 
+            3810
+        ], 
+        "271": [
+            3881, 
+            3881
+        ], 
+        "272": [
+            3889, 
+            3889
+        ], 
+        "273": [
+            3818, 
+            3818
+        ], 
+        "274": [
+            3758, 
+            3758
+        ], 
+        "275": [
+            3861, 
+            3861
+        ], 
+        "276": [
+            3911, 
+            3911
+        ], 
+        "277": [
+            3803, 
+            3803
+        ], 
+        "278": [
+            3843, 
+            3843
+        ], 
+        "279": [
+            3750, 
+            3750
+        ], 
+        "280": [
+            3855, 
+            3855
+        ], 
+        "281": [
+            3836, 
+            3836
+        ], 
+        "282": [
+            3854, 
+            3854
+        ], 
+        "283": [
+            3856, 
+            3856
+        ], 
+        "284": [
+            3846, 
+            3846
+        ], 
+        "285": [
+            3851, 
+            3851
+        ], 
+        "286": [
+            3817, 
+            3817
+        ], 
+        "287": [
+            3799, 
+            3799
+        ], 
+        "288": [
+            3830, 
+            3830
+        ], 
+        "289": [
+            3840, 
+            3840
+        ], 
+        "290": [
+            3826, 
+            3826
+        ], 
+        "291": [
+            3873, 
+            3873
+        ], 
+        "292": [
+            3895, 
+            3895
+        ], 
+        "293": [
+            3755, 
+            3755
+        ], 
+        "294": [
+            3963, 
+            3963
+        ], 
+        "295": [
+            3805, 
+            3805
+        ], 
+        "296": [
+            3783, 
+            3783
+        ], 
+        "297": [
+            3825, 
+            3825
+        ], 
+        "298": [
+            3846, 
+            3846
+        ], 
+        "299": [
+            3869, 
+            3869
+        ], 
+        "300": [
+            3884, 
+            3884
+        ], 
+        "301": [
+            3830, 
+            3830
+        ], 
+        "302": [
+            3902, 
+            3902
+        ], 
+        "303": [
+            3865, 
+            3865
+        ], 
+        "304": [
+            3901, 
+            3901
+        ], 
+        "305": [
+            3857, 
+            3857
+        ], 
+        "306": [
+            3817, 
+            3817
+        ], 
+        "307": [
+            3832, 
+            3832
+        ], 
+        "308": [
+            3776, 
+            3776
+        ], 
+        "309": [
+            3848, 
+            3848
+        ], 
+        "310": [
+            3821, 
+            3821
+        ], 
+        "311": [
+            3828, 
+            3828
+        ], 
+        "312": [
+            3895, 
+            3895
+        ], 
+        "313": [
+            3838, 
+            3838
+        ], 
+        "314": [
+            3801, 
+            3801
+        ], 
+        "315": [
+            3834, 
+            3834
+        ], 
+        "316": [
+            3863, 
+            3863
+        ], 
+        "317": [
+            3836, 
+            3836
+        ], 
+        "318": [
+            3791, 
+            3791
+        ], 
+        "319": [
+            3894, 
+            3894
+        ], 
+        "320": [
+            3820, 
+            3820
+        ], 
+        "321": [
+            3874, 
+            3874
+        ], 
+        "322": [
+            3832, 
+            3832
+        ], 
+        "323": [
+            3806, 
+            3806
+        ], 
+        "324": [
+            3833, 
+            3833
+        ], 
+        "325": [
+            3704, 
+            3704
+        ], 
+        "326": [
+            3849, 
+            3849
+        ], 
+        "327": [
+            3812, 
+            3812
+        ], 
+        "328": [
+            3886, 
+            3886
+        ], 
+        "329": [
+            3881, 
+            3881
+        ], 
+        "330": [
+            3769, 
+            3769
+        ], 
+        "331": [
+            3764, 
+            3764
+        ], 
+        "332": [
+            3835, 
+            3835
+        ], 
+        "333": [
+            3853, 
+            3853
+        ], 
+        "334": [
+            3736, 
+            3736
+        ], 
+        "335": [
+            3809, 
+            3809
+        ], 
+        "336": [
+            3820, 
+            3820
+        ], 
+        "337": [
+            3781, 
+            3781
+        ], 
+        "338": [
+            3856, 
+            3856
+        ], 
+        "339": [
+            3810, 
+            3810
+        ], 
+        "340": [
+            3913, 
+            3913
+        ], 
+        "341": [
+            3838, 
+            3838
+        ], 
+        "342": [
+            3754, 
+            3754
+        ], 
+        "343": [
+            3917, 
+            3917
+        ], 
+        "344": [
+            3836, 
+            3836
+        ], 
+        "345": [
+            3819, 
+            3819
+        ], 
+        "346": [
+            3842, 
+            3842
+        ], 
+        "347": [
+            3768, 
+            3768
+        ], 
+        "348": [
+            3843, 
+            3843
+        ], 
+        "349": [
+            3925, 
+            3925
+        ], 
+        "350": [
+            3892, 
+            3892
+        ], 
+        "351": [
+            3846, 
+            3846
+        ], 
+        "352": [
+            3880, 
+            3880
+        ], 
+        "353": [
+            3752, 
+            3752
+        ], 
+        "354": [
+            3850, 
+            3850
+        ], 
+        "355": [
+            3847, 
+            3847
+        ], 
+        "356": [
+            3821, 
+            3821
+        ], 
+        "357": [
+            3878, 
+            3878
+        ], 
+        "358": [
+            3791, 
+            3791
+        ], 
+        "359": [
+            3878, 
+            3878
+        ], 
+        "360": [
+            3835, 
+            3835
+        ], 
+        "361": [
+            3916, 
+            3916
+        ], 
+        "362": [
+            3860, 
+            3860
+        ], 
+        "363": [
+            3802, 
+            3802
+        ], 
+        "364": [
+            3789, 
+            3789
+        ], 
+        "365": [
+            3839, 
+            3839
+        ], 
+        "366": [
+            3826, 
+            3826
+        ], 
+        "367": [
+            3752, 
+            3752
+        ], 
+        "368": [
+            3820, 
+            3820
+        ], 
+        "369": [
+            3863, 
+            3863
+        ], 
+        "370": [
+            3828, 
+            3828
+        ], 
+        "371": [
+            3809, 
+            3809
+        ], 
+        "372": [
+            3868, 
+            3868
+        ], 
+        "373": [
+            3774, 
+            3774
+        ], 
+        "374": [
+            3831, 
+            3831
+        ], 
+        "375": [
+            3940, 
+            3940
+        ], 
+        "376": [
+            3785, 
+            3785
+        ], 
+        "377": [
+            3862, 
+            3862
+        ], 
+        "378": [
+            3888, 
+            3888
+        ], 
+        "379": [
+            3882, 
+            3882
+        ], 
+        "380": [
+            3882, 
+            3882
+        ], 
+        "381": [
+            3794, 
+            3794
+        ], 
+        "382": [
+            3957, 
+            3957
+        ], 
+        "383": [
+            3827, 
+            3827
+        ], 
+        "384": [
+            3895, 
+            3895
+        ], 
+        "385": [
+            3906, 
+            3906
+        ], 
+        "386": [
+            3849, 
+            3849
+        ], 
+        "387": [
+            3838, 
+            3838
+        ], 
+        "388": [
+            3879, 
+            3879
+        ], 
+        "389": [
+            3780, 
+            3780
+        ], 
+        "390": [
+            3879, 
+            3879
+        ], 
+        "391": [
+            3822, 
+            3822
+        ], 
+        "392": [
+            3822, 
+            3822
+        ], 
+        "393": [
+            3872, 
+            3872
+        ], 
+        "394": [
+            3819, 
+            3819
+        ], 
+        "395": [
+            3775, 
+            3775
+        ], 
+        "396": [
+            3786, 
+            3786
+        ], 
+        "397": [
+            3822, 
+            3822
+        ], 
+        "398": [
+            3789, 
+            3789
+        ], 
+        "399": [
+            3929, 
+            3929
+        ], 
+        "400": [
+            3834, 
+            3834
+        ], 
+        "401": [
+            3897, 
+            3897
+        ], 
+        "402": [
+            3876, 
+            3876
+        ], 
+        "403": [
+            3843, 
+            3843
+        ], 
+        "404": [
+            3850, 
+            3850
+        ], 
+        "405": [
+            3867, 
+            3867
+        ], 
+        "406": [
+            3870, 
+            3870
+        ], 
+        "407": [
+            3947, 
+            3947
+        ], 
+        "408": [
+            3874, 
+            3874
+        ], 
+        "409": [
+            3766, 
+            3766
+        ], 
+        "410": [
+            3887, 
+            3887
+        ], 
+        "411": [
+            3905, 
+            3905
+        ], 
+        "412": [
+            3857, 
+            3857
+        ], 
+        "413": [
+            3928, 
+            3928
+        ], 
+        "414": [
+            3783, 
+            3783
+        ], 
+        "415": [
+            3861, 
+            3861
+        ], 
+        "416": [
+            3858, 
+            3858
+        ], 
+        "417": [
+            3799, 
+            3799
+        ], 
+        "418": [
+            3831, 
+            3831
+        ], 
+        "419": [
+            3846, 
+            3846
+        ], 
+        "420": [
+            3780, 
+            3780
+        ], 
+        "421": [
+            3858, 
+            3858
+        ], 
+        "422": [
+            3840, 
+            3840
+        ], 
+        "423": [
+            3779, 
+            3779
+        ], 
+        "424": [
+            3920, 
+            3920
+        ], 
+        "425": [
+            3787, 
+            3787
+        ], 
+        "426": [
+            3839, 
+            3839
+        ], 
+        "427": [
+            3833, 
+            3833
+        ], 
+        "428": [
+            3881, 
+            3881
+        ], 
+        "429": [
+            3848, 
+            3848
+        ], 
+        "430": [
+            3762, 
+            3762
+        ], 
+        "431": [
+            3767, 
+            3767
+        ], 
+        "432": [
+            3767, 
+            3767
+        ], 
+        "433": [
+            3861, 
+            3861
+        ], 
+        "434": [
+            3868, 
+            3868
+        ], 
+        "435": [
+            3790, 
+            3790
+        ], 
+        "436": [
+            3853, 
+            3853
+        ], 
+        "437": [
+            3878, 
+            3878
+        ], 
+        "438": [
+            3874, 
+            3874
+        ], 
+        "439": [
+            3750, 
+            3750
+        ], 
+        "440": [
+            3868, 
+            3868
+        ], 
+        "441": [
+            3871, 
+            3871
+        ], 
+        "442": [
+            3863, 
+            3863
+        ], 
+        "443": [
+            3837, 
+            3837
+        ], 
+        "444": [
+            3872, 
+            3872
+        ], 
+        "445": [
+            3858, 
+            3858
+        ], 
+        "446": [
+            3858, 
+            3858
+        ], 
+        "447": [
+            3873, 
+            3873
+        ], 
+        "448": [
+            3756, 
+            3756
+        ], 
+        "449": [
+            3819, 
+            3819
+        ], 
+        "450": [
+            3818, 
+            3818
+        ], 
+        "451": [
+            3721, 
+            3721
+        ], 
+        "452": [
+            3864, 
+            3864
+        ], 
+        "453": [
+            3888, 
+            3888
+        ], 
+        "454": [
+            3834, 
+            3834
+        ], 
+        "455": [
+            3834, 
+            3834
+        ], 
+        "456": [
+            3874, 
+            3874
+        ], 
+        "457": [
+            3837, 
+            3837
+        ], 
+        "458": [
+            3778, 
+            3778
+        ], 
+        "459": [
+            3889, 
+            3889
+        ], 
+        "460": [
+            3856, 
+            3856
+        ], 
+        "461": [
+            3851, 
+            3851
+        ], 
+        "462": [
+            3823, 
+            3823
+        ], 
+        "463": [
+            3844, 
+            3844
+        ], 
+        "464": [
+            3881, 
+            3881
+        ], 
+        "465": [
+            3865, 
+            3865
+        ], 
+        "466": [
+            3875, 
+            3875
+        ], 
+        "467": [
+            3839, 
+            3839
+        ], 
+        "468": [
+            3893, 
+            3893
+        ], 
+        "469": [
+            3914, 
+            3914
+        ], 
+        "470": [
+            3827, 
+            3827
+        ], 
+        "471": [
+            3824, 
+            3824
+        ], 
+        "472": [
+            3806, 
+            3806
+        ], 
+        "473": [
+            3818, 
+            3818
+        ], 
+        "474": [
+            3861, 
+            3861
+        ], 
+        "475": [
+            3894, 
+            3894
+        ], 
+        "476": [
+            3802, 
+            3802
+        ], 
+        "477": [
+            3921, 
+            3921
+        ], 
+        "478": [
+            3837, 
+            3837
+        ], 
+        "479": [
+            3845, 
+            3845
+        ], 
+        "480": [
+            3837, 
+            3837
+        ], 
+        "481": [
+            3783, 
+            3783
+        ], 
+        "482": [
+            3861, 
+            3861
+        ], 
+        "483": [
+            3853, 
+            3853
+        ], 
+        "484": [
+            3844, 
+            3844
+        ], 
+        "485": [
+            3858, 
+            3858
+        ], 
+        "486": [
+            3827, 
+            3827
+        ], 
+        "487": [
+            3950, 
+            3950
+        ], 
+        "488": [
+            3749, 
+            3749
+        ], 
+        "489": [
+            3847, 
+            3847
+        ], 
+        "490": [
+            3785, 
+            3785
+        ], 
+        "491": [
+            3873, 
+            3873
+        ], 
+        "492": [
+            3851, 
+            3851
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            10, 
+            100, 
+            101, 
+            102, 
+            103, 
+            104, 
+            105, 
+            106, 
+            107, 
+            108, 
+            109, 
+            11, 
+            110, 
+            111, 
+            112, 
+            113, 
+            114, 
+            115, 
+            116, 
+            117, 
+            118, 
+            119, 
+            12, 
+            120, 
+            121, 
+            122, 
+            123, 
+            124
+        ], 
+        "2": [
+            125, 
+            126, 
+            127, 
+            128, 
+            129, 
+            13, 
+            130, 
+            131, 
+            132, 
+            133, 
+            134, 
+            135, 
+            136, 
+            137, 
+            138, 
+            139, 
+            14, 
+            140, 
+            141, 
+            142, 
+            143, 
+            144, 
+            145, 
+            146, 
+            147, 
+            148, 
+            149, 
+            15, 
+            150
+        ], 
+        "3": [
+            151, 
+            152, 
+            153, 
+            154, 
+            155, 
+            156, 
+            157, 
+            158, 
+            159, 
+            16, 
+            160, 
+            161, 
+            162, 
+            163, 
+            164, 
+            165, 
+            166, 
+            167, 
+            168, 
+            169, 
+            17, 
+            170, 
+            171, 
+            172, 
+            173, 
+            174, 
+            175, 
+            176, 
+            177
+        ], 
+        "4": [
+            178, 
+            179, 
+            18, 
+            180, 
+            181, 
+            182, 
+            183, 
+            184, 
+            185, 
+            186, 
+            187, 
+            188, 
+            189, 
+            19, 
+            190, 
+            191, 
+            192, 
+            193, 
+            194, 
+            195, 
+            196, 
+            197, 
+            198, 
+            199, 
+            2, 
+            20, 
+            200, 
+            201, 
+            202
+        ], 
+        "5": [
+            203, 
+            204, 
+            205, 
+            206, 
+            207, 
+            208, 
+            209, 
+            21, 
+            210, 
+            211, 
+            212, 
+            213, 
+            214, 
+            215, 
+            216, 
+            217, 
+            218, 
+            219, 
+            22, 
+            220, 
+            221, 
+            222, 
+            223, 
+            224, 
+            225, 
+            226, 
+            227, 
+            228, 
+            229
+        ], 
+        "6": [
+            23, 
+            230, 
+            231, 
+            232, 
+            233, 
+            234, 
+            235, 
+            236, 
+            237, 
+            238, 
+            239, 
+            24, 
+            240, 
+            241, 
+            242, 
+            243, 
+            244, 
+            245, 
+            246, 
+            247, 
+            248, 
+            249, 
+            25, 
+            250, 
+            251, 
+            252, 
+            253, 
+            254, 
+            255
+        ], 
+        "7": [
+            256, 
+            257, 
+            258, 
+            259, 
+            26, 
+            260, 
+            261, 
+            262, 
+            263, 
+            264, 
+            265, 
+            266, 
+            267, 
+            268, 
+            269, 
+            27, 
+            270, 
+            271, 
+            272, 
+            273, 
+            274, 
+            275, 
+            276, 
+            277, 
+            278, 
+            279, 
+            28, 
+            280, 
+            281
+        ], 
+        "8": [
+            282, 
+            283, 
+            284, 
+            285, 
+            286, 
+            287, 
+            288, 
+            289, 
+            29, 
+            290, 
+            291, 
+            292, 
+            293, 
+            294, 
+            295, 
+            296, 
+            297, 
+            298, 
+            299, 
+            3, 
+            30, 
+            300, 
+            301, 
+            302, 
+            303, 
+            304, 
+            305, 
+            306, 
+            307
+        ], 
+        "9": [
+            308, 
+            309, 
+            31, 
+            310, 
+            311, 
+            312, 
+            313, 
+            314, 
+            315, 
+            316, 
+            317, 
+            318, 
+            319, 
+            32, 
+            320, 
+            321, 
+            322, 
+            323, 
+            324, 
+            325, 
+            326, 
+            327, 
+            328, 
+            329, 
+            33, 
+            330, 
+            331, 
+            332, 
+            333
+        ], 
+        "10": [
+            334, 
+            335, 
+            336, 
+            337, 
+            338, 
+            339, 
+            34, 
+            340, 
+            341, 
+            342, 
+            343, 
+            344, 
+            345, 
+            346, 
+            347, 
+            348, 
+            349, 
+            35, 
+            350, 
+            351, 
+            352, 
+            353, 
+            354, 
+            355, 
+            356, 
+            357, 
+            358, 
+            359, 
+            36
+        ], 
+        "11": [
+            360, 
+            361, 
+            362, 
+            363, 
+            364, 
+            365, 
+            366, 
+            367, 
+            368, 
+            369, 
+            37, 
+            370, 
+            371, 
+            372, 
+            373, 
+            374, 
+            375, 
+            376, 
+            377, 
+            378, 
+            379, 
+            38, 
+            380, 
+            381, 
+            382, 
+            383, 
+            384, 
+            385, 
+            386
+        ], 
+        "12": [
+            387, 
+            388, 
+            389, 
+            39, 
+            390, 
+            391, 
+            392, 
+            393, 
+            394, 
+            395, 
+            396, 
+            397, 
+            398, 
+            399, 
+            4, 
+            40, 
+            400, 
+            401, 
+            402, 
+            403, 
+            404, 
+            405, 
+            406, 
+            407, 
+            408, 
+            409, 
+            41, 
+            410, 
+            411
+        ], 
+        "13": [
+            412, 
+            413, 
+            414, 
+            415, 
+            416, 
+            417, 
+            418, 
+            419, 
+            42, 
+            420, 
+            421, 
+            422, 
+            423, 
+            424, 
+            425, 
+            426, 
+            427, 
+            428, 
+            429, 
+            43, 
+            430, 
+            431, 
+            432, 
+            433, 
+            434, 
+            435, 
+            436, 
+            437, 
+            438
+        ], 
+        "14": [
+            439, 
+            44, 
+            440, 
+            441, 
+            442, 
+            443, 
+            444, 
+            445, 
+            446, 
+            447, 
+            448, 
+            449, 
+            45, 
+            450, 
+            451, 
+            452, 
+            453, 
+            454, 
+            455, 
+            456, 
+            457, 
+            458, 
+            459, 
+            46, 
+            460, 
+            461, 
+            462, 
+            463, 
+            464
+        ], 
+        "15": [
+            465, 
+            466, 
+            467, 
+            468, 
+            469, 
+            47, 
+            470, 
+            471, 
+            472, 
+            473, 
+            474, 
+            475, 
+            476, 
+            477, 
+            478, 
+            479, 
+            48, 
+            480, 
+            481, 
+            482, 
+            483, 
+            484, 
+            485, 
+            486, 
+            487, 
+            488, 
+            489, 
+            49, 
+            490
+        ], 
+        "16": [
+            491, 
+            492, 
+            5, 
+            50, 
+            51, 
+            52, 
+            53, 
+            54, 
+            55, 
+            56, 
+            57, 
+            58, 
+            59, 
+            6, 
+            60, 
+            61, 
+            62, 
+            63, 
+            64, 
+            65, 
+            66, 
+            67, 
+            68, 
+            69, 
+            7, 
+            70, 
+            71, 
+            72, 
+            73
+        ], 
+        "17": [
+            74, 
+            75, 
+            76, 
+            77, 
+            78, 
+            79, 
+            8, 
+            80, 
+            81, 
+            82, 
+            83, 
+            84, 
+            85, 
+            86, 
+            87, 
+            88, 
+            89, 
+            9, 
+            90, 
+            91, 
+            92, 
+            93, 
+            94, 
+            95, 
+            96, 
+            97, 
+            98, 
+            99
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.0, 
+    "nevents_DAS": 1890511, 
+    "nevents_merged": 1890511, 
+    "nevents_unmerged": 1890511, 
+    "postprocessing": {
+        "done": 17, 
+        "running": 0, 
+        "tosubmit": 0, 
+        "total": 17
+    }, 
+    "pset": "MCProduction2015_FastSim_NoFilter_cfg.py", 
+    "shortname": "SMS-T2tt_SMS_T2tt_mStop-172_mLSP-1_Private74X-v2", 
+    "sparms": [
+        "mStop", 
+        "mLSP"
+    ], 
+    "specialdir": "run2_fastsim_private", 
+    "status": "postprocessing", 
+    "user": "namin", 
+    "xsec": 1.0
+}
