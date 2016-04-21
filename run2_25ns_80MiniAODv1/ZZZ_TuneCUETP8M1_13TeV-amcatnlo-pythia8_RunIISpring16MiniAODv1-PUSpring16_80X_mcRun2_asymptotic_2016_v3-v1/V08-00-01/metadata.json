@@ -1,0 +1,205 @@
+{
+    "basedir": "/home/users/namin/duck_80x/NtupleTools/AutoTwopler/", 
+    "checks": {
+        "nproblems": 0, 
+        "problems": []
+    }, 
+    "cms3tag": "CMS3_V08-00-01", 
+    "cmsswver": "CMSSW_8_0_3_patch1", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 1, 
+            "finished": 17, 
+            "idle": 0, 
+            "running": 0, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": "1 jobs (5.6%) failed with error code 8028: An exception of category 'FallbackFileOpenError' occurred while\n   [0] Constructing the EventProcessor\n   [1] Constructing input source of type PoolSource\n   [2] Calling RootFileSequenceBase::initTheFile()\n   [3] Calling StorageFactory::open()\n   [4] Calling XrdFile::open()\nException Message:\nFailed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/A42D8456-4805-E611-B149-002590E3A0FA.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu'\n   Additional Info:\n      [a] open() failed with system error 'No such file or directory' (error code 2)\n      [b] Input file file:///cms/data/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/A42D8456-4805-E611-B149-002590E3A0FA.root could not be opened.\nFallback Input file root://cmsxrootd.fnal.gov//store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/A42D8456-4805-E611-B149-002590E3A0FA.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu also could not be opened.\nOriginal exception info is above; fallback exception info is below.\n      [c] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/A42D8456-4805-E611-B149-002590E3A0FA.root?tried=xrootd1.ihepa.ufl.edu,xrootd2.ihepa.ufl.edu,gridftp3.ihepa.ufl.edu,cmsio1.rc.ufl.edu,cmsio2.rc.ufl.edu,cmsio3.rc.ufl.edu,cmsio4.rc.ufl.edu,cmsio5.rc.ufl.edu,cmsio6.rc.ufl.edu,cmsio7.rc.ufl.edu,cmsio8.rc.ufl.edu,cmsio9.rc.ufl.edu,cmsio10.rc.ufl.edu', flags=0x10, permissions=0660) => error '[FATAL] Redirect limit has been reached' (errno=0, code=306). No additional data servers were found.\n      [d] Last URL tried: root://cmsxrootd-site2.fnal.gov:1094//store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/A42D8456-4805-E611-B149-002590E3A0FA.root?tried=\n      [e] Problematic data server: cmsxrootd-site2.fnal.gov:1094\n      [f] Disabled source: cmsxrootd-site2.fnal.gov:1094", 
+        "datetime": "160419_231328", 
+        "jobs_left_tail": [
+            15
+        ], 
+        "njobs": 18, 
+        "outputdir": "/hadoop/cms/store/user/namin/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/crab_ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8_RunIISpring16MiniAODv1-PUSpring16_80X_mcRun2_asymptotic_201/160419_231328/0000/", 
+        "requestname": "ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8_RunIISpring16MiniAODv1-PUSpring16_80X_mcRun2_asymptotic_201", 
+        "resubmissions": 1, 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "", 
+        "task_warning": [], 
+        "taskdir": "crab/crab_ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8_RunIISpring16MiniAODv1-PUSpring16_80X_mcRun2_asymptotic_201", 
+        "time": 1461131488, 
+        "uniquerequestname": "160419_231328:namin_crab_ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8_RunIISpring16MiniAODv1-PUSpring16_80X_mcRun2_asymptotic_201"
+    }, 
+    "dataset": "/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/RunIISpring16MiniAODv1-PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/MINIAODSIM", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/run2_25ns_80MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8_RunIISpring16MiniAODv1-PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/V08-00-01/", 
+    "gtag": "80X_mcRun2_asymptotic_2016_v3", 
+    "ijob_to_miniaod": {
+        "1": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/50000/3EBA0FA7-5F04-E611-9B6E-90B11CBCFFF7.root"
+        ], 
+        "2": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/50000/F46408B8-EF04-E611-9AFE-6CC2173C3DD0.root"
+        ], 
+        "3": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/1C7A237A-4805-E611-8CAC-842B2B2922E2.root"
+        ], 
+        "4": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/50000/76F3C5AD-EF04-E611-9C6C-B083FED42A1A.root"
+        ], 
+        "5": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/00000/401B30E5-CA04-E611-A086-0CC47A6C1034.root"
+        ], 
+        "6": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/00000/B2BC9AF2-CB04-E611-9FD2-C4346BC75558.root"
+        ], 
+        "7": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/00000/F2543681-C904-E611-B322-24BE05C63631.root"
+        ], 
+        "8": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/50000/96A22CA5-EF04-E611-A9D5-A0000420FE80.root"
+        ], 
+        "9": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/50000/CE6A19B8-EF04-E611-83D8-0025901D08BA.root"
+        ], 
+        "10": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/50000/CE6B471F-0405-E611-90C2-34E6D7BEAF28.root"
+        ], 
+        "11": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/02B1FAA3-4805-E611-823B-90B11C27F383.root"
+        ], 
+        "12": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/584E40C5-4805-E611-943E-1C6A7A21A8B1.root"
+        ], 
+        "13": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/76244784-4805-E611-A689-0CC47A13D16E.root"
+        ], 
+        "14": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/60000/7A855999-4805-E611-BCFD-0CC47A6C1864.root"
+        ], 
+        "16": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/70000/B211DC73-4B04-E611-BF91-008CFA000B68.root"
+        ], 
+        "17": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/50000/BE37BCEE-EF04-E611-84C6-001E67D195F0.root"
+        ], 
+        "18": [
+            "/store/mc/RunIISpring16MiniAODv1/ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1/50000/AE61BB9E-EF04-E611-AAB0-008CFA1112F4.root"
+        ]
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            8800, 
+            7476
+        ], 
+        "2": [
+            7963, 
+            6735
+        ], 
+        "3": [
+            12000, 
+            10252
+        ], 
+        "4": [
+            800, 
+            692
+        ], 
+        "5": [
+            2400, 
+            2076
+        ], 
+        "6": [
+            4400, 
+            3752
+        ], 
+        "7": [
+            5600, 
+            4848
+        ], 
+        "8": [
+            3200, 
+            2776
+        ], 
+        "9": [
+            11600, 
+            9984
+        ], 
+        "10": [
+            800, 
+            680
+        ], 
+        "11": [
+            35200, 
+            29966
+        ], 
+        "12": [
+            36400, 
+            31228
+        ], 
+        "13": [
+            45879, 
+            39281
+        ], 
+        "14": [
+            21200, 
+            18184
+        ], 
+        "16": [
+            800, 
+            698
+        ], 
+        "17": [
+            3600, 
+            3098
+        ], 
+        "18": [
+            3200, 
+            2724
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            10, 
+            11, 
+            12, 
+            13
+        ], 
+        "2": [
+            14, 
+            16, 
+            17, 
+            18, 
+            2, 
+            3, 
+            4, 
+            5, 
+            6, 
+            7, 
+            8, 
+            9
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.0, 
+    "nevents_DAS": 250000, 
+    "nevents_merged": 203842, 
+    "nevents_unmerged": 203842, 
+    "postprocessing": {
+        "done": 2, 
+        "running": 0, 
+        "tosubmit": 0, 
+        "total": 2
+    }, 
+    "pset": "MCProduction2015_NoFilter_cfg.py", 
+    "shortname": "ZZZ_TuneCUETP8M1_13TeV-amcatnlo-pythia8_RunIISpring16MiniAODv1-PUSpring16_80X_mcRun2_asymptotic_2016_v3-v1", 
+    "sparms": [], 
+    "specialdir": "run2_25ns_80MiniAODv1", 
+    "status": "postprocessing", 
+    "user": "namin", 
+    "xsec": 0.01398
+}
