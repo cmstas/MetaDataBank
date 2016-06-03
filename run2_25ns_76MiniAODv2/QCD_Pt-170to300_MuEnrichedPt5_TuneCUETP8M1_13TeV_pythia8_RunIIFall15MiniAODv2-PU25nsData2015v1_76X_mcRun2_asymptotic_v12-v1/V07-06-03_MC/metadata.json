@@ -1,0 +1,1616 @@
+{
+    "basedir": "/home/users/namin/duck_76x/NtupleTools/AutoTwopler/", 
+    "checks": {
+        "nproblems": 0, 
+        "problems": []
+    }, 
+    "cms3tag": "CMS3_V07-06-03_MC", 
+    "cmsswver": "CMSSW_7_6_3", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 1, 
+            "finished": 176, 
+            "idle": 0, 
+            "running": 8, 
+            "transferred": 0, 
+            "transferring": 2, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": "1 jobs (0.5%) failed with error code 139: CmsRunFailure", 
+        "datetime": "160514_003616", 
+        "jobs_left": [
+            82, 
+            98, 
+            93, 
+            15, 
+            117, 
+            41, 
+            146, 
+            140, 
+            77, 
+            73, 
+            72
+        ], 
+        "jobs_left_tail": [
+            82, 
+            98, 
+            93, 
+            15, 
+            117, 
+            41, 
+            146, 
+            140, 
+            77, 
+            73, 
+            72
+        ], 
+        "njobs": 187, 
+        "outputdir": "/hadoop/cms/store/user/namin/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/crab_QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_/160514_003616/0000/", 
+        "requestname": "QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_", 
+        "resubmissions": 0, 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "", 
+        "task_warning": [
+            "The following sites from the user site whitelist are blacklisted by the CRAB server: [u'T2_CH_CERN_AI', u'T2_CH_CERN_HLT', u'T2_PL_Warsaw', u'T2_MY_UPM_BIRUNI', u'T2_TR_METU', u'T2_RU_SINP', u'T2_TH_CUNSTDA', u'T2_PK_NCP', u'T2_RU_ITEP', u'T2_RU_PNPI', u'T2_PL_Swierk', u'T2_RU_INR']. Since the CRAB server blacklist has precedence, these sites are not considered in the user whitelist.", 
+            "Task requests 3000 MB of memory, but only 2500 MB are guaranteed to be available. Jobs may not find a site where to run and stay idle forever."
+        ], 
+        "taskdir": "crab/crab_QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_", 
+        "time": 1463236838, 
+        "uniquerequestname": "160514_003616:namin_crab_QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_"
+    }, 
+    "dataset": "/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/run2_25ns_76MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/V07-06-03_MC/", 
+    "gtag": "76X_mcRun2_asymptotic_v12", 
+    "ijob_to_miniaod": {
+        "99": {
+            "1": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/0A592156-67B8-E511-8B60-6CC2173DBF20.root"
+            ], 
+            "2": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/126EF27E-64B8-E511-B6F5-00221981BA9B.root"
+            ], 
+            "3": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/12E814C5-54B8-E511-9027-6CC2173DBF20.root"
+            ], 
+            "4": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/1A648F25-5FB8-E511-99ED-00221981BA9B.root"
+            ], 
+            "5": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/1C3F1DD7-65B8-E511-ABF0-0022198273C0.root"
+            ], 
+            "6": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/224F6904-5EB8-E511-981F-6CC2173DBF20.root"
+            ], 
+            "7": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/2CDC6D0B-66B8-E511-9B16-00221981BA9B.root"
+            ], 
+            "8": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/2E2F05FB-5CB8-E511-AF05-00221981866E.root"
+            ], 
+            "9": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/303BB5AC-6AB8-E511-9C70-00221981B45C.root"
+            ], 
+            "10": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/30F71207-5BB8-E511-8EBB-6CC2173DBF20.root"
+            ], 
+            "11": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/34759429-67B8-E511-BBE3-0022198273C0.root"
+            ], 
+            "12": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/387C6336-5DB8-E511-BB65-6CC2173DBF20.root"
+            ], 
+            "13": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/38BC0461-65B8-E511-8F85-00221981866E.root"
+            ], 
+            "14": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/3C9D6C14-65B8-E511-8C28-6CC2173DBF20.root"
+            ], 
+            "16": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/3ED317FE-60B8-E511-9075-6CC2173DBF20.root"
+            ], 
+            "17": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/4068934C-69B8-E511-BF6E-00221981B45C.root"
+            ], 
+            "18": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/46CA6297-55B8-E511-8355-6CC2173DBF20.root"
+            ], 
+            "19": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/4AAEAB42-6AB8-E511-A03C-00221981866E.root"
+            ], 
+            "20": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/5431B184-59B8-E511-8423-6CC2173DBF20.root"
+            ], 
+            "21": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/56083DFD-62B8-E511-8B7B-00221981866E.root"
+            ], 
+            "22": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/5C99C103-64B8-E511-8520-00221981866E.root"
+            ], 
+            "23": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/5CA16EB8-5EB8-E511-AD4F-6CC2173DBF20.root"
+            ], 
+            "24": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/62ECF203-6BB8-E511-9CAC-00221981BA9B.root"
+            ], 
+            "25": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/6894FBE1-5DB8-E511-9968-00221981BA9B.root"
+            ], 
+            "26": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/6CACB23A-5AB8-E511-9F9B-6CC2173DBF20.root"
+            ], 
+            "27": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/6CBF9E09-69B8-E511-8A12-0022198273C0.root"
+            ], 
+            "28": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/6EFB5D17-63B8-E511-9EE9-00221981BA9B.root"
+            ], 
+            "29": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/72783E8E-67B8-E511-9F18-00221981866E.root"
+            ], 
+            "30": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/76A6C3AB-5BB8-E511-8849-6CC2173DBF20.root"
+            ], 
+            "31": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/86765674-61B8-E511-824D-00221981866E.root"
+            ], 
+            "32": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/86C83CFC-5FB8-E511-BD88-00221981866E.root"
+            ], 
+            "33": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/88274035-5EB8-E511-9FFD-00221981866E.root"
+            ], 
+            "34": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/8ED03451-67B8-E511-9380-00221981BA9B.root"
+            ], 
+            "35": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/90E662AD-6AB8-E511-90A3-6CC2173DBF20.root"
+            ], 
+            "36": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/923C71B0-5BB8-E511-83D3-00221981866E.root"
+            ], 
+            "37": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/98200E43-60B8-E511-8B9B-6CC2173DBF20.root"
+            ], 
+            "38": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/9C47DDC4-61B8-E511-9055-6CC2173DBF20.root"
+            ], 
+            "39": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/A2083E92-62B8-E511-BF20-6CC2173DBF20.root"
+            ], 
+            "40": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/A4F50672-5CB8-E511-A045-6CC2173DBF20.root"
+            ], 
+            "42": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/A8520018-57B8-E511-B521-6CC2173DBF20.root"
+            ], 
+            "43": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/AC68489E-69B8-E511-AF99-00221981BA9B.root"
+            ], 
+            "44": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/ACEFAB7C-5FB8-E511-87BD-6CC2173DBF20.root"
+            ], 
+            "45": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/AE91F831-69B8-E511-84BB-6CC2173DBF20.root"
+            ], 
+            "46": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/B0B066D3-65B8-E511-ACE1-6CC2173DBF20.root"
+            ], 
+            "47": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/B8D345B2-68B8-E511-A903-00221981866E.root"
+            ], 
+            "48": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/BCD01398-68B8-E511-9A04-6CC2173DBF20.root"
+            ], 
+            "49": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/C6D8D66D-68B8-E511-B394-00221981BA9B.root"
+            ], 
+            "50": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/C871EF08-6AB8-E511-AD94-6CC2173DBF20.root"
+            ], 
+            "51": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/D0EE48FA-67B8-E511-9397-6CC2173DBF20.root"
+            ], 
+            "52": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/D40FF965-63B8-E511-856C-6CC2173DBF20.root"
+            ], 
+            "53": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/DA3F65E3-57B8-E511-8208-6CC2173DBF20.root"
+            ], 
+            "54": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/DA433985-60B8-E511-8BAE-00221981BA9B.root"
+            ], 
+            "55": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/E845CE40-64B8-E511-9AF2-6CC2173DBF20.root"
+            ], 
+            "56": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/E86FDC6A-5CB8-E511-A869-00221981BA9B.root"
+            ], 
+            "57": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/EEB20AC0-58B8-E511-B67F-6CC2173DBF20.root"
+            ], 
+            "58": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/F028324B-56B8-E511-BAA2-6CC2173DBF20.root"
+            ], 
+            "59": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/F2B16D8E-6AB8-E511-9650-0022198273C0.root"
+            ], 
+            "60": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/025864BB-AEB8-E511-A7A8-0024E85A407A.root"
+            ], 
+            "61": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/065F92B9-AEB8-E511-A86A-68B599BAEE90.root"
+            ], 
+            "62": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/0A4CA46E-A1B8-E511-BB1C-0024E85A405A.root"
+            ], 
+            "63": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/0E46F0F0-A7B8-E511-93EC-00221981B438.root"
+            ], 
+            "64": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/144FF0F0-A7B8-E511-93E9-00221981B438.root"
+            ], 
+            "65": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/1CB900E7-A7B8-E511-BEE7-00221981B444.root"
+            ], 
+            "66": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/24FC6AF5-A7B8-E511-84DB-00221981BAA3.root"
+            ], 
+            "67": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/284EFD29-9FB8-E511-BE84-00221981B450.root"
+            ], 
+            "68": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/302C3518-A2B8-E511-855E-0024E85A4BEC.root"
+            ], 
+            "69": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/34F837DC-B5B8-E511-BBC2-68B599B9B998.root"
+            ], 
+            "70": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/3ED7F8F7-A4B8-E511-9308-68B599BAEE90.root"
+            ], 
+            "71": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/468A6CE9-A7B8-E511-A66D-0024E85A4086.root"
+            ], 
+            "74": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/4EB3EA0D-A2B8-E511-B9BC-68B599B9FFD8.root"
+            ], 
+            "75": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/583D3F11-A2B8-E511-B16B-0024E85A5269.root"
+            ], 
+            "76": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/5AE79762-A1B8-E511-BCBF-002219818E34.root"
+            ], 
+            "78": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/5CDC0C60-ABB8-E511-A46D-0022198273C0.root"
+            ], 
+            "79": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/625EF1F2-B0B8-E511-9B1F-6CC2173DBFB0.root"
+            ], 
+            "80": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/64BC6CE9-A7B8-E511-AFCF-0024E85A4086.root"
+            ], 
+            "81": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/6AAE9198-A4B8-E511-AFFF-0024E85A4FD7.root"
+            ], 
+            "83": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/74EF52F2-A7B8-E511-A828-0024E85A5153.root"
+            ], 
+            "84": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/80725FE8-A7B8-E511-B106-0024E85A3F69.root"
+            ], 
+            "85": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/82900410-A2B8-E511-BE8A-0024E85A4FD7.root"
+            ], 
+            "86": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/8432A8EC-AFB8-E511-9A03-0024E85A514F.root"
+            ], 
+            "87": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/8C07D9D6-48B9-E511-8CC1-00221981B438.root"
+            ], 
+            "88": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/98530EF5-A7B8-E511-BA30-00221981AF26.root"
+            ], 
+            "89": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/9A0F79BB-AEB8-E511-8B19-0024E85A4066.root"
+            ], 
+            "90": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/9C87ACF1-A7B8-E511-9B31-6CC2173DC030.root"
+            ], 
+            "91": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/9E2EF1BB-AEB8-E511-B503-0024E85A4C0C.root"
+            ], 
+            "92": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/9E95CDEF-AFB8-E511-988B-0024E85A4C0C.root"
+            ], 
+            "94": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/ACA4009C-A4B8-E511-9337-0024E85A4BEC.root"
+            ], 
+            "95": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/B0620A0F-A2B8-E511-A732-0024E85A4072.root"
+            ], 
+            "96": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/B06C02E9-A7B8-E511-9646-0024E85A4072.root"
+            ], 
+            "97": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/B8AFC450-A1B8-E511-9C05-0024E850EE5B.root"
+            ], 
+            "99": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/C48C12BC-AEB8-E511-9EE4-0024E85A4C0C.root"
+            ], 
+            "100": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/C6C8C2E8-A7B8-E511-BFF0-0024E85A3F71.root"
+            ], 
+            "101": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/C8057CB5-BFB8-E511-AD05-6CC2173DC240.root"
+            ], 
+            "102": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/DAB8C7E9-A7B8-E511-9125-0022198273E4.root"
+            ], 
+            "103": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/E046E0E8-B5B8-E511-9500-6CC2173DAC50.root"
+            ], 
+            "104": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/E236C40D-A2B8-E511-ADF6-68B599B9FFD8.root"
+            ], 
+            "105": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/E25508D9-AFB8-E511-A462-68B599BAEE90.root"
+            ], 
+            "106": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/E481F4B6-BCB8-E511-83CF-68B599B9C948.root"
+            ], 
+            "107": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/027F52A5-04B9-E511-9B39-00221981BA9B.root"
+            ], 
+            "108": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/1C970543-E6B8-E511-998F-6CC2173DAC50.root"
+            ], 
+            "109": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/1E7C134E-E6B8-E511-B52A-6CC2173DB960.root"
+            ], 
+            "110": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/205E5253-E6B8-E511-B9E0-6CC2173D96C0.root"
+            ], 
+            "111": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/2A213317-C0B8-E511-9D96-0024E85A4FC3.root"
+            ], 
+            "112": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/2EDEB5CD-C0B8-E511-94B0-0024E85A3EEC.root"
+            ], 
+            "113": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/32C4C9DE-E8B8-E511-B53A-6CC2173DAC50.root"
+            ], 
+            "114": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/3EE869DD-F1B8-E511-910A-6CC2173D96C0.root"
+            ], 
+            "115": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/4A005BC7-C0B8-E511-9C3D-6CC2173DB960.root"
+            ], 
+            "116": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/64A6F980-E9B8-E511-9372-0024E85A4FD7.root"
+            ], 
+            "118": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/70E61346-E6B8-E511-90C1-6CC2173DC030.root"
+            ], 
+            "119": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/722BF658-E6B8-E511-89B5-00221981BAAB.root"
+            ], 
+            "120": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/72A25183-E9B8-E511-9760-0024E85A4FDF.root"
+            ], 
+            "121": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/72B7AFA9-EBB8-E511-8985-0024E85A4FC3.root"
+            ], 
+            "122": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/7C354C66-F1B8-E511-823A-6CC2173DB960.root"
+            ], 
+            "123": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/7E581B18-F1B8-E511-A4D6-6CC2173DBFB0.root"
+            ], 
+            "124": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/84333EC7-C0B8-E511-9519-6CC2173D96C0.root"
+            ], 
+            "125": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/84B69DDF-E8B8-E511-9EA3-68B599B97928.root"
+            ], 
+            "126": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/8A75DE4A-E6B8-E511-8809-6CC2173DC380.root"
+            ], 
+            "127": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/8E850646-E6B8-E511-AE35-6CC2173DB960.root"
+            ], 
+            "128": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/A619A46C-EEB8-E511-AB14-6CC2173DAC50.root"
+            ], 
+            "129": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/AC7476D4-B6B9-E511-83F2-6CC2173D9AB0.root"
+            ], 
+            "130": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/ACFE64E4-E8B8-E511-8561-6CC2173DA2F0.root"
+            ], 
+            "131": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/B2D15347-E6B8-E511-8470-00221981B410.root"
+            ], 
+            "132": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/B2DC0504-F4B8-E511-B327-00221981B438.root"
+            ], 
+            "133": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/D213CA02-E9B8-E511-95D0-0024E85A4C00.root"
+            ], 
+            "134": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/D2FABD4B-C0B8-E511-BD9F-0024E85A3EE0.root"
+            ], 
+            "135": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/D6361746-E6B8-E511-8AB3-6CC2173DC030.root"
+            ], 
+            "136": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/E096FB54-C0B8-E511-96CA-0024E85A4BFC.root"
+            ], 
+            "137": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/F4C17176-E9B8-E511-B8C9-0024E85A4076.root"
+            ], 
+            "138": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/F6A325AC-B6B9-E511-8C81-6CC2173D93F0.root"
+            ], 
+            "139": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/F86EF181-E9B8-E511-BDAC-0024E85A4072.root"
+            ], 
+            "141": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/FCF26C40-E6B8-E511-8B2F-0024E85A514F.root"
+            ], 
+            "142": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/50000/FE038002-F4B8-E511-A9FE-0022198273E4.root"
+            ], 
+            "143": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/009EFE65-DAB8-E511-B464-002219826F51.root"
+            ], 
+            "144": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/04F423F0-DAB8-E511-B3B6-0024E85A4072.root"
+            ], 
+            "145": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/080DFDEF-DAB8-E511-A6DA-0024E85A4086.root"
+            ], 
+            "147": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/14B5EDF0-DAB8-E511-88A2-6CC2173DC030.root"
+            ], 
+            "148": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/1A6E51C1-DDB8-E511-9AD6-6CC2173D96C0.root"
+            ], 
+            "149": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/1C6EDDB5-DDB8-E511-B556-00221981B44C.root"
+            ], 
+            "150": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/28AD37F0-DAB8-E511-AD87-6CC2173DC240.root"
+            ], 
+            "151": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/2CCFEBED-DAB8-E511-9A60-0024E85A3F0C.root"
+            ], 
+            "152": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/2EDEA0F0-DAB8-E511-9C74-0024E85A3F69.root"
+            ], 
+            "153": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/30E102B4-DDB8-E511-B2C4-6CC2173DC240.root"
+            ], 
+            "154": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/325070BC-DDB8-E511-93CD-0024E850DF94.root"
+            ], 
+            "155": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/32F293B5-DDB8-E511-8897-0024E85A3F75.root"
+            ], 
+            "156": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/34A007B5-DDB8-E511-AFC5-6CC2173DB960.root"
+            ], 
+            "157": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/36F49CF9-DAB8-E511-B862-0024E85A4FDF.root"
+            ], 
+            "158": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/3A4D8BB5-DDB8-E511-B2A5-0024E87BA5F7.root"
+            ], 
+            "159": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/3E968DF0-DAB8-E511-B919-002219826F51.root"
+            ], 
+            "160": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/5E5C4D4A-DBB8-E511-9207-0024E85A3F0C.root"
+            ], 
+            "161": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/5EE306F1-DAB8-E511-A52F-0024E85A4C0C.root"
+            ], 
+            "162": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/62C7ABF0-DAB8-E511-A313-0024E85A3F71.root"
+            ], 
+            "163": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/668762E9-DAB8-E511-8DBB-0025905C9740.root"
+            ], 
+            "164": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/66C45FF0-DAB8-E511-A1C3-0024E85A4072.root"
+            ], 
+            "165": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/70C8DBE8-DAB8-E511-911D-0025905BA734.root"
+            ], 
+            "166": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/720B38E8-DAB8-E511-96D5-0025904C6568.root"
+            ], 
+            "167": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/760E8BE8-DAB8-E511-B046-0025904C66A6.root"
+            ], 
+            "168": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/7A22B8B4-DDB8-E511-8B43-6CC2173D9730.root"
+            ], 
+            "169": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/7C4B67F1-DAB8-E511-98BE-0024E85A3F85.root"
+            ], 
+            "170": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/7E7522F1-DAB8-E511-987C-00221981B450.root"
+            ], 
+            "171": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/821F49B5-DDB8-E511-9B16-0024E85A4066.root"
+            ], 
+            "172": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/8AEFB7B4-DDB8-E511-8D16-6CC2173D9730.root"
+            ], 
+            "173": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/A0E068F0-DAB8-E511-8F8F-6CC2173DC2E0.root"
+            ], 
+            "174": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/A6F44BE9-DAB8-E511-BA4E-0025905C2C86.root"
+            ], 
+            "175": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/A87E18F0-DAB8-E511-95D1-0024E85A4086.root"
+            ], 
+            "176": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/AA93CFEF-DAB8-E511-A36F-0024E85A3EEC.root"
+            ], 
+            "177": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/AC4289EE-DAB8-E511-86B6-68B599BA1070.root"
+            ], 
+            "178": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/BC7BA312-DBB8-E511-BDEF-0024E850EE5B.root"
+            ], 
+            "179": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/C67310B5-DDB8-E511-822E-00221981B464.root"
+            ], 
+            "180": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/C6AC7AF1-DAB8-E511-B2F8-6CC2173DAC50.root"
+            ], 
+            "181": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/E4C9528F-DEB8-E511-B11C-68B599B8B938.root"
+            ], 
+            "182": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/E614C1F0-DAB8-E511-90FD-6CC2173D96C0.root"
+            ], 
+            "183": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/E69E76BD-DDB8-E511-ADC1-0022198273E4.root"
+            ], 
+            "184": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/F4429AF9-DAB8-E511-98AF-0024E85A4FDF.root"
+            ], 
+            "185": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/F4509BF9-DAB8-E511-9FDE-0024E85A4FDF.root"
+            ], 
+            "186": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/FAD30CF0-DAB8-E511-A0FB-0024E85A4086.root"
+            ], 
+            "187": [
+                "/store/mc/RunIIFall15MiniAODv2/QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/FEB366B4-DDB8-E511-A412-6CC2173DAC50.root"
+            ]
+        }
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            35093, 
+            35093
+        ], 
+        "2": [
+            48759, 
+            48759
+        ], 
+        "3": [
+            48265, 
+            48265
+        ], 
+        "4": [
+            45469, 
+            45469
+        ], 
+        "5": [
+            42558, 
+            42558
+        ], 
+        "6": [
+            39495, 
+            39495
+        ], 
+        "7": [
+            41007, 
+            41007
+        ], 
+        "8": [
+            39693, 
+            39693
+        ], 
+        "9": [
+            43102, 
+            43102
+        ], 
+        "10": [
+            35054, 
+            35054
+        ], 
+        "11": [
+            47501, 
+            47501
+        ], 
+        "12": [
+            46295, 
+            46295
+        ], 
+        "13": [
+            49306, 
+            49306
+        ], 
+        "14": [
+            43376, 
+            43376
+        ], 
+        "16": [
+            46022, 
+            46022
+        ], 
+        "17": [
+            46096, 
+            46096
+        ], 
+        "18": [
+            38751, 
+            38751
+        ], 
+        "19": [
+            49780, 
+            49780
+        ], 
+        "20": [
+            39130, 
+            39130
+        ], 
+        "21": [
+            32690, 
+            32690
+        ], 
+        "22": [
+            46135, 
+            46135
+        ], 
+        "23": [
+            45094, 
+            45094
+        ], 
+        "24": [
+            33098, 
+            33098
+        ], 
+        "25": [
+            42459, 
+            42459
+        ], 
+        "26": [
+            44768, 
+            44768
+        ], 
+        "27": [
+            47996, 
+            47996
+        ], 
+        "28": [
+            44707, 
+            44707
+        ], 
+        "29": [
+            34667, 
+            34667
+        ], 
+        "30": [
+            45831, 
+            45831
+        ], 
+        "31": [
+            42489, 
+            42489
+        ], 
+        "32": [
+            47320, 
+            47320
+        ], 
+        "33": [
+            45924, 
+            45924
+        ], 
+        "34": [
+            34961, 
+            34961
+        ], 
+        "35": [
+            43999, 
+            43999
+        ], 
+        "36": [
+            42190, 
+            42190
+        ], 
+        "37": [
+            40690, 
+            40690
+        ], 
+        "38": [
+            45586, 
+            45586
+        ], 
+        "39": [
+            47127, 
+            47127
+        ], 
+        "40": [
+            44533, 
+            44533
+        ], 
+        "42": [
+            46336, 
+            46336
+        ], 
+        "43": [
+            45357, 
+            45357
+        ], 
+        "44": [
+            41424, 
+            41424
+        ], 
+        "45": [
+            46515, 
+            46515
+        ], 
+        "46": [
+            47458, 
+            47458
+        ], 
+        "47": [
+            46792, 
+            46792
+        ], 
+        "48": [
+            32569, 
+            32569
+        ], 
+        "49": [
+            38218, 
+            38218
+        ], 
+        "50": [
+            34959, 
+            34959
+        ], 
+        "51": [
+            34659, 
+            34659
+        ], 
+        "52": [
+            48106, 
+            48106
+        ], 
+        "53": [
+            49144, 
+            49144
+        ], 
+        "54": [
+            45362, 
+            45362
+        ], 
+        "55": [
+            48612, 
+            48612
+        ], 
+        "56": [
+            49433, 
+            49433
+        ], 
+        "57": [
+            41425, 
+            41425
+        ], 
+        "58": [
+            43727, 
+            43727
+        ], 
+        "59": [
+            37127, 
+            37127
+        ], 
+        "60": [
+            44289, 
+            44289
+        ], 
+        "61": [
+            44868, 
+            44868
+        ], 
+        "62": [
+            44160, 
+            44160
+        ], 
+        "63": [
+            46551, 
+            46551
+        ], 
+        "64": [
+            44204, 
+            44204
+        ], 
+        "65": [
+            47282, 
+            47282
+        ], 
+        "66": [
+            41798, 
+            41798
+        ], 
+        "67": [
+            49642, 
+            49642
+        ], 
+        "68": [
+            46825, 
+            46825
+        ], 
+        "69": [
+            34889, 
+            34889
+        ], 
+        "70": [
+            48622, 
+            48622
+        ], 
+        "71": [
+            49947, 
+            49947
+        ], 
+        "74": [
+            45404, 
+            45404
+        ], 
+        "75": [
+            41753, 
+            41753
+        ], 
+        "76": [
+            48155, 
+            48155
+        ], 
+        "78": [
+            45025, 
+            45025
+        ], 
+        "79": [
+            46972, 
+            46972
+        ], 
+        "80": [
+            34538, 
+            34538
+        ], 
+        "81": [
+            45327, 
+            45327
+        ], 
+        "83": [
+            35628, 
+            35628
+        ], 
+        "84": [
+            35025, 
+            35025
+        ], 
+        "85": [
+            49436, 
+            49436
+        ], 
+        "86": [
+            35529, 
+            35529
+        ], 
+        "87": [
+            17559, 
+            17559
+        ], 
+        "88": [
+            35036, 
+            35036
+        ], 
+        "89": [
+            41100, 
+            41100
+        ], 
+        "90": [
+            35308, 
+            35308
+        ], 
+        "91": [
+            9359, 
+            9359
+        ], 
+        "92": [
+            35240, 
+            35240
+        ], 
+        "94": [
+            49524, 
+            49524
+        ], 
+        "95": [
+            42975, 
+            42975
+        ], 
+        "96": [
+            35256, 
+            35256
+        ], 
+        "97": [
+            44312, 
+            44312
+        ], 
+        "99": [
+            35259, 
+            35259
+        ], 
+        "100": [
+            34973, 
+            34973
+        ], 
+        "101": [
+            35138, 
+            35138
+        ], 
+        "102": [
+            35291, 
+            35291
+        ], 
+        "103": [
+            35232, 
+            35232
+        ], 
+        "104": [
+            44487, 
+            44487
+        ], 
+        "105": [
+            34652, 
+            34652
+        ], 
+        "106": [
+            34361, 
+            34361
+        ], 
+        "107": [
+            47922, 
+            47922
+        ], 
+        "108": [
+            47554, 
+            47554
+        ], 
+        "109": [
+            49306, 
+            49306
+        ], 
+        "110": [
+            41870, 
+            41870
+        ], 
+        "111": [
+            49035, 
+            49035
+        ], 
+        "112": [
+            49697, 
+            49697
+        ], 
+        "113": [
+            44079, 
+            44079
+        ], 
+        "114": [
+            49260, 
+            49260
+        ], 
+        "115": [
+            40423, 
+            40423
+        ], 
+        "116": [
+            47773, 
+            47773
+        ], 
+        "118": [
+            37133, 
+            37133
+        ], 
+        "119": [
+            39526, 
+            39526
+        ], 
+        "120": [
+            33008, 
+            33008
+        ], 
+        "121": [
+            39920, 
+            39920
+        ], 
+        "122": [
+            41229, 
+            41229
+        ], 
+        "123": [
+            48108, 
+            48108
+        ], 
+        "124": [
+            46547, 
+            46547
+        ], 
+        "125": [
+            36525, 
+            36525
+        ], 
+        "126": [
+            44917, 
+            44917
+        ], 
+        "127": [
+            48777, 
+            48777
+        ], 
+        "128": [
+            43532, 
+            43532
+        ], 
+        "129": [
+            16992, 
+            16992
+        ], 
+        "130": [
+            47121, 
+            47121
+        ], 
+        "131": [
+            46339, 
+            46339
+        ], 
+        "132": [
+            47345, 
+            47345
+        ], 
+        "133": [
+            33936, 
+            33936
+        ], 
+        "134": [
+            49739, 
+            49739
+        ], 
+        "135": [
+            41435, 
+            41435
+        ], 
+        "136": [
+            49525, 
+            49525
+        ], 
+        "137": [
+            45350, 
+            45350
+        ], 
+        "138": [
+            17541, 
+            17541
+        ], 
+        "139": [
+            48961, 
+            48961
+        ], 
+        "141": [
+            44439, 
+            44439
+        ], 
+        "142": [
+            46049, 
+            46049
+        ], 
+        "143": [
+            45239, 
+            45239
+        ], 
+        "144": [
+            46431, 
+            46431
+        ], 
+        "145": [
+            40509, 
+            40509
+        ], 
+        "147": [
+            43565, 
+            43565
+        ], 
+        "148": [
+            49510, 
+            49510
+        ], 
+        "149": [
+            43163, 
+            43163
+        ], 
+        "150": [
+            38391, 
+            38391
+        ], 
+        "151": [
+            43027, 
+            43027
+        ], 
+        "152": [
+            44795, 
+            44795
+        ], 
+        "153": [
+            42776, 
+            42776
+        ], 
+        "154": [
+            47659, 
+            47659
+        ], 
+        "155": [
+            49070, 
+            49070
+        ], 
+        "156": [
+            40435, 
+            40435
+        ], 
+        "157": [
+            45396, 
+            45396
+        ], 
+        "158": [
+            40033, 
+            40033
+        ], 
+        "159": [
+            35282, 
+            35282
+        ], 
+        "160": [
+            44129, 
+            44129
+        ], 
+        "161": [
+            40010, 
+            40010
+        ], 
+        "162": [
+            46855, 
+            46855
+        ], 
+        "163": [
+            46234, 
+            46234
+        ], 
+        "164": [
+            46241, 
+            46241
+        ], 
+        "165": [
+            44200, 
+            44200
+        ], 
+        "166": [
+            45633, 
+            45633
+        ], 
+        "167": [
+            42385, 
+            42385
+        ], 
+        "168": [
+            42937, 
+            42937
+        ], 
+        "169": [
+            45763, 
+            45763
+        ], 
+        "170": [
+            45025, 
+            45025
+        ], 
+        "171": [
+            43369, 
+            43369
+        ], 
+        "172": [
+            41813, 
+            41813
+        ], 
+        "173": [
+            49995, 
+            49995
+        ], 
+        "174": [
+            35193, 
+            35193
+        ], 
+        "175": [
+            37046, 
+            37046
+        ], 
+        "176": [
+            29452, 
+            29452
+        ], 
+        "177": [
+            44362, 
+            44362
+        ], 
+        "178": [
+            38014, 
+            38014
+        ], 
+        "179": [
+            39337, 
+            39337
+        ], 
+        "180": [
+            35677, 
+            35677
+        ], 
+        "181": [
+            40673, 
+            40673
+        ], 
+        "182": [
+            42850, 
+            42850
+        ], 
+        "183": [
+            42144, 
+            42144
+        ], 
+        "184": [
+            49856, 
+            49856
+        ], 
+        "185": [
+            37695, 
+            37695
+        ], 
+        "186": [
+            39551, 
+            39551
+        ], 
+        "187": [
+            46739, 
+            46739
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            10, 
+            100, 
+            101
+        ], 
+        "2": [
+            102, 
+            103, 
+            104
+        ], 
+        "3": [
+            105, 
+            106, 
+            107
+        ], 
+        "4": [
+            108, 
+            109, 
+            11
+        ], 
+        "5": [
+            110, 
+            111, 
+            112
+        ], 
+        "6": [
+            113, 
+            114, 
+            115
+        ], 
+        "7": [
+            116, 
+            118, 
+            119
+        ], 
+        "8": [
+            12, 
+            120, 
+            121
+        ], 
+        "9": [
+            122, 
+            123, 
+            124
+        ], 
+        "10": [
+            125, 
+            126, 
+            127
+        ], 
+        "11": [
+            128, 
+            129, 
+            13, 
+            130
+        ], 
+        "12": [
+            131, 
+            132, 
+            133
+        ], 
+        "13": [
+            134, 
+            135, 
+            136
+        ], 
+        "14": [
+            137, 
+            138, 
+            139, 
+            14
+        ], 
+        "15": [
+            141, 
+            142, 
+            143
+        ], 
+        "16": [
+            144, 
+            145, 
+            147
+        ], 
+        "17": [
+            148, 
+            149, 
+            150
+        ], 
+        "18": [
+            151, 
+            152, 
+            153
+        ], 
+        "19": [
+            154, 
+            155, 
+            156
+        ], 
+        "20": [
+            157, 
+            158, 
+            159
+        ], 
+        "21": [
+            16, 
+            160, 
+            161
+        ], 
+        "22": [
+            162, 
+            163, 
+            164
+        ], 
+        "23": [
+            165, 
+            166, 
+            167
+        ], 
+        "24": [
+            168, 
+            169, 
+            17
+        ], 
+        "25": [
+            170, 
+            171, 
+            172
+        ], 
+        "26": [
+            173, 
+            174, 
+            175
+        ], 
+        "27": [
+            176, 
+            177, 
+            178, 
+            179
+        ], 
+        "28": [
+            18, 
+            180, 
+            181
+        ], 
+        "29": [
+            182, 
+            183, 
+            184
+        ], 
+        "30": [
+            185, 
+            186, 
+            187
+        ], 
+        "31": [
+            19, 
+            2, 
+            20
+        ], 
+        "32": [
+            21, 
+            22, 
+            23
+        ], 
+        "33": [
+            24, 
+            25, 
+            26
+        ], 
+        "34": [
+            27, 
+            28, 
+            29
+        ], 
+        "35": [
+            3, 
+            30, 
+            31
+        ], 
+        "36": [
+            32, 
+            33, 
+            34
+        ], 
+        "37": [
+            35, 
+            36, 
+            37
+        ], 
+        "38": [
+            38, 
+            39, 
+            4
+        ], 
+        "39": [
+            40, 
+            42, 
+            43
+        ], 
+        "40": [
+            44, 
+            45, 
+            46
+        ], 
+        "41": [
+            47, 
+            48, 
+            49
+        ], 
+        "42": [
+            5, 
+            50, 
+            51, 
+            52
+        ], 
+        "43": [
+            53, 
+            54, 
+            55
+        ], 
+        "44": [
+            56, 
+            57, 
+            58
+        ], 
+        "45": [
+            59, 
+            6, 
+            60
+        ], 
+        "46": [
+            61, 
+            62, 
+            63
+        ], 
+        "47": [
+            64, 
+            65, 
+            66
+        ], 
+        "48": [
+            67, 
+            68, 
+            69
+        ], 
+        "49": [
+            7, 
+            70, 
+            71
+        ], 
+        "50": [
+            74, 
+            75, 
+            76
+        ], 
+        "51": [
+            78, 
+            79, 
+            8
+        ], 
+        "52": [
+            80, 
+            81, 
+            83
+        ], 
+        "53": [
+            84, 
+            85, 
+            86
+        ], 
+        "54": [
+            87, 
+            88, 
+            89, 
+            9
+        ], 
+        "55": [
+            90, 
+            91, 
+            92, 
+            94
+        ], 
+        "56": [
+            95, 
+            96, 
+            97
+        ], 
+        "57": [
+            99
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.0, 
+    "nevents_DAS": 7910182, 
+    "nevents_merged": 7434542, 
+    "nevents_unmerged": 7434542, 
+    "postprocessing": {
+        "done": 57, 
+        "idle": 0, 
+        "running": 0, 
+        "total": 57
+    }, 
+    "pset": "MCProduction2015_NoFilter_cfg.py", 
+    "shortname": "QCD_Pt-170to300_MuEnrichedPt5_TuneCUETP8M1_13TeV_pythia8_RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1", 
+    "sparms": [], 
+    "specialdir": "run2_25ns_76MiniAODv2", 
+    "status": "postprocessing", 
+    "type": "CMS3", 
+    "user": "namin", 
+    "xsec": 117989.0
+}
