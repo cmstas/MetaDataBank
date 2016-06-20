@@ -1,0 +1,467 @@
+{
+    "basedir": "/home/users/namin/duck_80x_v2/NtupleTools/AutoTwopler/", 
+    "checks": {
+        "nproblems": 0, 
+        "problems": []
+    }, 
+    "cms3tag": "CMS3_V08-00-05", 
+    "cmsswver": "CMSSW_8_0_5_patch1", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 1, 
+            "finished": 46, 
+            "idle": 0, 
+            "running": 0, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": "1 jobs (2.1%) failed with error code 8028: An exception of category 'FallbackFileOpenError' occurred while\n   [0] Constructing the EventProcessor\n   [1] Constructing input source of type PoolSource\n   [2] Calling RootFileSequenceBase::initTheFile()\n   [3] Calling StorageFactory::open()\n   [4] Calling XrdFile::open()\nException Message:\nFailed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/1809F5D8-252B-E611-A720-FA163E248807.root'\n   Additional Info:\n      [a] open() failed with system error 'No such file or directory' (error code 2)\n      [b] Input file /mnt/hadoop/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/1809F5D8-252B-E611-A720-FA163E248807.root could not be opened.\nFallback Input file root://cmsxrootd.fnal.gov//store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/1809F5D8-252B-E611-A720-FA163E248807.root also could not be opened.\nOriginal exception info is above; fallback exception info is below.\n      [c] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/1809F5D8-252B-E611-A720-FA163E248807.root', flags=0x10, permissions=0660) => error '[ERROR] Operation expired' (errno=0, code=206). No additional data servers were found.\n      [d] Last URL tried: root://cmsxrootd.fnal.gov:1094//store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/1809F5D8-252B-E611-A720-FA163E248807.root?tried=\n      [e] Problematic data server: cmsxrootd.fnal.gov:1094\n      [f] Disabled source: cmsxrootd.fnal.gov:1094", 
+        "datetime": "160616_205320", 
+        "jobs_left": [
+            17
+        ], 
+        "jobs_left_tail": [
+            17
+        ], 
+        "njobs": 47, 
+        "outputdir": "/hadoop/cms/store/user/namin/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/crab_ZJetsToNuNu_HT-800To1200_13TeV-madgraph_RunIISpring16MiniAODv2-PUSpring16_80X_mcRun2_asymptotic_201/160616_205320/0000/", 
+        "requestname": "ZJetsToNuNu_HT-800To1200_13TeV-madgraph_RunIISpring16MiniAODv2-PUSpring16_80X_mcRun2_asymptotic_201", 
+        "resubmissions": 0, 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "", 
+        "task_warning": [], 
+        "taskdir": "crab/crab_ZJetsToNuNu_HT-800To1200_13TeV-madgraph_RunIISpring16MiniAODv2-PUSpring16_80X_mcRun2_asymptotic_201", 
+        "time": 1466278971, 
+        "uniquerequestname": "160616_205320:namin_crab_ZJetsToNuNu_HT-800To1200_13TeV-madgraph_RunIISpring16MiniAODv2-PUSpring16_80X_mcRun2_asymptotic_201"
+    }, 
+    "dataset": "/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/RunIISpring16MiniAODv2-PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/MINIAODSIM", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/run2_25ns_80MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph_RunIISpring16MiniAODv2-PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/V08-00-05/", 
+    "gtag": "80X_mcRun2_asymptotic_2016_miniAODv2_v0", 
+    "ijob_to_miniaod": {
+        "9": {
+            "1": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/00000/1849FAA0-E02B-E611-829A-02163E017996.root"
+            ], 
+            "2": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/00000/A8F11968-492B-E611-A3ED-02163E014B5F.root"
+            ], 
+            "3": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/10000/7ABE22DD-E42C-E611-B19C-2C600CAFEFA8.root"
+            ], 
+            "4": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/10000/7E72C535-DC2C-E611-A904-02163E014937.root"
+            ], 
+            "5": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/10000/AEF5263B-D62C-E611-9895-001E67E95C00.root"
+            ], 
+            "6": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/10000/B0C3A289-AA2C-E611-9CC0-02163E013EFC.root"
+            ], 
+            "7": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/10000/C07FC3E0-D92C-E611-AE71-02163E01787C.root"
+            ], 
+            "8": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/10000/E89C0B69-D82C-E611-B9C6-02163E00EABC.root"
+            ], 
+            "9": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/10000/F221324C-DB2C-E611-AF7D-02163E017705.root"
+            ], 
+            "10": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/40000/1458AE8A-1A2B-E611-90C7-02163E00B7F0.root"
+            ], 
+            "11": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/40000/2E28F642-672B-E611-86B3-02163E011569.root"
+            ], 
+            "12": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/40000/46435538-672B-E611-8B6D-02163E017888.root"
+            ], 
+            "13": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/40000/B6B0D2F9-6D2B-E611-8346-02163E00C2E1.root"
+            ], 
+            "14": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/40000/E27C8C5A-1A2B-E611-8F39-02163E017630.root"
+            ], 
+            "15": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/40000/F688C6A0-1E2C-E611-BE9B-02163E013245.root"
+            ], 
+            "16": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/40000/FC31E22C-5F2B-E611-96BC-02163E012F7F.root"
+            ], 
+            "18": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/3A746878-302B-E611-9DAE-02163E01148C.root"
+            ], 
+            "19": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/54B03E68-082D-E611-BF45-02163E01609E.root"
+            ], 
+            "20": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/5AB6B8DA-252B-E611-A325-02163E0131EA.root"
+            ], 
+            "21": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/621A7440-2F2B-E611-BDB3-02163E017935.root"
+            ], 
+            "22": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/6C1A4106-0B2B-E611-8B74-02163E017810.root"
+            ], 
+            "23": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/706858B8-FD2B-E611-8D0F-02163E013EE8.root"
+            ], 
+            "24": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/7483AB8A-082D-E611-AD6B-02163E014C3F.root"
+            ], 
+            "25": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/7E3E453E-3E2B-E611-8021-02163E00C154.root"
+            ], 
+            "26": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/823ADA6A-3B2B-E611-92FA-02163E017935.root"
+            ], 
+            "27": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/82B6B8F3-342B-E611-AC5C-02163E017861.root"
+            ], 
+            "28": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/848F8B81-262B-E611-8F7C-02163E017776.root"
+            ], 
+            "29": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/8E08FBA4-FB2B-E611-BAC7-FA163E55EF9E.root"
+            ], 
+            "30": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/AEE2887A-262B-E611-8501-02163E00AF76.root"
+            ], 
+            "31": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/BCDD2895-122B-E611-A7D8-02163E012D92.root"
+            ], 
+            "32": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/BE7AE7D3-252B-E611-B957-02163E012FCA.root"
+            ], 
+            "33": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/D249776F-262B-E611-873D-02163E01798F.root"
+            ], 
+            "34": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/D84B38C9-302B-E611-9ABD-02163E017971.root"
+            ], 
+            "35": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/E62E7573-352B-E611-9753-02163E012FCA.root"
+            ], 
+            "36": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/50000/F210E6F1-252B-E611-AF67-02163E0152BE.root"
+            ], 
+            "37": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/60000/00F114FD-B22A-E611-BEF7-02163E013AB9.root"
+            ], 
+            "38": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/60000/32DF90AF-912A-E611-9344-02163E012F60.root"
+            ], 
+            "39": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/60000/343C7FA2-8D2A-E611-BD11-02163E0176C2.root"
+            ], 
+            "40": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/60000/582FF356-992A-E611-827F-02163E011708.root"
+            ], 
+            "41": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/60000/66FC1379-9E2A-E611-BDEC-02163E0177F3.root"
+            ], 
+            "42": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/60000/68036BC0-7D2B-E611-977C-02163E0131E1.root"
+            ], 
+            "43": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/60000/A842D3C4-7D2B-E611-87E2-02163E00BF65.root"
+            ], 
+            "44": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/60000/B8EB567F-9B2A-E611-9C50-02163E013271.root"
+            ], 
+            "45": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/60000/E2EEC60B-B32A-E611-80A0-02163E0178F2.root"
+            ], 
+            "46": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/70000/6CC4890C-DA2B-E611-8653-FA163EC36745.root"
+            ], 
+            "47": [
+                "/store/mc/RunIISpring16MiniAODv2/ZJetsToNuNu_HT-800To1200_13TeV-madgraph/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3/70000/CE1DA122-DD2B-E611-A9D9-02163E013D06.root"
+            ]
+        }
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            11156, 
+            11156
+        ], 
+        "2": [
+            49820, 
+            49820
+        ], 
+        "3": [
+            28311, 
+            28311
+        ], 
+        "4": [
+            45983, 
+            45983
+        ], 
+        "5": [
+            49501, 
+            49501
+        ], 
+        "6": [
+            32694, 
+            32694
+        ], 
+        "7": [
+            46234, 
+            46234
+        ], 
+        "8": [
+            47404, 
+            47404
+        ], 
+        "9": [
+            49811, 
+            49811
+        ], 
+        "10": [
+            49901, 
+            49901
+        ], 
+        "11": [
+            48987, 
+            48987
+        ], 
+        "12": [
+            49891, 
+            49891
+        ], 
+        "13": [
+            44768, 
+            44768
+        ], 
+        "14": [
+            49725, 
+            49725
+        ], 
+        "15": [
+            42379, 
+            42379
+        ], 
+        "16": [
+            44804, 
+            44804
+        ], 
+        "18": [
+            49999, 
+            49999
+        ], 
+        "19": [
+            1576, 
+            1576
+        ], 
+        "20": [
+            49572, 
+            49572
+        ], 
+        "21": [
+            49966, 
+            49966
+        ], 
+        "22": [
+            49755, 
+            49755
+        ], 
+        "23": [
+            33084, 
+            33084
+        ], 
+        "24": [
+            848, 
+            848
+        ], 
+        "25": [
+            49683, 
+            49683
+        ], 
+        "26": [
+            44906, 
+            44906
+        ], 
+        "27": [
+            47865, 
+            47865
+        ], 
+        "28": [
+            49660, 
+            49660
+        ], 
+        "29": [
+            41253, 
+            41253
+        ], 
+        "30": [
+            49644, 
+            49644
+        ], 
+        "31": [
+            49704, 
+            49704
+        ], 
+        "32": [
+            49895, 
+            49895
+        ], 
+        "33": [
+            49886, 
+            49886
+        ], 
+        "34": [
+            45742, 
+            45742
+        ], 
+        "35": [
+            49991, 
+            49991
+        ], 
+        "36": [
+            49746, 
+            49746
+        ], 
+        "37": [
+            45378, 
+            45378
+        ], 
+        "38": [
+            49993, 
+            49993
+        ], 
+        "39": [
+            49822, 
+            49822
+        ], 
+        "40": [
+            49673, 
+            49673
+        ], 
+        "41": [
+            46400, 
+            46400
+        ], 
+        "42": [
+            449, 
+            449
+        ], 
+        "43": [
+            926, 
+            926
+        ], 
+        "44": [
+            44596, 
+            44596
+        ], 
+        "45": [
+            46465, 
+            46465
+        ], 
+        "46": [
+            30052, 
+            30052
+        ], 
+        "47": [
+            26821, 
+            26821
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            10, 
+            11
+        ], 
+        "2": [
+            12, 
+            13, 
+            14
+        ], 
+        "3": [
+            15, 
+            16, 
+            18
+        ], 
+        "4": [
+            19, 
+            2, 
+            20, 
+            21
+        ], 
+        "5": [
+            22, 
+            23, 
+            24, 
+            25
+        ], 
+        "6": [
+            26, 
+            27, 
+            28
+        ], 
+        "7": [
+            29, 
+            3, 
+            30
+        ], 
+        "8": [
+            31, 
+            32, 
+            33
+        ], 
+        "9": [
+            34, 
+            35, 
+            36
+        ], 
+        "10": [
+            37, 
+            38, 
+            39
+        ], 
+        "11": [
+            4, 
+            40, 
+            41
+        ], 
+        "12": [
+            42, 
+            43, 
+            44, 
+            45, 
+            46
+        ], 
+        "13": [
+            47, 
+            5, 
+            6
+        ], 
+        "14": [
+            7, 
+            8, 
+            9
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.0, 
+    "nevents_DAS": 1944423, 
+    "nevents_merged": 1894719, 
+    "nevents_unmerged": 1894719, 
+    "postprocessing": {
+        "done": 14, 
+        "idle": 0, 
+        "running": 0, 
+        "total": 14
+    }, 
+    "pset": "MCProduction2015_NoFilter_cfg.py", 
+    "shortname": "ZJetsToNuNu_HT-800To1200_13TeV-madgraph_RunIISpring16MiniAODv2-PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v3", 
+    "sparms": [], 
+    "specialdir": "run2_25ns_80MiniAODv2", 
+    "status": "postprocessing", 
+    "type": "CMS3", 
+    "user": "namin", 
+    "xsec": 1.474
+}
