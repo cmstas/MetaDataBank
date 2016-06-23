@@ -1,0 +1,5431 @@
+{
+    "basedir": "/nfs-6/userdata/cwelke/CMSSW/MCNtupling/NtupleTools/AutoTwopler/", 
+    "checks": {
+        "nproblems": 0, 
+        "problems": []
+    }, 
+    "cms3tag": "CMS3_V08-00-05", 
+    "cmsswver": "CMSSW_8_0_11", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 0, 
+            "finished": 612, 
+            "idle": 0, 
+            "running": 0, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": null, 
+        "datetime": "160621_111913", 
+        "jobs_left": [], 
+        "jobs_left_tail": [], 
+        "njobs": 612, 
+        "outputdir": "/hadoop/cms/store/user/cwelke/SinglePhoton/crab_SinglePhoton_Run2016B-PromptReco-v2/160621_111913/0000/", 
+        "requestname": "SinglePhoton_Run2016B-PromptReco-v2", 
+        "resubmissions": 0, 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "", 
+        "task_warning": [
+            "Task requests 3000 MB of memory, but only 2500 MB are guaranteed to be available. Jobs may not find a site where to run and stay idle forever."
+        ], 
+        "taskdir": "crab/crab_SinglePhoton_Run2016B-PromptReco-v2", 
+        "time": 1466607147, 
+        "uniquerequestname": "160621_111913:cwelke_crab_SinglePhoton_Run2016B-PromptReco-v2"
+    }, 
+    "dataset": "/SinglePhoton/Run2016B-PromptReco-v2/MINIAOD", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/run2_data/SinglePhoton_Run2016B-PromptReco-v2/V08-00-05/", 
+    "gtag": "80X_dataRun2_Prompt_v8", 
+    "ijob_to_miniaod": {
+        "99": {
+            "1": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/5A3479D2-3936-E611-97B6-02163E0128EA.root"
+            ], 
+            "2": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/F2A5E4ED-0D36-E611-8356-02163E014772.root"
+            ], 
+            "3": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/134/00000/4E41A16E-8D36-E611-945F-02163E011A15.root"
+            ], 
+            "4": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/282/00000/A000E2D7-D636-E611-B766-02163E01414A.root"
+            ], 
+            "5": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/282/00000/C017E2F5-C736-E611-B461-02163E0138E1.root"
+            ], 
+            "6": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/283/00000/3E30F0DA-CF36-E611-BA84-02163E014755.root"
+            ], 
+            "7": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/283/00000/C03BCFB9-ED36-E611-A820-02163E012114.root"
+            ], 
+            "8": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/284/00000/2A507DB2-EB36-E611-92EF-02163E014541.root"
+            ], 
+            "9": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/284/00000/E6C75B52-1B37-E611-B5BB-02163E013709.root"
+            ], 
+            "10": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/285/00000/16A3D4F9-B336-E611-91C0-02163E01339F.root"
+            ], 
+            "11": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/286/00000/946D6CC3-FA36-E611-A5B4-02163E01392A.root"
+            ], 
+            "12": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/286/00000/B24AFBBD-1B37-E611-9154-02163E01390C.root"
+            ], 
+            "13": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/289/00000/4EF4F155-F236-E611-BE52-02163E01383E.root"
+            ], 
+            "14": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/290/00000/38320CFD-1C37-E611-AF16-02163E01349F.root"
+            ], 
+            "15": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/291/00000/02429A5E-4437-E611-8385-02163E01430D.root"
+            ], 
+            "16": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/291/00000/3E078192-2337-E611-9BEA-02163E01476A.root"
+            ], 
+            "17": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/291/00000/408F9F9E-2337-E611-8597-02163E0143DE.root"
+            ], 
+            "18": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/291/00000/B28ECA84-2337-E611-93E1-02163E014418.root"
+            ], 
+            "19": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/292/00000/E6AC2EF8-4437-E611-82ED-02163E014745.root"
+            ], 
+            "20": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/293/00000/62D916F7-4B37-E611-AF92-02163E0123EF.root"
+            ], 
+            "21": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/293/00000/DAC169F3-4B37-E611-BE00-02163E0137B9.root"
+            ], 
+            "22": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/308/00000/D4822D95-5837-E611-8663-02163E012326.root"
+            ], 
+            "23": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/16443172-7D33-E611-A385-02163E0142C9.root"
+            ], 
+            "24": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/4E5BB573-AD33-E611-B6B0-02163E01459A.root"
+            ], 
+            "25": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/66AA1B37-8133-E611-B7CA-02163E011E55.root"
+            ], 
+            "26": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/6E56ACD3-DB33-E611-B9E7-02163E01413B.root"
+            ], 
+            "27": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/B0AE0DD6-7E33-E611-94B4-02163E01464D.root"
+            ], 
+            "28": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/C00F736B-7C33-E611-A72E-02163E013681.root"
+            ], 
+            "29": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/FE9E5614-8733-E611-A46F-02163E01215B.root"
+            ], 
+            "30": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/000/00000/2AAF5825-2D34-E611-B9AD-02163E012523.root"
+            ], 
+            "31": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/000/00000/5E703CA1-D333-E611-BD63-02163E0143C8.root"
+            ], 
+            "32": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/00F8B3CC-FC33-E611-B7B8-02163E011B83.root"
+            ], 
+            "33": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/14097BC1-B134-E611-94F6-02163E014313.root"
+            ], 
+            "34": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/2AEF708C-AE34-E611-903B-02163E011BBD.root"
+            ], 
+            "35": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/2C675BE1-E633-E611-8C28-02163E0137E9.root"
+            ], 
+            "36": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/2CD4E650-B034-E611-8A60-02163E013925.root"
+            ], 
+            "37": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/2E2DBBBC-B034-E611-A9CE-02163E0146A5.root"
+            ], 
+            "38": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/3CDE706F-F333-E611-A877-02163E012241.root"
+            ], 
+            "39": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/40E7CC69-B234-E611-8928-02163E01192A.root"
+            ], 
+            "40": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/526B67C2-B034-E611-A0FB-02163E0139B4.root"
+            ], 
+            "41": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/5A2225C8-B034-E611-96A5-02163E011BF3.root"
+            ], 
+            "42": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/5CA3EAB7-A034-E611-B17C-02163E0123A1.root"
+            ], 
+            "43": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/6243394E-B634-E611-9F3B-02163E012984.root"
+            ], 
+            "44": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/64C626B1-AE34-E611-9849-02163E011F60.root"
+            ], 
+            "45": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/6879C7E3-B034-E611-B584-02163E01433F.root"
+            ], 
+            "46": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/6EAEACD3-EC33-E611-A105-02163E011F67.root"
+            ], 
+            "47": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/781E69BE-B134-E611-B568-02163E0137C8.root"
+            ], 
+            "48": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/7ED3111E-B234-E611-9D26-02163E013867.root"
+            ], 
+            "49": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/8AC5991A-B234-E611-BF85-02163E0137EF.root"
+            ], 
+            "50": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/AA3EC8B4-A034-E611-BB4A-02163E014130.root"
+            ], 
+            "51": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/AABC12B8-B134-E611-A2CE-02163E0146CA.root"
+            ], 
+            "52": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/B44E0851-F534-E611-A827-02163E01354D.root"
+            ], 
+            "53": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/C4BD8959-B034-E611-8D62-02163E012499.root"
+            ], 
+            "54": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/F626E263-B234-E611-B135-02163E0141C6.root"
+            ], 
+            "55": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/001/00000/F68A1F96-E933-E611-96CA-02163E013426.root"
+            ], 
+            "56": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/030/00000/40E2F074-2434-E611-9342-02163E01367A.root"
+            ], 
+            "57": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/034/00000/E86B0B86-2B34-E611-9BE9-02163E01340D.root"
+            ], 
+            "58": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/035/00000/3C47C564-2C34-E611-BA95-02163E013567.root"
+            ], 
+            "59": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/059/00000/38814F90-6334-E611-8842-02163E011967.root"
+            ], 
+            "60": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/059/00000/948CF69B-6234-E611-A8B6-02163E013627.root"
+            ], 
+            "61": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/062/00000/BC05F786-3A34-E611-BE9C-02163E012554.root"
+            ], 
+            "62": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/063/00000/A2E4C9CB-4434-E611-8551-02163E0145B7.root"
+            ], 
+            "63": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/064/00000/5C7AE169-6734-E611-9ACF-02163E014787.root"
+            ], 
+            "64": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/066/00000/8A07DDC4-A034-E611-9792-02163E0135D4.root"
+            ], 
+            "65": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/066/00000/BCEE891D-6E34-E611-B286-02163E0122E3.root"
+            ], 
+            "66": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/067/00000/1C850015-7334-E611-B2E4-02163E013791.root"
+            ], 
+            "67": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/067/00000/30EFD020-7334-E611-85B0-02163E0141F9.root"
+            ], 
+            "68": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/067/00000/3E7E7B15-7334-E611-8223-02163E0136D8.root"
+            ], 
+            "69": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/067/00000/90E1D4C4-A034-E611-819D-02163E0145C6.root"
+            ], 
+            "70": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/067/00000/ACA32D0C-7334-E611-8A92-02163E011DC8.root"
+            ], 
+            "71": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/32A27168-B734-E611-B979-02163E013885.root"
+            ], 
+            "72": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/3ACF7A6B-B734-E611-9B60-02163E01352D.root"
+            ], 
+            "73": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/56BD4EC4-B734-E611-9EEE-02163E011FA5.root"
+            ], 
+            "74": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/5C251568-B734-E611-9A1B-02163E011D41.root"
+            ], 
+            "75": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/5C4C690F-B834-E611-B736-02163E0143AC.root"
+            ], 
+            "76": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/70B4075E-B834-E611-8FDF-02163E01458D.root"
+            ], 
+            "77": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/7A2DD964-B734-E611-AFF8-02163E011911.root"
+            ], 
+            "78": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/96CB8369-B734-E611-A2EE-02163E0124B3.root"
+            ], 
+            "79": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/9A33A266-B734-E611-B39C-02163E012B12.root"
+            ], 
+            "80": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/E09AE421-B734-E611-A6C7-02163E013497.root"
+            ], 
+            "81": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/068/00000/E0B76150-B734-E611-8C41-02163E014221.root"
+            ], 
+            "82": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/073/00000/3A10EF3C-3035-E611-BB5C-02163E0145E2.root"
+            ], 
+            "83": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/073/00000/5AF57471-3935-E611-A054-02163E014437.root"
+            ], 
+            "84": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/073/00000/689DFE7A-3B35-E611-994C-02163E0144CF.root"
+            ], 
+            "85": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/073/00000/6ED1CCCD-4435-E611-B8F2-02163E013962.root"
+            ], 
+            "86": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/073/00000/704CA111-6935-E611-8F69-02163E013541.root"
+            ], 
+            "87": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/073/00000/BE7EA1CC-3C35-E611-8841-02163E01344A.root"
+            ], 
+            "88": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/073/00000/D86BF726-3535-E611-BE7A-02163E012616.root"
+            ], 
+            "89": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/073/00000/EC1F2981-4035-E611-8B7B-02163E01338C.root"
+            ], 
+            "90": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/074/00000/207FA56A-8335-E611-B19B-02163E0141A9.root"
+            ], 
+            "91": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/074/00000/2A351450-6F35-E611-8077-02163E0145CA.root"
+            ], 
+            "92": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/074/00000/524E6A4A-8335-E611-A381-02163E014585.root"
+            ], 
+            "93": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/074/00000/54864C5D-7735-E611-B931-02163E013855.root"
+            ], 
+            "94": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/074/00000/6E3A09A9-7335-E611-8794-02163E0123EE.root"
+            ], 
+            "95": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/074/00000/9CC7C79B-7535-E611-B20F-02163E01460B.root"
+            ], 
+            "96": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/074/00000/C8AB795C-7A35-E611-B2E1-02163E011B46.root"
+            ], 
+            "97": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/074/00000/DA4F3AC7-7F35-E611-B543-02163E0140EC.root"
+            ], 
+            "98": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/124/00000/2E95BE87-C435-E611-8724-02163E0145BC.root"
+            ], 
+            "99": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/124/00000/54BD636B-CF35-E611-9445-02163E0146A5.root"
+            ], 
+            "100": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/124/00000/AE52FE82-BF35-E611-BF30-02163E0126D8.root"
+            ], 
+            "101": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/124/00000/DE17E3A5-BD35-E611-B915-02163E0145FE.root"
+            ], 
+            "102": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/124/00000/E0CB0D4A-B635-E611-970E-02163E012499.root"
+            ], 
+            "103": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/4665589D-F535-E611-881E-02163E0141C8.root"
+            ], 
+            "104": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/549E5520-0636-E611-AA93-02163E014743.root"
+            ], 
+            "105": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/5A67171F-F935-E611-BB81-02163E0137E2.root"
+            ], 
+            "106": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/5A754B0C-0136-E611-8151-02163E011D8D.root"
+            ], 
+            "107": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/7CFD6DDA-F735-E611-8484-02163E011B83.root"
+            ], 
+            "108": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/9E03D741-FF35-E611-AD58-02163E014454.root"
+            ], 
+            "109": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/9EA3C04A-F435-E611-BB38-02163E014787.root"
+            ], 
+            "110": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/A4CACF9A-0336-E611-9CFF-02163E01465E.root"
+            ], 
+            "111": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/C4AAA15D-FB35-E611-84B8-02163E011F85.root"
+            ], 
+            "112": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/275/125/00000/E8CC84D3-F235-E611-B269-02163E012BD1.root"
+            ], 
+            "113": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/150/00000/EEF8F8DC-D719-E611-9F4B-02163E01421D.root"
+            ], 
+            "114": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/00DD3222-261A-E611-9FD2-02163E011E34.root"
+            ], 
+            "115": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/1A45407E-761A-E611-AD5E-02163E013724.root"
+            ], 
+            "116": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/1AE468DD-1D1A-E611-8781-02163E014246.root"
+            ], 
+            "117": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/227D5C09-211A-E611-BA9E-02163E01353C.root"
+            ], 
+            "118": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/3C2DAC51-3C1A-E611-A74D-02163E013926.root"
+            ], 
+            "119": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/3EF170D2-1C1A-E611-9962-02163E011F00.root"
+            ], 
+            "120": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/56A3C0DA-221A-E611-B02F-02163E0137E0.root"
+            ], 
+            "121": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/CA78978F-2A1A-E611-BEC8-02163E0134C5.root"
+            ], 
+            "122": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/DC7DC170-761A-E611-AA0F-02163E0136FD.root"
+            ], 
+            "123": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/158/00000/E68DB076-761A-E611-94C1-02163E0121BD.root"
+            ], 
+            "124": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/276/00000/04849400-0E1A-E611-98D5-02163E014480.root"
+            ], 
+            "125": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/286/00000/8A59E031-121A-E611-B451-02163E01438C.root"
+            ], 
+            "126": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/287/00000/ECFDD632-141A-E611-BD1C-02163E014575.root"
+            ], 
+            "127": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/290/00000/6C00CF32-1C1A-E611-A851-02163E0142E0.root"
+            ], 
+            "128": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/291/00000/1C5D27DF-4B1A-E611-894A-02163E011DCB.root"
+            ], 
+            "129": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/292/00000/7EE41DEF-241A-E611-BD30-02163E0143D1.root"
+            ], 
+            "130": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/294/00000/B2B483DC-221A-E611-A19E-02163E013841.root"
+            ], 
+            "131": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/295/00000/7CECD1E3-251A-E611-BBB5-02163E0141A3.root"
+            ], 
+            "132": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/296/00000/246D1309-411A-E611-8AF4-02163E012830.root"
+            ], 
+            "133": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/299/00000/B01AB6C6-4C1A-E611-8F31-02163E011EEE.root"
+            ], 
+            "134": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/301/00000/1A526BCC-8B1A-E611-B7A6-02163E011DEB.root"
+            ], 
+            "135": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/301/00000/305C7A1D-931A-E611-A2FB-02163E0133C2.root"
+            ], 
+            "136": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/301/00000/4C02298D-8F1A-E611-A62E-02163E014170.root"
+            ], 
+            "137": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/301/00000/E0B43D98-9C1A-E611-985E-02163E01420B.root"
+            ], 
+            "138": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/302/00000/0428404B-BE1A-E611-B5BC-02163E0128E8.root"
+            ], 
+            "139": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/302/00000/64D5D682-A61A-E611-8DD8-02163E011C1D.root"
+            ], 
+            "140": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/302/00000/D040F688-9F1A-E611-8906-02163E01184A.root"
+            ], 
+            "141": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/394/00000/FA19D6F8-CE1A-E611-8B9C-02163E01367A.root"
+            ], 
+            "142": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/402/00000/6ADA63A6-491B-E611-8557-02163E013760.root"
+            ], 
+            "143": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/402/00000/C628C392-491B-E611-A663-02163E0139E1.root"
+            ], 
+            "144": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/403/00000/E8827251-4B1B-E611-BCC6-02163E011B63.root"
+            ], 
+            "145": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/404/00000/8C12ABD5-501B-E611-9F49-02163E011E12.root"
+            ], 
+            "146": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/405/00000/4E83313C-4F1B-E611-B3CF-02163E013584.root"
+            ], 
+            "147": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/406/00000/E4000AB2-651B-E611-9883-02163E0136EB.root"
+            ], 
+            "148": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/407/00000/54DA128A-3B1B-E611-9836-02163E012338.root"
+            ], 
+            "149": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/408/00000/74DCD7EB-471B-E611-99F2-02163E0138B2.root"
+            ], 
+            "150": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/409/00000/0049F859-C01B-E611-99CB-02163E01216A.root"
+            ], 
+            "151": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/409/00000/943D9D4F-C01B-E611-A018-02163E0129FA.root"
+            ], 
+            "152": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/409/00000/AE781D84-C01B-E611-A8D0-02163E0144B4.root"
+            ], 
+            "153": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/410/00000/8E7A2D51-7A1B-E611-A627-02163E011E2A.root"
+            ], 
+            "154": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/411/00000/E85796D6-811B-E611-89C8-02163E013705.root"
+            ], 
+            "155": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/412/00000/3ACAE4B5-761B-E611-83C0-02163E0141C1.root"
+            ], 
+            "156": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/424/00000/98E97099-571B-E611-8B0B-02163E014479.root"
+            ], 
+            "157": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/425/00000/02C32148-CD1B-E611-96F4-02163E011D20.root"
+            ], 
+            "158": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/425/00000/487C5ADF-C61B-E611-8AC7-02163E0146F0.root"
+            ], 
+            "159": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/425/00000/983BD739-D61B-E611-8521-02163E0142D3.root"
+            ], 
+            "160": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/425/00000/B0D0E4C6-C51B-E611-8990-02163E014183.root"
+            ], 
+            "161": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/425/00000/EE534358-D31B-E611-A751-02163E01262F.root"
+            ], 
+            "162": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/426/00000/CCD5D9A2-CE1B-E611-A041-02163E01473E.root"
+            ], 
+            "163": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/440/00000/3CE8D6C8-AB1B-E611-8422-02163E014795.root"
+            ], 
+            "164": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/442/00000/905CE546-AC1B-E611-BBFB-02163E0119CF.root"
+            ], 
+            "165": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/443/00000/3AE11098-B01B-E611-9984-02163E013637.root"
+            ], 
+            "166": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/444/00000/A47FEBCF-AE1B-E611-96E1-02163E011C18.root"
+            ], 
+            "167": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/445/00000/32B80269-B51B-E611-92AF-02163E01375B.root"
+            ], 
+            "168": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/446/00000/3C38E226-DE1B-E611-97F3-02163E01352D.root"
+            ], 
+            "169": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/447/00000/60E90944-1E1C-E611-A4C1-02163E011DAE.root"
+            ], 
+            "170": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/447/00000/62CF34E5-F61B-E611-84C2-02163E01390A.root"
+            ], 
+            "171": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/447/00000/A6E70E66-F91B-E611-BCA8-02163E012961.root"
+            ], 
+            "172": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/447/00000/BCC1A572-011C-E611-A5AE-02163E0146F0.root"
+            ], 
+            "173": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/448/00000/00E3FD59-2A1C-E611-93C0-02163E0145BB.root"
+            ], 
+            "174": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/448/00000/D41F0869-1E1C-E611-BAA2-02163E012065.root"
+            ], 
+            "175": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/448/00000/DEE87B17-1A1C-E611-867D-02163E0146B7.root"
+            ], 
+            "176": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/449/00000/8A79815C-381C-E611-962A-02163E014603.root"
+            ], 
+            "177": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/449/00000/9AE2C527-821C-E611-98AA-02163E014260.root"
+            ], 
+            "178": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/450/00000/2248308C-661C-E611-92D2-02163E014354.root"
+            ], 
+            "179": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/450/00000/5434B913-4C1C-E611-B8C2-02163E012042.root"
+            ], 
+            "180": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/450/00000/54FDC18E-541C-E611-9D08-02163E012209.root"
+            ], 
+            "181": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/450/00000/7C380726-511C-E611-B17B-02163E01208E.root"
+            ], 
+            "182": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/450/00000/B42806BF-4F1C-E611-8BDC-02163E014713.root"
+            ], 
+            "183": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/450/00000/D6F2708D-661C-E611-AFBB-02163E014761.root"
+            ], 
+            "184": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/492/00000/628014CC-7D1D-E611-83AF-02163E0133C9.root"
+            ], 
+            "185": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/492/00000/944F15D9-7D1D-E611-B3B4-02163E011F32.root"
+            ], 
+            "186": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/492/00000/EAA21BD4-7D1D-E611-AE26-02163E01469F.root"
+            ], 
+            "187": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/493/00000/E2FD3F7C-5E1D-E611-AE01-02163E011E3E.root"
+            ], 
+            "188": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/493/00000/F2028A72-5E1D-E611-ADEC-02163E014300.root"
+            ], 
+            "189": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/494/00000/B6276E21-6F1D-E611-B370-02163E0139B5.root"
+            ], 
+            "190": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/494/00000/CA5DE631-881D-E611-8678-02163E01254F.root"
+            ], 
+            "191": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/502/00000/386C8A09-251F-E611-9E51-02163E012A6E.root"
+            ], 
+            "192": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/502/00000/7491A5DD-241F-E611-9098-02163E014604.root"
+            ], 
+            "193": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/502/00000/78F52FE1-241F-E611-81CF-02163E012542.root"
+            ], 
+            "194": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/502/00000/96B1F9D8-241F-E611-9BD9-02163E0143BC.root"
+            ], 
+            "195": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/502/00000/AE2A90E8-241F-E611-A140-02163E013574.root"
+            ], 
+            "196": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/502/00000/B631E9C6-241F-E611-ABC4-02163E0118D8.root"
+            ], 
+            "197": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/502/00000/FA9A1CBE-241F-E611-B33E-02163E013486.root"
+            ], 
+            "198": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/503/00000/0ABBB108-511F-E611-A544-02163E012516.root"
+            ], 
+            "199": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/503/00000/46DCC811-511F-E611-AFF0-02163E012AF2.root"
+            ], 
+            "200": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/503/00000/4CB8360D-511F-E611-AAE7-02163E01381E.root"
+            ], 
+            "201": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/503/00000/E811966A-3F1F-E611-92CB-02163E0145E2.root"
+            ], 
+            "202": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/504/00000/EC2A7AE0-311F-E611-A988-02163E01340E.root"
+            ], 
+            "203": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/523/00000/F4A648F3-351F-E611-9DDC-02163E01430D.root"
+            ], 
+            "204": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/526/00000/E644B476-571F-E611-98BE-02163E013447.root"
+            ], 
+            "205": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/537/00000/7207BCBF-991F-E611-B4A9-02163E013918.root"
+            ], 
+            "206": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/554/00000/46E7D113-3520-E611-910E-02163E0146B3.root"
+            ], 
+            "207": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/554/00000/7012A5EB-3420-E611-9ECE-02163E01376B.root"
+            ], 
+            "208": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/554/00000/D696B329-3520-E611-B606-02163E013527.root"
+            ], 
+            "209": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/554/00000/E0EE9F17-3520-E611-9838-02163E011FCF.root"
+            ], 
+            "210": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/555/00000/4A836C37-F51F-E611-B74D-02163E0143B3.root"
+            ], 
+            "211": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/555/00000/5415F5BD-0320-E611-9070-02163E01366C.root"
+            ], 
+            "212": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/589/00000/4893890F-DE1F-E611-840E-02163E0118CA.root"
+            ], 
+            "213": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/590/00000/4E6A9275-FB1F-E611-9AF6-02163E012449.root"
+            ], 
+            "214": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/592/00000/EC9F2B27-0F20-E611-9383-02163E013982.root"
+            ], 
+            "215": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/0685DFAF-8720-E611-9E15-02163E01454C.root"
+            ], 
+            "216": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/10FE3BA8-8720-E611-A91F-02163E01456A.root"
+            ], 
+            "217": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/16BB565F-5C20-E611-AA32-02163E013421.root"
+            ], 
+            "218": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/22B5D5B8-8720-E611-B553-02163E011A83.root"
+            ], 
+            "219": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/34544AC0-8720-E611-BFC6-02163E014186.root"
+            ], 
+            "220": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/381CE6D5-8720-E611-9E47-02163E014489.root"
+            ], 
+            "221": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/3849F8B4-8720-E611-9AF5-02163E01454F.root"
+            ], 
+            "222": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/4AADC5C6-8720-E611-8DD2-02163E014186.root"
+            ], 
+            "223": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/5AB3299D-8720-E611-B68E-02163E011B2A.root"
+            ], 
+            "224": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/641101D6-8720-E611-8DFD-02163E014248.root"
+            ], 
+            "225": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/78EFA599-8720-E611-B38A-02163E014318.root"
+            ], 
+            "226": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/A811A7A0-8720-E611-9932-02163E0146F3.root"
+            ], 
+            "227": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/B80AB692-8720-E611-AF0A-02163E0118B8.root"
+            ], 
+            "228": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/CE020CC5-8720-E611-BA1F-02163E013904.root"
+            ], 
+            "229": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/D0F5C4D5-8720-E611-86D3-02163E0141C7.root"
+            ], 
+            "230": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/D4E002D6-8720-E611-974C-02163E014248.root"
+            ], 
+            "231": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/DE3602D6-8720-E611-973A-02163E014248.root"
+            ], 
+            "232": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/E0A2E39F-8720-E611-959D-02163E011E84.root"
+            ], 
+            "233": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/EA14EF95-8720-E611-8210-02163E0145E2.root"
+            ], 
+            "234": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/EAD4E8C2-8720-E611-A66B-02163E0141FC.root"
+            ], 
+            "235": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/F2C339CB-8720-E611-A210-02163E011E3B.root"
+            ], 
+            "236": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/725/00000/FE27EA62-5C20-E611-BCF1-02163E014503.root"
+            ], 
+            "237": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/728/00000/460A3D33-C320-E611-B97B-02163E01279D.root"
+            ], 
+            "238": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/0816ACE3-A721-E611-9970-02163E0136C4.root"
+            ], 
+            "239": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/10D30EE4-A721-E611-A4EC-02163E014613.root"
+            ], 
+            "240": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/12F1BAE5-A721-E611-A4DC-02163E01399A.root"
+            ], 
+            "241": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/14C9B8F9-A721-E611-930B-02163E011BE2.root"
+            ], 
+            "242": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/16C8B0F1-A721-E611-BC58-02163E013649.root"
+            ], 
+            "243": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/2AC3EE03-A821-E611-8F23-02163E014357.root"
+            ], 
+            "244": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/38E113F9-A721-E611-875A-02163E013511.root"
+            ], 
+            "245": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/4A04EBDD-A721-E611-9E93-02163E014123.root"
+            ], 
+            "246": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/54E3BCF5-A721-E611-8B74-02163E0144C5.root"
+            ], 
+            "247": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/58233CE2-A721-E611-A42E-02163E011D54.root"
+            ], 
+            "248": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/76D344ED-A721-E611-8DC1-02163E01454C.root"
+            ], 
+            "249": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/8088B8FB-A721-E611-B75A-02163E0143D0.root"
+            ], 
+            "250": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/862024F7-A721-E611-A7CA-02163E01450E.root"
+            ], 
+            "251": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/942B4FE5-A721-E611-AC12-02163E012516.root"
+            ], 
+            "252": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/9EC57BE7-A721-E611-B2A0-02163E0134B8.root"
+            ], 
+            "253": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/B2F2A7F7-A721-E611-872A-02163E011E3B.root"
+            ], 
+            "254": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/CAA19CE1-A721-E611-9A7C-02163E011F30.root"
+            ], 
+            "255": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/D28315BF-8521-E611-BF61-02163E01394F.root"
+            ], 
+            "256": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/E6A42818-A821-E611-A017-02163E01431D.root"
+            ], 
+            "257": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/273/730/00000/E83F6A07-A821-E611-A167-02163E014761.root"
+            ], 
+            "258": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/079/00000/B6C1106D-DF24-E611-968C-02163E0123B0.root"
+            ], 
+            "259": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/080/00000/A2F0C352-E024-E611-90E5-02163E014776.root"
+            ], 
+            "260": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/081/00000/7EBA6001-EA24-E611-9404-02163E011CA0.root"
+            ], 
+            "261": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/083/00000/1243A250-FB24-E611-B81E-02163E01342D.root"
+            ], 
+            "262": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/087/00000/8CC33CDA-0425-E611-A235-02163E011F54.root"
+            ], 
+            "263": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/088/00000/7E628AA6-0925-E611-9B14-02163E0145A1.root"
+            ], 
+            "264": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/094/00000/0CF65D63-7F25-E611-8649-02163E014460.root"
+            ], 
+            "265": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/094/00000/E055E55C-7F25-E611-B1A6-02163E0146F3.root"
+            ], 
+            "266": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/102/00000/80080E94-CB26-E611-83BD-02163E011D54.root"
+            ], 
+            "267": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/103/00000/E21AE45F-CE26-E611-BB08-02163E01385A.root"
+            ], 
+            "268": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/104/00000/C6FB94A8-CE26-E611-914A-02163E013405.root"
+            ], 
+            "269": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/105/00000/5E9249FC-CE26-E611-A302-02163E0133E7.root"
+            ], 
+            "270": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/106/00000/2E5013E0-CF26-E611-84EA-02163E0146AE.root"
+            ], 
+            "271": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/107/00000/4676F375-D026-E611-AB32-02163E0138E6.root"
+            ], 
+            "272": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/108/00000/0AB72944-D126-E611-9B83-02163E0135E8.root"
+            ], 
+            "273": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/125/00000/1ACE10A4-D126-E611-87D6-02163E014357.root"
+            ], 
+            "274": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/142/00000/3C9A6C81-D226-E611-BB53-02163E01437F.root"
+            ], 
+            "275": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/146/00000/341512E6-D226-E611-99BB-02163E011868.root"
+            ], 
+            "276": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/147/00000/6E44FDCC-D326-E611-BDA9-02163E011A7E.root"
+            ], 
+            "277": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/157/00000/0C7039FE-D826-E611-AEC6-02163E013722.root"
+            ], 
+            "278": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/157/00000/1AD710F3-D826-E611-9D38-02163E012584.root"
+            ], 
+            "279": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/157/00000/2878AFFF-D826-E611-B569-02163E0139BD.root"
+            ], 
+            "280": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/157/00000/722D89F4-D826-E611-AD3C-02163E0146A7.root"
+            ], 
+            "281": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/157/00000/A05FECFE-D826-E611-B226-02163E014653.root"
+            ], 
+            "282": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/159/00000/92AAACA9-DB26-E611-8214-02163E014245.root"
+            ], 
+            "283": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/160/00000/26814876-E026-E611-AEBF-02163E011A8D.root"
+            ], 
+            "284": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/160/00000/3AC60D08-E026-E611-86EA-02163E013589.root"
+            ], 
+            "285": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/160/00000/42060479-E026-E611-AAEF-02163E011F19.root"
+            ], 
+            "286": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/161/00000/0E0B5883-ED26-E611-9A3B-02163E013527.root"
+            ], 
+            "287": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/161/00000/34FF7C7B-ED26-E611-A4BD-02163E01434F.root"
+            ], 
+            "288": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/161/00000/6AF59199-ED26-E611-8A86-02163E011CD0.root"
+            ], 
+            "289": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/161/00000/BCE93F78-ED26-E611-9BC0-02163E01191C.root"
+            ], 
+            "290": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/161/00000/C68C3774-ED26-E611-9CCD-02163E0119A6.root"
+            ], 
+            "291": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/161/00000/EE298089-ED26-E611-A754-02163E0145B5.root"
+            ], 
+            "292": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/172/00000/DC081601-1D27-E611-85A2-02163E0135D4.root"
+            ], 
+            "293": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/172/00000/E2009B00-1D27-E611-B30B-02163E013436.root"
+            ], 
+            "294": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/197/00000/3A24A459-5827-E611-AA13-02163E01388F.root"
+            ], 
+            "295": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/198/00000/040E25F9-9227-E611-B71C-02163E01420C.root"
+            ], 
+            "296": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/198/00000/480C2AF3-9227-E611-9F4B-02163E012449.root"
+            ], 
+            "297": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/198/00000/F4CDBC24-9327-E611-A9DF-02163E01383C.root"
+            ], 
+            "298": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/199/00000/2E79718B-B027-E611-A459-02163E011E4E.root"
+            ], 
+            "299": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/199/00000/52C5CC83-B027-E611-B619-02163E011D84.root"
+            ], 
+            "300": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/199/00000/70F62237-0728-E611-878E-02163E011DE0.root"
+            ], 
+            "301": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/199/00000/8022C7F6-A827-E611-B6FD-02163E0144E2.root"
+            ], 
+            "302": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/199/00000/A06C9182-B627-E611-BECF-02163E0127A7.root"
+            ], 
+            "303": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/199/00000/AAC595C8-CC27-E611-B451-02163E01181F.root"
+            ], 
+            "304": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/199/00000/C6C503D3-B027-E611-8E6F-02163E01452C.root"
+            ], 
+            "305": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/199/00000/E4EFBC36-B027-E611-91B4-02163E01431E.root"
+            ], 
+            "306": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/200/00000/26A14E35-0928-E611-8BA4-02163E014482.root"
+            ], 
+            "307": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/200/00000/54EF052F-0928-E611-B6E7-02163E014300.root"
+            ], 
+            "308": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/200/00000/56867643-0928-E611-B044-02163E01433E.root"
+            ], 
+            "309": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/200/00000/7815E447-0928-E611-8F51-02163E0143DF.root"
+            ], 
+            "310": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/200/00000/7C7EB42D-0928-E611-AECE-02163E0146E0.root"
+            ], 
+            "311": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/200/00000/90610D29-0928-E611-9AC4-02163E013451.root"
+            ], 
+            "312": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/200/00000/D0A45AE2-DE27-E611-B989-02163E012B9E.root"
+            ], 
+            "313": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/200/00000/EEC1ED52-0928-E611-A359-02163E0144B9.root"
+            ], 
+            "314": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/236/00000/4660EC68-EF27-E611-B506-02163E0133FC.root"
+            ], 
+            "315": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/239/00000/12727179-0328-E611-B233-02163E011DE0.root"
+            ], 
+            "316": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/240/00000/4E5B50FD-5228-E611-A898-02163E0144D3.root"
+            ], 
+            "317": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/240/00000/F0A137EC-5228-E611-A242-02163E0141BF.root"
+            ], 
+            "318": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/065FA7D4-8628-E611-ABE0-02163E011E8C.root"
+            ], 
+            "319": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/0854E0DA-9628-E611-9518-02163E011DED.root"
+            ], 
+            "320": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/26F91AC8-8828-E611-AC21-02163E0141E2.root"
+            ], 
+            "321": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/28D15498-8128-E611-91E6-02163E013427.root"
+            ], 
+            "322": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/28FFE6E1-8628-E611-B04F-02163E01416D.root"
+            ], 
+            "323": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/325EB270-8728-E611-92CB-02163E0136C4.root"
+            ], 
+            "324": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/44E4720E-8728-E611-AD0E-02163E013559.root"
+            ], 
+            "325": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/605ADBA5-8628-E611-B684-02163E011A8D.root"
+            ], 
+            "326": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/8A549844-8E28-E611-A8C9-02163E01386D.root"
+            ], 
+            "327": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/8C45562F-8928-E611-B0AF-02163E014354.root"
+            ], 
+            "328": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/921D21A3-8028-E611-BF4B-02163E0137F1.root"
+            ], 
+            "329": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/9CD8F0E9-8628-E611-901E-02163E014434.root"
+            ], 
+            "330": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/9E19830C-8A28-E611-988B-02163E013955.root"
+            ], 
+            "331": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/B27EC115-A628-E611-983C-02163E0135D4.root"
+            ], 
+            "332": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/C2FA2030-8C28-E611-ABEB-02163E01383E.root"
+            ], 
+            "333": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/241/00000/E8EE2CE5-7E28-E611-9E32-02163E011E10.root"
+            ], 
+            "334": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/243/00000/4A9155AD-CF28-E611-933A-02163E0142F7.root"
+            ], 
+            "335": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/244/00000/16F69BF2-0329-E611-8251-02163E01472B.root"
+            ], 
+            "336": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/244/00000/1A1902BF-0429-E611-B4EE-02163E014660.root"
+            ], 
+            "337": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/244/00000/24AD2DB0-0329-E611-9DAA-02163E01191D.root"
+            ], 
+            "338": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/244/00000/6EDEA8AF-0329-E611-B9F8-02163E0138DE.root"
+            ], 
+            "339": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/244/00000/A60204A8-0329-E611-91A2-02163E0138F4.root"
+            ], 
+            "340": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/244/00000/B646EC0E-0629-E611-8C24-02163E014354.root"
+            ], 
+            "341": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/244/00000/C433C7C7-0329-E611-8943-02163E012620.root"
+            ], 
+            "342": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/244/00000/C6A14E16-0429-E611-954D-02163E0140FE.root"
+            ], 
+            "343": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/249/00000/B613916B-0A29-E611-A6F5-02163E013485.root"
+            ], 
+            "344": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/02F3DD2F-2329-E611-9DB0-02163E013680.root"
+            ], 
+            "345": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/205313A4-2329-E611-BAFB-02163E01447E.root"
+            ], 
+            "346": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/24E6DA5A-2229-E611-B1A6-02163E0138FD.root"
+            ], 
+            "347": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/26B9A551-2229-E611-9776-02163E0135B6.root"
+            ], 
+            "348": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/26E1D4A3-2329-E611-AE87-02163E0146B6.root"
+            ], 
+            "349": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/76C34C59-2329-E611-99C3-02163E012203.root"
+            ], 
+            "350": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/7AF52B7A-D329-E611-ACA7-02163E014523.root"
+            ], 
+            "351": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/7E8D6AF5-2329-E611-971E-02163E012B9E.root"
+            ], 
+            "352": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/8E038E14-2429-E611-9654-02163E0119F2.root"
+            ], 
+            "353": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/90D39663-2229-E611-B3CB-02163E011C31.root"
+            ], 
+            "354": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/250/00000/D2CA7FF4-2329-E611-8A5B-02163E012B9E.root"
+            ], 
+            "355": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/251/00000/00777E1B-4C29-E611-990B-02163E01412D.root"
+            ], 
+            "356": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/251/00000/1219FE66-7C29-E611-B9FC-02163E01356B.root"
+            ], 
+            "357": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/251/00000/1C89DE91-4C29-E611-9606-02163E014615.root"
+            ], 
+            "358": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/251/00000/44CA485C-8B29-E611-B29E-02163E011A7D.root"
+            ], 
+            "359": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/251/00000/52F3C370-4C29-E611-A0AA-02163E01474F.root"
+            ], 
+            "360": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/251/00000/6E62A257-4C29-E611-8D7C-02163E0135D4.root"
+            ], 
+            "361": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/251/00000/B4DE886D-4C29-E611-ADD9-02163E01354B.root"
+            ], 
+            "362": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/251/00000/D2AA8252-4C29-E611-B381-02163E0141F3.root"
+            ], 
+            "363": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/278/00000/D02FE0EA-5F29-E611-9CB9-02163E0145F4.root"
+            ], 
+            "364": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/282/00000/74349713-6429-E611-959C-02163E014295.root"
+            ], 
+            "365": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/283/00000/16B9C5C2-6429-E611-BB80-02163E013408.root"
+            ], 
+            "366": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/284/00000/0A676DCC-7F29-E611-833F-02163E0135EB.root"
+            ], 
+            "367": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/284/00000/28B7E98C-7F29-E611-B5BA-02163E01356B.root"
+            ], 
+            "368": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/284/00000/7297D1E0-A029-E611-AE94-02163E014490.root"
+            ], 
+            "369": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/284/00000/782C7893-7F29-E611-A2BE-02163E0144D4.root"
+            ], 
+            "370": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/285/00000/16F18B4D-8129-E611-8584-02163E01433E.root"
+            ], 
+            "371": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/286/00000/7AE35E41-8C29-E611-8DD8-02163E01443B.root"
+            ], 
+            "372": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/286/00000/B0451854-8C29-E611-8623-02163E013920.root"
+            ], 
+            "373": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/286/00000/F6D01350-8C29-E611-931F-02163E014117.root"
+            ], 
+            "374": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/303/00000/264237CD-9A29-E611-AD53-02163E01431B.root"
+            ], 
+            "375": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/314/00000/0CB63CF5-C729-E611-9E2E-02163E0138B3.root"
+            ], 
+            "376": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/314/00000/7C0942EB-C729-E611-93A9-02163E0133CD.root"
+            ], 
+            "377": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/315/00000/2AB44204-D829-E611-A966-02163E0134F2.root"
+            ], 
+            "378": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/315/00000/30188299-DA29-E611-AFE4-02163E0120B5.root"
+            ], 
+            "379": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/315/00000/4AD896CB-D229-E611-984D-02163E01375D.root"
+            ], 
+            "380": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/315/00000/5A7DFE91-E029-E611-A237-02163E0134F9.root"
+            ], 
+            "381": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/315/00000/74619198-D529-E611-AC32-02163E01358A.root"
+            ], 
+            "382": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/315/00000/96BAA494-F529-E611-A802-02163E011D84.root"
+            ], 
+            "383": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/316/00000/12FECCCB-3A2A-E611-8DC8-02163E01413A.root"
+            ], 
+            "384": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/316/00000/5ADED078-432A-E611-83FF-02163E013709.root"
+            ], 
+            "385": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/316/00000/62D4B6D2-872A-E611-A55E-02163E01181C.root"
+            ], 
+            "386": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/316/00000/6C8E4A90-4A2A-E611-B4D8-02163E011C1D.root"
+            ], 
+            "387": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/316/00000/90888191-3A2A-E611-8213-02163E0134D5.root"
+            ], 
+            "388": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/316/00000/9A78005E-452A-E611-9EA7-02163E011C8D.root"
+            ], 
+            "389": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/316/00000/AA42C84F-522A-E611-BFED-02163E0142C9.root"
+            ], 
+            "390": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/316/00000/AE8F985E-402A-E611-92FF-02163E0146E4.root"
+            ], 
+            "391": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/316/00000/C6D9DB01-3E2A-E611-BB85-02163E0134BC.root"
+            ], 
+            "392": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/317/00000/2E4A0184-1D2A-E611-8C6E-02163E012B9E.root"
+            ], 
+            "393": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/318/00000/D0B13AF6-172A-E611-86A6-02163E0143C4.root"
+            ], 
+            "394": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/319/00000/A484F3AA-7B2A-E611-A6A2-02163E013825.root"
+            ], 
+            "395": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/319/00000/AC3BF96C-452A-E611-9F76-02163E01427F.root"
+            ], 
+            "396": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/334/00000/2A9E62DE-3E2A-E611-AA8D-02163E013412.root"
+            ], 
+            "397": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/1A568722-E72A-E611-807E-02163E011C8D.root"
+            ], 
+            "398": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/1C216752-E72A-E611-A1FA-02163E013754.root"
+            ], 
+            "399": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/4C1A8D44-E72A-E611-917B-02163E011CA0.root"
+            ], 
+            "400": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/5AF68944-E72A-E611-B0BB-02163E011CA0.root"
+            ], 
+            "401": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/9E7D6A52-E72A-E611-97C7-02163E013754.root"
+            ], 
+            "402": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/AAA13052-E72A-E611-AD6A-02163E013754.root"
+            ], 
+            "403": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/B688E130-E72A-E611-80BE-02163E012505.root"
+            ], 
+            "404": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/CE3D9A37-E72A-E611-87D0-02163E0146A7.root"
+            ], 
+            "405": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/D65F9544-E72A-E611-A2E2-02163E011CA0.root"
+            ], 
+            "406": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/335/00000/EC7D211B-E72A-E611-941B-02163E01356F.root"
+            ], 
+            "407": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/336/00000/F8378F03-252B-E611-A090-02163E01377F.root"
+            ], 
+            "408": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/337/00000/DA599592-272B-E611-9ADB-02163E01431E.root"
+            ], 
+            "409": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/1AC739D9-342B-E611-8FA6-02163E01379F.root"
+            ], 
+            "410": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/6E5EE7DB-342B-E611-8E45-02163E014656.root"
+            ], 
+            "411": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/9699A6DC-342B-E611-B750-02163E012360.root"
+            ], 
+            "412": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/A6D771DC-342B-E611-854F-02163E013658.root"
+            ], 
+            "413": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/B02E38DD-342B-E611-8412-02163E0137E5.root"
+            ], 
+            "414": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/B45951E5-342B-E611-A686-02163E0141A2.root"
+            ], 
+            "415": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/B63F29DF-342B-E611-985F-02163E011FAE.root"
+            ], 
+            "416": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/CAC6D6DC-342B-E611-A6EA-02163E0128DB.root"
+            ], 
+            "417": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/E89425ED-342B-E611-822F-02163E011D8D.root"
+            ], 
+            "418": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/338/00000/F014F2D9-342B-E611-9C65-02163E014261.root"
+            ], 
+            "419": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/339/00000/26F5F2C5-A92B-E611-A840-02163E014603.root"
+            ], 
+            "420": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/344/00000/502328D4-952B-E611-AF19-02163E011DC2.root"
+            ], 
+            "421": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/344/00000/6806A272-962B-E611-B4DF-02163E0118E1.root"
+            ], 
+            "422": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/344/00000/78C290EF-952B-E611-9A9E-02163E0146A9.root"
+            ], 
+            "423": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/344/00000/8ECFC019-962B-E611-A545-02163E014653.root"
+            ], 
+            "424": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/344/00000/AAE8E4D9-952B-E611-96BE-02163E011E74.root"
+            ], 
+            "425": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/344/00000/C859513D-962B-E611-BD2A-02163E012948.root"
+            ], 
+            "426": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/344/00000/D6A9B0D0-952B-E611-B02B-02163E013696.root"
+            ], 
+            "427": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/344/00000/E4F80F28-962B-E611-BF42-02163E011B6E.root"
+            ], 
+            "428": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/344/00000/E87CEE39-962B-E611-8B0D-02163E012ADF.root"
+            ], 
+            "429": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/345/00000/405AFD96-9A2B-E611-AB1E-02163E012A0A.root"
+            ], 
+            "430": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/345/00000/A6130C82-9A2B-E611-9984-02163E0139AF.root"
+            ], 
+            "431": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/345/00000/C426CE89-9A2B-E611-9FBF-02163E011B6E.root"
+            ], 
+            "432": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/373/00000/308E17DD-9D2B-E611-9D63-02163E0141E8.root"
+            ], 
+            "433": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/382/00000/107E75C6-9F2B-E611-B6B9-02163E013589.root"
+            ], 
+            "434": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/387/00000/56772605-C12B-E611-A260-02163E0139D6.root"
+            ], 
+            "435": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/387/00000/6008F668-A72B-E611-9A87-02163E013796.root"
+            ], 
+            "436": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/387/00000/BAE98A7F-A72B-E611-A216-02163E01461E.root"
+            ], 
+            "437": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/387/00000/CAE25A92-A72B-E611-8759-02163E014629.root"
+            ], 
+            "438": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/387/00000/EC4AD05B-A72B-E611-A00C-02163E01363C.root"
+            ], 
+            "439": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/339/00000/6E983273-3F2C-E611-8BBF-02163E0135F0.root"
+            ], 
+            "440": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/04250909-562C-E611-94F6-02163E0146A5.root"
+            ], 
+            "441": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/049E8A0D-5C2C-E611-A24D-02163E014506.root"
+            ], 
+            "442": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/06279A1F-552C-E611-9D93-02163E014761.root"
+            ], 
+            "443": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/1ADE7CCA-512C-E611-BDFB-02163E011885.root"
+            ], 
+            "444": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/2CAD7E77-622C-E611-8B1E-02163E011EC0.root"
+            ], 
+            "445": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/2E13D9A8-5A2C-E611-B6FC-02163E013649.root"
+            ], 
+            "446": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/36CE76A4-582C-E611-A628-02163E01194C.root"
+            ], 
+            "447": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/48524C57-4E2C-E611-88E0-02163E011E7B.root"
+            ], 
+            "448": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/4E0AB62E-542C-E611-BD96-02163E0139BC.root"
+            ], 
+            "449": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/6881BA73-512C-E611-B678-02163E01195B.root"
+            ], 
+            "450": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/7689F774-572C-E611-9D0F-02163E0119A6.root"
+            ], 
+            "451": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/76982A69-582C-E611-9949-02163E01338F.root"
+            ], 
+            "452": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/8E71300B-4C2C-E611-92C7-02163E011BE2.root"
+            ], 
+            "453": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/90870C13-692C-E611-ABCA-02163E012691.root"
+            ], 
+            "454": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/94B59656-5F2C-E611-AC7A-02163E013520.root"
+            ], 
+            "455": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/B850BC65-8E2C-E611-9688-02163E01472C.root"
+            ], 
+            "456": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/CE2CBDBB-4F2C-E611-8426-02163E011ACC.root"
+            ], 
+            "457": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/D82598F4-562C-E611-B005-02163E014587.root"
+            ], 
+            "458": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/DA34C3C6-522C-E611-97DB-02163E014649.root"
+            ], 
+            "459": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/E8299290-5C2C-E611-8B2C-02163E0146A7.root"
+            ], 
+            "460": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/EAC4A6DC-592C-E611-95C7-02163E0146F8.root"
+            ], 
+            "461": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/388/00000/F67F1B52-532C-E611-904B-02163E014698.root"
+            ], 
+            "462": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/420/00000/36DBBD51-012D-E611-B470-02163E011ACC.root"
+            ], 
+            "463": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/420/00000/5413C5FD-F22C-E611-8BDA-02163E0145DA.root"
+            ], 
+            "464": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/420/00000/7418AB29-FD2C-E611-BEEC-02163E01356E.root"
+            ], 
+            "465": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/421/00000/3C3005C3-0B2D-E611-B08A-02163E0121A9.root"
+            ], 
+            "466": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/421/00000/68B839AF-092D-E611-AE77-02163E011BEA.root"
+            ], 
+            "467": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/421/00000/A62075DD-3F2D-E611-8303-02163E0121FE.root"
+            ], 
+            "468": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/421/00000/C834A286-062D-E611-AEF7-02163E011BF0.root"
+            ], 
+            "469": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/08365309-7D2D-E611-8DE4-02163E0135B6.root"
+            ], 
+            "470": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/126F8498-832D-E611-A0D3-02163E01238E.root"
+            ], 
+            "471": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/227770C0-842D-E611-B14A-02163E012892.root"
+            ], 
+            "472": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/26902DEE-812D-E611-B8B0-02163E0133E8.root"
+            ], 
+            "473": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/2AE744FD-872D-E611-8471-02163E01223F.root"
+            ], 
+            "474": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/2C4939E8-7B2D-E611-A3E7-02163E0118FB.root"
+            ], 
+            "475": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/2C4D2E2C-7B2D-E611-AAC2-02163E014527.root"
+            ], 
+            "476": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/2C7C931E-862D-E611-BADC-02163E01379F.root"
+            ], 
+            "477": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/346F53F7-792D-E611-9CB8-02163E01454B.root"
+            ], 
+            "478": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/3802FE94-7C2D-E611-A951-02163E01468A.root"
+            ], 
+            "479": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/464148EB-842D-E611-84D0-02163E0137E9.root"
+            ], 
+            "480": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/5EEF7979-812D-E611-9908-02163E012620.root"
+            ], 
+            "481": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/64AEA0E6-822D-E611-BD64-02163E014609.root"
+            ], 
+            "482": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/720F4477-762D-E611-9FCB-02163E011E41.root"
+            ], 
+            "483": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/84AC3A5A-892D-E611-BE64-02163E0145F4.root"
+            ], 
+            "484": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/8CD1C270-A92D-E611-A5A6-02163E011A41.root"
+            ], 
+            "485": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/988B6F81-8A2D-E611-9826-02163E013490.root"
+            ], 
+            "486": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/B052FCF4-7D2D-E611-90AD-02163E01454B.root"
+            ], 
+            "487": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/B0BCBE6D-7E2D-E611-A40D-02163E011B75.root"
+            ], 
+            "488": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/B2D4D542-822D-E611-A2C4-02163E011940.root"
+            ], 
+            "489": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/C0D595ED-802D-E611-AB12-02163E012A6E.root"
+            ], 
+            "490": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/CEFDBA74-802D-E611-AD7E-02163E0135F2.root"
+            ], 
+            "491": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/E88BA1DF-7C2D-E611-A781-02163E0128E4.root"
+            ], 
+            "492": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/ECB7AFD6-7E2D-E611-AD68-02163E013502.root"
+            ], 
+            "493": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/EE1A9297-852D-E611-A635-02163E0137E1.root"
+            ], 
+            "494": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/F2BB0520-C12D-E611-B37D-02163E0144D0.root"
+            ], 
+            "495": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/F8ACE65C-7F2D-E611-89DC-02163E012614.root"
+            ], 
+            "496": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/FCACD052-782D-E611-A28F-02163E011B54.root"
+            ], 
+            "497": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/422/00000/FE6E69DA-7F2D-E611-B252-02163E014127.root"
+            ], 
+            "498": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/440/00000/1E918C7B-AB2D-E611-A94A-02163E014279.root"
+            ], 
+            "499": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/440/00000/2AB2E9AA-A62D-E611-BFA3-02163E0145E0.root"
+            ], 
+            "500": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/440/00000/5A5F4AD5-9D2D-E611-8C4F-02163E013982.root"
+            ], 
+            "501": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/440/00000/B4B84DB1-E72D-E611-AE33-02163E0138A6.root"
+            ], 
+            "502": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/440/00000/B69ED4A4-A32D-E611-8563-02163E0135E6.root"
+            ], 
+            "503": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/441/00000/4ABA0DF6-B92D-E611-9337-02163E014146.root"
+            ], 
+            "504": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/441/00000/5E902D4F-C02D-E611-815C-02163E011A1D.root"
+            ], 
+            "505": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/441/00000/744BEAFA-C72D-E611-8CF9-02163E011C31.root"
+            ], 
+            "506": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/441/00000/F2CA3F71-BD2D-E611-BB6B-02163E011DC6.root"
+            ], 
+            "507": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/441/00000/F8D04745-B72D-E611-AC53-02163E013516.root"
+            ], 
+            "508": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/0C3006F2-FB2D-E611-9EEE-02163E01417E.root"
+            ], 
+            "509": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/1A377469-012E-E611-BF2E-02163E011DB8.root"
+            ], 
+            "510": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/34BB1EDD-FE2D-E611-881B-02163E014357.root"
+            ], 
+            "511": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/46A15D9F-0F2E-E611-828E-02163E014506.root"
+            ], 
+            "512": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/6881DC76-F82D-E611-97F1-02163E0143E3.root"
+            ], 
+            "513": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/7C232887-042E-E611-B2A9-02163E013716.root"
+            ], 
+            "514": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/9A38D141-FA2D-E611-B4A1-02163E012231.root"
+            ], 
+            "515": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/B24963E2-FD2D-E611-8DBA-02163E013661.root"
+            ], 
+            "516": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/C44F1CDB-FC2D-E611-B64A-02163E0133FA.root"
+            ], 
+            "517": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/E2FE4E0F-002E-E611-9D23-02163E014379.root"
+            ], 
+            "518": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/442/00000/F8F53B48-132E-E611-8F69-02163E0142D3.root"
+            ], 
+            "519": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/443/00000/763B02D0-062E-E611-87F7-02163E014568.root"
+            ], 
+            "520": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/656/00000/B01E7BD0-DD2E-E611-9865-02163E01254F.root"
+            ], 
+            "521": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/733/00000/983BC2AC-1E2F-E611-821D-02163E0140F0.root"
+            ], 
+            "522": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/748/00000/00183509-292F-E611-B4E3-02163E013556.root"
+            ], 
+            "523": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/799/00000/34493314-B02F-E611-969D-02163E012B9E.root"
+            ], 
+            "524": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/806/00000/463582D4-B62F-E611-B0CC-02163E012B9E.root"
+            ], 
+            "525": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/861/00000/DEF86494-DB2F-E611-91E1-02163E013690.root"
+            ], 
+            "526": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/868/00000/645F9C4B-E22F-E611-8A31-02163E0139AB.root"
+            ], 
+            "527": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/877/00000/CA40B1F3-3730-E611-85B8-02163E013513.root"
+            ], 
+            "528": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/880/00000/7475E79F-5330-E611-BDE6-02163E0138F9.root"
+            ], 
+            "529": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/888/00000/58BDA8A9-6B30-E611-B5D1-02163E014506.root"
+            ], 
+            "530": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/889/00000/B0EB5981-7030-E611-A735-02163E013806.root"
+            ], 
+            "531": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/894/00000/F46CD8D0-7330-E611-B99E-02163E0138B3.root"
+            ], 
+            "532": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/895/00000/E0DAE37D-7530-E611-A9D5-02163E012B01.root"
+            ], 
+            "533": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/904/00000/4EF7133E-7D30-E611-B128-02163E0134CB.root"
+            ], 
+            "534": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/905/00000/E2F3183F-7D30-E611-BF41-02163E011C63.root"
+            ], 
+            "535": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/909/00000/96177A49-8A30-E611-87A5-02163E01434F.root"
+            ], 
+            "536": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/913/00000/BCE5A702-9630-E611-A62B-02163E01414D.root"
+            ], 
+            "537": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/917/00000/581A764C-9930-E611-A667-02163E0141BE.root"
+            ], 
+            "538": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/943/00000/86F895AE-F130-E611-8010-02163E0143C8.root"
+            ], 
+            "539": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/945/00000/225EA4FA-2131-E611-831C-02163E01472C.root"
+            ], 
+            "540": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/953/00000/543C6057-3A31-E611-A928-02163E014357.root"
+            ], 
+            "541": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/954/00000/E6FA94A4-6C31-E611-AAA6-02163E01343A.root"
+            ], 
+            "542": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/955/00000/682371EE-6E31-E611-BD39-02163E011E0B.root"
+            ], 
+            "543": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/957/00000/F6D23C49-7931-E611-836C-02163E0141DC.root"
+            ], 
+            "544": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/958/00000/2C1381B1-9231-E611-80DC-02163E0137E1.root"
+            ], 
+            "545": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/958/00000/BCAFB119-C331-E611-9EDF-02163E011E74.root"
+            ], 
+            "546": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/958/00000/D605F018-8E31-E611-91F1-02163E0133C8.root"
+            ], 
+            "547": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/959/00000/3A918002-A231-E611-AD26-02163E011F91.root"
+            ], 
+            "548": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/959/00000/A403461F-9D31-E611-8384-02163E01358A.root"
+            ], 
+            "549": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/959/00000/A8D3F001-C831-E611-8537-02163E0137E7.root"
+            ], 
+            "550": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/966/00000/527F11E7-B231-E611-9F4B-02163E011D19.root"
+            ], 
+            "551": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/967/00000/2EF5634F-D331-E611-843A-02163E0134A1.root"
+            ], 
+            "552": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/00604F5A-7232-E611-8BB2-02163E013674.root"
+            ], 
+            "553": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/02693EAC-7B32-E611-BD8A-02163E012A03.root"
+            ], 
+            "554": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/0C9D7324-7732-E611-A149-02163E0133EE.root"
+            ], 
+            "555": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/1250F83E-8332-E611-B624-02163E012610.root"
+            ], 
+            "556": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/3227866B-7232-E611-BAA8-02163E0128BA.root"
+            ], 
+            "557": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/683DAE97-7232-E611-BCA5-02163E0142F7.root"
+            ], 
+            "558": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/8CACB8DE-F132-E611-8DE7-02163E012352.root"
+            ], 
+            "559": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/8CE99495-7232-E611-9B9D-02163E0135F2.root"
+            ], 
+            "560": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/AC48822E-7732-E611-9002-02163E011967.root"
+            ], 
+            "561": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/B09ADEE0-6732-E611-A5A8-02163E011A8D.root"
+            ], 
+            "562": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/D06B955B-7232-E611-9C7B-02163E011D1C.root"
+            ], 
+            "563": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/E03D5762-7232-E611-B258-02163E0146DF.root"
+            ], 
+            "564": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/E83ECA59-7232-E611-8B49-02163E012A2C.root"
+            ], 
+            "565": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/968/00000/F616165F-7232-E611-AFEC-02163E014419.root"
+            ], 
+            "566": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/1AD74693-A632-E611-B803-02163E01342C.root"
+            ], 
+            "567": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/1C24AAB7-9D32-E611-B316-02163E014380.root"
+            ], 
+            "568": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/2EDA6784-A032-E611-A830-02163E011ED8.root"
+            ], 
+            "569": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/44EDDC01-9E32-E611-9769-02163E01411D.root"
+            ], 
+            "570": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/508BAD07-9B32-E611-90D6-02163E012A0A.root"
+            ], 
+            "571": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/52CD422B-AD32-E611-BD7A-02163E0124CA.root"
+            ], 
+            "572": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/6C723853-2033-E611-8081-02163E0133BA.root"
+            ], 
+            "573": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/7CEFD2D1-A232-E611-A30F-02163E014284.root"
+            ], 
+            "574": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/7ED559E3-9F32-E611-B752-02163E011935.root"
+            ], 
+            "575": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/985C340E-9A32-E611-8D66-02163E014527.root"
+            ], 
+            "576": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/A8C8F947-A132-E611-849A-02163E01423B.root"
+            ], 
+            "577": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/C684DC92-9E32-E611-BAE4-02163E012832.root"
+            ], 
+            "578": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/DE737A6E-9B32-E611-A332-02163E012832.root"
+            ], 
+            "579": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/969/00000/FE146532-A432-E611-A014-02163E0119A1.root"
+            ], 
+            "580": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/970/00000/304AA5F1-DD32-E611-BBC9-02163E013790.root"
+            ], 
+            "581": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/06C83AF1-3033-E611-B60A-02163E0127C7.root"
+            ], 
+            "582": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/0A89BEF3-3033-E611-8FED-02163E0134FE.root"
+            ], 
+            "583": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/585016EB-3033-E611-A683-02163E014383.root"
+            ], 
+            "584": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/5EC48BF1-3033-E611-9DBB-02163E013574.root"
+            ], 
+            "585": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/86749CC7-3033-E611-86A7-02163E01233E.root"
+            ], 
+            "586": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/9011799B-E332-E611-8C93-02163E0141DC.root"
+            ], 
+            "587": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/BC5B4EDF-3033-E611-BE3D-02163E01376D.root"
+            ], 
+            "588": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/CCD1DB47-3233-E611-8785-02163E01442F.root"
+            ], 
+            "589": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/DECD13EF-3033-E611-96E6-02163E011AE1.root"
+            ], 
+            "590": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/EC023215-E132-E611-8A01-02163E0137F0.root"
+            ], 
+            "591": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/971/00000/F2BEC1EB-3033-E611-9E56-02163E011AAF.root"
+            ], 
+            "592": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/990/00000/8A17060E-0C33-E611-BAF7-02163E01398D.root"
+            ], 
+            "593": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/998/00000/08402C9A-4933-E611-B076-02163E01431D.root"
+            ], 
+            "594": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/998/00000/404C626B-4933-E611-955C-02163E01387D.root"
+            ], 
+            "595": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/998/00000/4C483F90-4933-E611-8B56-02163E0133DB.root"
+            ], 
+            "596": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/998/00000/5C00279A-4933-E611-B783-02163E0118CA.root"
+            ], 
+            "597": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/998/00000/7803FF89-4933-E611-9FA2-02163E0135F9.root"
+            ], 
+            "598": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/998/00000/7850F7C1-4933-E611-A411-02163E0142EE.root"
+            ], 
+            "599": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/998/00000/82039121-7A33-E611-AE53-02163E01351A.root"
+            ], 
+            "600": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/998/00000/B0F08A88-4933-E611-ACBD-02163E013484.root"
+            ], 
+            "601": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/998/00000/C43B6B76-4933-E611-991F-02163E0135AA.root"
+            ], 
+            "602": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/08474786-7233-E611-B8B2-02163E012037.root"
+            ], 
+            "603": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/1CFAD126-7B33-E611-9BBD-02163E0120DD.root"
+            ], 
+            "604": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/4EB61CCB-7033-E611-A0B7-02163E011F93.root"
+            ], 
+            "605": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/5CBD2FE3-7633-E611-A7C4-02163E0134B8.root"
+            ], 
+            "606": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/908A4513-7133-E611-9735-02163E01260D.root"
+            ], 
+            "607": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/92D685C8-7833-E611-A699-02163E011A55.root"
+            ], 
+            "608": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/9A1CE962-7833-E611-8BA6-02163E012675.root"
+            ], 
+            "609": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/A487E9DC-7933-E611-819E-02163E011F6B.root"
+            ], 
+            "610": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/A669D474-7733-E611-B1F5-02163E01394A.root"
+            ], 
+            "611": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/AA8FD9FD-7333-E611-B7EF-02163E01394A.root"
+            ], 
+            "612": [
+                "/store/data/Run2016B/SinglePhoton/MINIAOD/PromptReco-v2/000/274/999/00000/F663585D-7533-E611-84CE-02163E014475.root"
+            ]
+        }
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            47671, 
+            47671
+        ], 
+        "2": [
+            94568, 
+            94568
+        ], 
+        "3": [
+            8, 
+            8
+        ], 
+        "4": [
+            21324, 
+            21324
+        ], 
+        "5": [
+            95198, 
+            95198
+        ], 
+        "6": [
+            83027, 
+            83027
+        ], 
+        "7": [
+            60425, 
+            60425
+        ], 
+        "8": [
+            81840, 
+            81840
+        ], 
+        "9": [
+            31884, 
+            31884
+        ], 
+        "10": [
+            756, 
+            756
+        ], 
+        "11": [
+            81268, 
+            81268
+        ], 
+        "12": [
+            6049, 
+            6049
+        ], 
+        "13": [
+            6502, 
+            6502
+        ], 
+        "14": [
+            48715, 
+            48715
+        ], 
+        "15": [
+            74814, 
+            74814
+        ], 
+        "16": [
+            99443, 
+            99443
+        ], 
+        "17": [
+            94893, 
+            94893
+        ], 
+        "18": [
+            91807, 
+            91807
+        ], 
+        "19": [
+            93800, 
+            93800
+        ], 
+        "20": [
+            96882, 
+            96882
+        ], 
+        "21": [
+            97919, 
+            97919
+        ], 
+        "22": [
+            566, 
+            566
+        ], 
+        "23": [
+            94430, 
+            94430
+        ], 
+        "24": [
+            94829, 
+            94829
+        ], 
+        "25": [
+            98187, 
+            98187
+        ], 
+        "26": [
+            19760, 
+            19760
+        ], 
+        "27": [
+            97975, 
+            97975
+        ], 
+        "28": [
+            93826, 
+            93826
+        ], 
+        "29": [
+            94442, 
+            94442
+        ], 
+        "30": [
+            68800, 
+            68800
+        ], 
+        "31": [
+            99906, 
+            99906
+        ], 
+        "32": [
+            99048, 
+            99048
+        ], 
+        "33": [
+            99660, 
+            99660
+        ], 
+        "34": [
+            96863, 
+            96863
+        ], 
+        "35": [
+            96250, 
+            96250
+        ], 
+        "36": [
+            95231, 
+            95231
+        ], 
+        "37": [
+            94281, 
+            94281
+        ], 
+        "38": [
+            98858, 
+            98858
+        ], 
+        "39": [
+            96053, 
+            96053
+        ], 
+        "40": [
+            95599, 
+            95599
+        ], 
+        "41": [
+            98527, 
+            98527
+        ], 
+        "42": [
+            4080, 
+            4080
+        ], 
+        "43": [
+            62474, 
+            62474
+        ], 
+        "44": [
+            95529, 
+            95529
+        ], 
+        "45": [
+            96857, 
+            96857
+        ], 
+        "46": [
+            99552, 
+            99552
+        ], 
+        "47": [
+            80618, 
+            80618
+        ], 
+        "48": [
+            93293, 
+            93293
+        ], 
+        "49": [
+            99592, 
+            99592
+        ], 
+        "50": [
+            97364, 
+            97364
+        ], 
+        "51": [
+            99062, 
+            99062
+        ], 
+        "52": [
+            30738, 
+            30738
+        ], 
+        "53": [
+            97059, 
+            97059
+        ], 
+        "54": [
+            85017, 
+            85017
+        ], 
+        "55": [
+            99715, 
+            99715
+        ], 
+        "56": [
+            7, 
+            7
+        ], 
+        "57": [
+            2263, 
+            2263
+        ], 
+        "58": [
+            358, 
+            358
+        ], 
+        "59": [
+            5225, 
+            5225
+        ], 
+        "60": [
+            96229, 
+            96229
+        ], 
+        "61": [
+            431, 
+            431
+        ], 
+        "62": [
+            118, 
+            118
+        ], 
+        "63": [
+            37812, 
+            37812
+        ], 
+        "64": [
+            40188, 
+            40188
+        ], 
+        "65": [
+            80148, 
+            80148
+        ], 
+        "66": [
+            89877, 
+            89877
+        ], 
+        "67": [
+            87588, 
+            87588
+        ], 
+        "68": [
+            95740, 
+            95740
+        ], 
+        "69": [
+            81189, 
+            81189
+        ], 
+        "70": [
+            97758, 
+            97758
+        ], 
+        "71": [
+            87441, 
+            87441
+        ], 
+        "72": [
+            93972, 
+            93972
+        ], 
+        "73": [
+            96433, 
+            96433
+        ], 
+        "74": [
+            94735, 
+            94735
+        ], 
+        "75": [
+            93919, 
+            93919
+        ], 
+        "76": [
+            98146, 
+            98146
+        ], 
+        "77": [
+            89530, 
+            89530
+        ], 
+        "78": [
+            98602, 
+            98602
+        ], 
+        "79": [
+            90576, 
+            90576
+        ], 
+        "80": [
+            5900, 
+            5900
+        ], 
+        "81": [
+            95521, 
+            95521
+        ], 
+        "82": [
+            97701, 
+            97701
+        ], 
+        "83": [
+            94511, 
+            94511
+        ], 
+        "84": [
+            97442, 
+            97442
+        ], 
+        "85": [
+            99058, 
+            99058
+        ], 
+        "86": [
+            45172, 
+            45172
+        ], 
+        "87": [
+            97118, 
+            97118
+        ], 
+        "88": [
+            98138, 
+            98138
+        ], 
+        "89": [
+            96772, 
+            96772
+        ], 
+        "90": [
+            97408, 
+            97408
+        ], 
+        "91": [
+            99901, 
+            99901
+        ], 
+        "92": [
+            96602, 
+            96602
+        ], 
+        "93": [
+            98343, 
+            98343
+        ], 
+        "94": [
+            99558, 
+            99558
+        ], 
+        "95": [
+            99328, 
+            99328
+        ], 
+        "96": [
+            99727, 
+            99727
+        ], 
+        "97": [
+            99862, 
+            99862
+        ], 
+        "98": [
+            92451, 
+            92451
+        ], 
+        "99": [
+            38365, 
+            38365
+        ], 
+        "100": [
+            86484, 
+            86484
+        ], 
+        "101": [
+            97175, 
+            97175
+        ], 
+        "102": [
+            99254, 
+            99254
+        ], 
+        "103": [
+            87684, 
+            87684
+        ], 
+        "104": [
+            89153, 
+            89153
+        ], 
+        "105": [
+            99682, 
+            99682
+        ], 
+        "106": [
+            86709, 
+            86709
+        ], 
+        "107": [
+            94638, 
+            94638
+        ], 
+        "108": [
+            88798, 
+            88798
+        ], 
+        "109": [
+            90902, 
+            90902
+        ], 
+        "110": [
+            99215, 
+            99215
+        ], 
+        "111": [
+            95093, 
+            95093
+        ], 
+        "112": [
+            93766, 
+            93766
+        ], 
+        "113": [
+            0, 
+            0
+        ], 
+        "114": [
+            91032, 
+            91032
+        ], 
+        "115": [
+            44591, 
+            44591
+        ], 
+        "116": [
+            88438, 
+            88438
+        ], 
+        "117": [
+            97340, 
+            97340
+        ], 
+        "118": [
+            92358, 
+            92358
+        ], 
+        "119": [
+            92633, 
+            92633
+        ], 
+        "120": [
+            92188, 
+            92188
+        ], 
+        "121": [
+            99277, 
+            99277
+        ], 
+        "122": [
+            90036, 
+            90036
+        ], 
+        "123": [
+            90717, 
+            90717
+        ], 
+        "124": [
+            0, 
+            0
+        ], 
+        "125": [
+            0, 
+            0
+        ], 
+        "126": [
+            0, 
+            0
+        ], 
+        "127": [
+            3479, 
+            3479
+        ], 
+        "128": [
+            65748, 
+            65748
+        ], 
+        "129": [
+            197, 
+            197
+        ], 
+        "130": [
+            5, 
+            5
+        ], 
+        "131": [
+            7, 
+            7
+        ], 
+        "132": [
+            79348, 
+            79348
+        ], 
+        "133": [
+            26028, 
+            26028
+        ], 
+        "134": [
+            92603, 
+            92603
+        ], 
+        "135": [
+            91545, 
+            91545
+        ], 
+        "136": [
+            97992, 
+            97992
+        ], 
+        "137": [
+            60484, 
+            60484
+        ], 
+        "138": [
+            36377, 
+            36377
+        ], 
+        "139": [
+            98680, 
+            98680
+        ], 
+        "140": [
+            97355, 
+            97355
+        ], 
+        "141": [
+            0, 
+            0
+        ], 
+        "142": [
+            93578, 
+            93578
+        ], 
+        "143": [
+            13284, 
+            13284
+        ], 
+        "144": [
+            25842, 
+            25842
+        ], 
+        "145": [
+            8551, 
+            8551
+        ], 
+        "146": [
+            11745, 
+            11745
+        ], 
+        "147": [
+            53421, 
+            53421
+        ], 
+        "148": [
+            1, 
+            1
+        ], 
+        "149": [
+            3244, 
+            3244
+        ], 
+        "150": [
+            13287, 
+            13287
+        ], 
+        "151": [
+            98810, 
+            98810
+        ], 
+        "152": [
+            96713, 
+            96713
+        ], 
+        "153": [
+            60284, 
+            60284
+        ], 
+        "154": [
+            59152, 
+            59152
+        ], 
+        "155": [
+            39193, 
+            39193
+        ], 
+        "156": [
+            91, 
+            91
+        ], 
+        "157": [
+            92162, 
+            92162
+        ], 
+        "158": [
+            98519, 
+            98519
+        ], 
+        "159": [
+            19433, 
+            19433
+        ], 
+        "160": [
+            98513, 
+            98513
+        ], 
+        "161": [
+            96169, 
+            96169
+        ], 
+        "162": [
+            28734, 
+            28734
+        ], 
+        "163": [
+            0, 
+            0
+        ], 
+        "164": [
+            0, 
+            0
+        ], 
+        "165": [
+            2303, 
+            2303
+        ], 
+        "166": [
+            1070, 
+            1070
+        ], 
+        "167": [
+            5445, 
+            5445
+        ], 
+        "168": [
+            27873, 
+            27873
+        ], 
+        "169": [
+            44589, 
+            44589
+        ], 
+        "170": [
+            93185, 
+            93185
+        ], 
+        "171": [
+            94564, 
+            94564
+        ], 
+        "172": [
+            94465, 
+            94465
+        ], 
+        "173": [
+            86663, 
+            86663
+        ], 
+        "174": [
+            95912, 
+            95912
+        ], 
+        "175": [
+            93311, 
+            93311
+        ], 
+        "176": [
+            95015, 
+            95015
+        ], 
+        "177": [
+            63354, 
+            63354
+        ], 
+        "178": [
+            94220, 
+            94220
+        ], 
+        "179": [
+            96452, 
+            96452
+        ], 
+        "180": [
+            96910, 
+            96910
+        ], 
+        "181": [
+            97242, 
+            97242
+        ], 
+        "182": [
+            99742, 
+            99742
+        ], 
+        "183": [
+            39892, 
+            39892
+        ], 
+        "184": [
+            93045, 
+            93045
+        ], 
+        "185": [
+            31395, 
+            31395
+        ], 
+        "186": [
+            98503, 
+            98503
+        ], 
+        "187": [
+            96831, 
+            96831
+        ], 
+        "188": [
+            42421, 
+            42421
+        ], 
+        "189": [
+            97289, 
+            97289
+        ], 
+        "190": [
+            15118, 
+            15118
+        ], 
+        "191": [
+            97344, 
+            97344
+        ], 
+        "192": [
+            99766, 
+            99766
+        ], 
+        "193": [
+            99011, 
+            99011
+        ], 
+        "194": [
+            71341, 
+            71341
+        ], 
+        "195": [
+            94958, 
+            94958
+        ], 
+        "196": [
+            92453, 
+            92453
+        ], 
+        "197": [
+            95799, 
+            95799
+        ], 
+        "198": [
+            98604, 
+            98604
+        ], 
+        "199": [
+            54995, 
+            54995
+        ], 
+        "200": [
+            93241, 
+            93241
+        ], 
+        "201": [
+            99419, 
+            99419
+        ], 
+        "202": [
+            0, 
+            0
+        ], 
+        "203": [
+            87, 
+            87
+        ], 
+        "204": [
+            0, 
+            0
+        ], 
+        "205": [
+            322, 
+            322
+        ], 
+        "206": [
+            41742, 
+            41742
+        ], 
+        "207": [
+            95964, 
+            95964
+        ], 
+        "208": [
+            96596, 
+            96596
+        ], 
+        "209": [
+            96306, 
+            96306
+        ], 
+        "210": [
+            98533, 
+            98533
+        ], 
+        "211": [
+            47459, 
+            47459
+        ], 
+        "212": [
+            142, 
+            142
+        ], 
+        "213": [
+            210, 
+            210
+        ], 
+        "214": [
+            228, 
+            228
+        ], 
+        "215": [
+            97637, 
+            97637
+        ], 
+        "216": [
+            99282, 
+            99282
+        ], 
+        "217": [
+            82016, 
+            82016
+        ], 
+        "218": [
+            98034, 
+            98034
+        ], 
+        "219": [
+            95552, 
+            95552
+        ], 
+        "220": [
+            94119, 
+            94119
+        ], 
+        "221": [
+            97845, 
+            97845
+        ], 
+        "222": [
+            98854, 
+            98854
+        ], 
+        "223": [
+            93286, 
+            93286
+        ], 
+        "224": [
+            94112, 
+            94112
+        ], 
+        "225": [
+            71454, 
+            71454
+        ], 
+        "226": [
+            98084, 
+            98084
+        ], 
+        "227": [
+            97228, 
+            97228
+        ], 
+        "228": [
+            98085, 
+            98085
+        ], 
+        "229": [
+            99702, 
+            99702
+        ], 
+        "230": [
+            93360, 
+            93360
+        ], 
+        "231": [
+            93094, 
+            93094
+        ], 
+        "232": [
+            97495, 
+            97495
+        ], 
+        "233": [
+            98497, 
+            98497
+        ], 
+        "234": [
+            99051, 
+            99051
+        ], 
+        "235": [
+            95130, 
+            95130
+        ], 
+        "236": [
+            96371, 
+            96371
+        ], 
+        "237": [
+            64775, 
+            64775
+        ], 
+        "238": [
+            99116, 
+            99116
+        ], 
+        "239": [
+            92696, 
+            92696
+        ], 
+        "240": [
+            99295, 
+            99295
+        ], 
+        "241": [
+            99573, 
+            99573
+        ], 
+        "242": [
+            98885, 
+            98885
+        ], 
+        "243": [
+            93237, 
+            93237
+        ], 
+        "244": [
+            99996, 
+            99996
+        ], 
+        "245": [
+            97825, 
+            97825
+        ], 
+        "246": [
+            92837, 
+            92837
+        ], 
+        "247": [
+            96680, 
+            96680
+        ], 
+        "248": [
+            93908, 
+            93908
+        ], 
+        "249": [
+            45717, 
+            45717
+        ], 
+        "250": [
+            97059, 
+            97059
+        ], 
+        "251": [
+            97387, 
+            97387
+        ], 
+        "252": [
+            95222, 
+            95222
+        ], 
+        "253": [
+            94855, 
+            94855
+        ], 
+        "254": [
+            99504, 
+            99504
+        ], 
+        "255": [
+            99318, 
+            99318
+        ], 
+        "256": [
+            93284, 
+            93284
+        ], 
+        "257": [
+            98283, 
+            98283
+        ], 
+        "258": [
+            0, 
+            0
+        ], 
+        "259": [
+            3, 
+            3
+        ], 
+        "260": [
+            2, 
+            2
+        ], 
+        "261": [
+            6, 
+            6
+        ], 
+        "262": [
+            4, 
+            4
+        ], 
+        "263": [
+            614, 
+            614
+        ], 
+        "264": [
+            84578, 
+            84578
+        ], 
+        "265": [
+            94936, 
+            94936
+        ], 
+        "266": [
+            9, 
+            9
+        ], 
+        "267": [
+            5, 
+            5
+        ], 
+        "268": [
+            9, 
+            9
+        ], 
+        "269": [
+            14, 
+            14
+        ], 
+        "270": [
+            9, 
+            9
+        ], 
+        "271": [
+            11, 
+            11
+        ], 
+        "272": [
+            8, 
+            8
+        ], 
+        "273": [
+            0, 
+            0
+        ], 
+        "274": [
+            45604, 
+            45604
+        ], 
+        "275": [
+            69245, 
+            69245
+        ], 
+        "276": [
+            0, 
+            0
+        ], 
+        "277": [
+            97948, 
+            97948
+        ], 
+        "278": [
+            95577, 
+            95577
+        ], 
+        "279": [
+            95835, 
+            95835
+        ], 
+        "280": [
+            96967, 
+            96967
+        ], 
+        "281": [
+            98404, 
+            98404
+        ], 
+        "282": [
+            45491, 
+            45491
+        ], 
+        "283": [
+            34335, 
+            34335
+        ], 
+        "284": [
+            97646, 
+            97646
+        ], 
+        "285": [
+            93421, 
+            93421
+        ], 
+        "286": [
+            99719, 
+            99719
+        ], 
+        "287": [
+            94212, 
+            94212
+        ], 
+        "288": [
+            95340, 
+            95340
+        ], 
+        "289": [
+            98336, 
+            98336
+        ], 
+        "290": [
+            95593, 
+            95593
+        ], 
+        "291": [
+            30355, 
+            30355
+        ], 
+        "292": [
+            5302, 
+            5302
+        ], 
+        "293": [
+            99774, 
+            99774
+        ], 
+        "294": [
+            463, 
+            463
+        ], 
+        "295": [
+            97535, 
+            97535
+        ], 
+        "296": [
+            98111, 
+            98111
+        ], 
+        "297": [
+            32169, 
+            32169
+        ], 
+        "298": [
+            97110, 
+            97110
+        ], 
+        "299": [
+            97508, 
+            97508
+        ], 
+        "300": [
+            62579, 
+            62579
+        ], 
+        "301": [
+            96706, 
+            96706
+        ], 
+        "302": [
+            99056, 
+            99056
+        ], 
+        "303": [
+            94446, 
+            94446
+        ], 
+        "304": [
+            96126, 
+            96126
+        ], 
+        "305": [
+            96507, 
+            96507
+        ], 
+        "306": [
+            58171, 
+            58171
+        ], 
+        "307": [
+            97810, 
+            97810
+        ], 
+        "308": [
+            96202, 
+            96202
+        ], 
+        "309": [
+            98033, 
+            98033
+        ], 
+        "310": [
+            95406, 
+            95406
+        ], 
+        "311": [
+            96502, 
+            96502
+        ], 
+        "312": [
+            99869, 
+            99869
+        ], 
+        "313": [
+            93637, 
+            93637
+        ], 
+        "314": [
+            0, 
+            0
+        ], 
+        "315": [
+            14661, 
+            14661
+        ], 
+        "316": [
+            23964, 
+            23964
+        ], 
+        "317": [
+            88461, 
+            88461
+        ], 
+        "318": [
+            96160, 
+            96160
+        ], 
+        "319": [
+            95512, 
+            95512
+        ], 
+        "320": [
+            94904, 
+            94904
+        ], 
+        "321": [
+            96185, 
+            96185
+        ], 
+        "322": [
+            96804, 
+            96804
+        ], 
+        "323": [
+            97985, 
+            97985
+        ], 
+        "324": [
+            94728, 
+            94728
+        ], 
+        "325": [
+            97165, 
+            97165
+        ], 
+        "326": [
+            95776, 
+            95776
+        ], 
+        "327": [
+            96302, 
+            96302
+        ], 
+        "328": [
+            99416, 
+            99416
+        ], 
+        "329": [
+            93419, 
+            93419
+        ], 
+        "330": [
+            97310, 
+            97310
+        ], 
+        "331": [
+            19255, 
+            19255
+        ], 
+        "332": [
+            96983, 
+            96983
+        ], 
+        "333": [
+            93302, 
+            93302
+        ], 
+        "334": [
+            0, 
+            0
+        ], 
+        "335": [
+            98675, 
+            98675
+        ], 
+        "336": [
+            98296, 
+            98296
+        ], 
+        "337": [
+            97128, 
+            97128
+        ], 
+        "338": [
+            51533, 
+            51533
+        ], 
+        "339": [
+            96097, 
+            96097
+        ], 
+        "340": [
+            99408, 
+            99408
+        ], 
+        "341": [
+            98749, 
+            98749
+        ], 
+        "342": [
+            99029, 
+            99029
+        ], 
+        "343": [
+            43873, 
+            43873
+        ], 
+        "344": [
+            92041, 
+            92041
+        ], 
+        "345": [
+            98940, 
+            98940
+        ], 
+        "346": [
+            97282, 
+            97282
+        ], 
+        "347": [
+            92173, 
+            92173
+        ], 
+        "348": [
+            97957, 
+            97957
+        ], 
+        "349": [
+            93568, 
+            93568
+        ], 
+        "350": [
+            70941, 
+            70941
+        ], 
+        "351": [
+            98101, 
+            98101
+        ], 
+        "352": [
+            99060, 
+            99060
+        ], 
+        "353": [
+            95844, 
+            95844
+        ], 
+        "354": [
+            90601, 
+            90601
+        ], 
+        "355": [
+            98692, 
+            98692
+        ], 
+        "356": [
+            94461, 
+            94461
+        ], 
+        "357": [
+            97034, 
+            97034
+        ], 
+        "358": [
+            6570, 
+            6570
+        ], 
+        "359": [
+            95000, 
+            95000
+        ], 
+        "360": [
+            93109, 
+            93109
+        ], 
+        "361": [
+            94571, 
+            94571
+        ], 
+        "362": [
+            99121, 
+            99121
+        ], 
+        "363": [
+            1630, 
+            1630
+        ], 
+        "364": [
+            48211, 
+            48211
+        ], 
+        "365": [
+            4064, 
+            4064
+        ], 
+        "366": [
+            88099, 
+            88099
+        ], 
+        "367": [
+            88812, 
+            88812
+        ], 
+        "368": [
+            65423, 
+            65423
+        ], 
+        "369": [
+            90084, 
+            90084
+        ], 
+        "370": [
+            407, 
+            407
+        ], 
+        "371": [
+            66068, 
+            66068
+        ], 
+        "372": [
+            73223, 
+            73223
+        ], 
+        "373": [
+            21372, 
+            21372
+        ], 
+        "374": [
+            1605, 
+            1605
+        ], 
+        "375": [
+            95016, 
+            95016
+        ], 
+        "376": [
+            10583, 
+            10583
+        ], 
+        "377": [
+            81159, 
+            81159
+        ], 
+        "378": [
+            81634, 
+            81634
+        ], 
+        "379": [
+            80730, 
+            80730
+        ], 
+        "380": [
+            82152, 
+            82152
+        ], 
+        "381": [
+            80637, 
+            80637
+        ], 
+        "382": [
+            23764, 
+            23764
+        ], 
+        "383": [
+            94647, 
+            94647
+        ], 
+        "384": [
+            96696, 
+            96696
+        ], 
+        "385": [
+            41420, 
+            41420
+        ], 
+        "386": [
+            93598, 
+            93598
+        ], 
+        "387": [
+            92789, 
+            92789
+        ], 
+        "388": [
+            97987, 
+            97987
+        ], 
+        "389": [
+            85625, 
+            85625
+        ], 
+        "390": [
+            97247, 
+            97247
+        ], 
+        "391": [
+            98997, 
+            98997
+        ], 
+        "392": [
+            1808, 
+            1808
+        ], 
+        "393": [
+            30, 
+            30
+        ], 
+        "394": [
+            72777, 
+            72777
+        ], 
+        "395": [
+            89477, 
+            89477
+        ], 
+        "396": [
+            473, 
+            473
+        ], 
+        "397": [
+            85649, 
+            85649
+        ], 
+        "398": [
+            58231, 
+            58231
+        ], 
+        "399": [
+            94249, 
+            94249
+        ], 
+        "400": [
+            90917, 
+            90917
+        ], 
+        "401": [
+            89687, 
+            89687
+        ], 
+        "402": [
+            94580, 
+            94580
+        ], 
+        "403": [
+            98558, 
+            98558
+        ], 
+        "404": [
+            96005, 
+            96005
+        ], 
+        "405": [
+            99086, 
+            99086
+        ], 
+        "406": [
+            97711, 
+            97711
+        ], 
+        "407": [
+            10408, 
+            10408
+        ], 
+        "408": [
+            10538, 
+            10538
+        ], 
+        "409": [
+            97845, 
+            97845
+        ], 
+        "410": [
+            37685, 
+            37685
+        ], 
+        "411": [
+            94104, 
+            94104
+        ], 
+        "412": [
+            97432, 
+            97432
+        ], 
+        "413": [
+            94693, 
+            94693
+        ], 
+        "414": [
+            95982, 
+            95982
+        ], 
+        "415": [
+            94384, 
+            94384
+        ], 
+        "416": [
+            95570, 
+            95570
+        ], 
+        "417": [
+            97196, 
+            97196
+        ], 
+        "418": [
+            94105, 
+            94105
+        ], 
+        "419": [
+            34142, 
+            34142
+        ], 
+        "420": [
+            95760, 
+            95760
+        ], 
+        "421": [
+            97965, 
+            97965
+        ], 
+        "422": [
+            98505, 
+            98505
+        ], 
+        "423": [
+            93763, 
+            93763
+        ], 
+        "424": [
+            94975, 
+            94975
+        ], 
+        "425": [
+            99982, 
+            99982
+        ], 
+        "426": [
+            96554, 
+            96554
+        ], 
+        "427": [
+            26564, 
+            26564
+        ], 
+        "428": [
+            99800, 
+            99800
+        ], 
+        "429": [
+            32246, 
+            32246
+        ], 
+        "430": [
+            94272, 
+            94272
+        ], 
+        "431": [
+            97142, 
+            97142
+        ], 
+        "432": [
+            2037, 
+            2037
+        ], 
+        "433": [
+            75100, 
+            75100
+        ], 
+        "434": [
+            16890, 
+            16890
+        ], 
+        "435": [
+            85533, 
+            85533
+        ], 
+        "436": [
+            94971, 
+            94971
+        ], 
+        "437": [
+            96167, 
+            96167
+        ], 
+        "438": [
+            92930, 
+            92930
+        ], 
+        "439": [
+            70610, 
+            70610
+        ], 
+        "440": [
+            97957, 
+            97957
+        ], 
+        "441": [
+            98311, 
+            98311
+        ], 
+        "442": [
+            93543, 
+            93543
+        ], 
+        "443": [
+            94908, 
+            94908
+        ], 
+        "444": [
+            94156, 
+            94156
+        ], 
+        "445": [
+            98897, 
+            98897
+        ], 
+        "446": [
+            99633, 
+            99633
+        ], 
+        "447": [
+            95134, 
+            95134
+        ], 
+        "448": [
+            95623, 
+            95623
+        ], 
+        "449": [
+            93983, 
+            93983
+        ], 
+        "450": [
+            96786, 
+            96786
+        ], 
+        "451": [
+            97979, 
+            97979
+        ], 
+        "452": [
+            94056, 
+            94056
+        ], 
+        "453": [
+            89904, 
+            89904
+        ], 
+        "454": [
+            94877, 
+            94877
+        ], 
+        "455": [
+            78702, 
+            78702
+        ], 
+        "456": [
+            98707, 
+            98707
+        ], 
+        "457": [
+            98766, 
+            98766
+        ], 
+        "458": [
+            96645, 
+            96645
+        ], 
+        "459": [
+            99405, 
+            99405
+        ], 
+        "460": [
+            99924, 
+            99924
+        ], 
+        "461": [
+            94163, 
+            94163
+        ], 
+        "462": [
+            16954, 
+            16954
+        ], 
+        "463": [
+            97647, 
+            97647
+        ], 
+        "464": [
+            81138, 
+            81138
+        ], 
+        "465": [
+            87741, 
+            87741
+        ], 
+        "466": [
+            91249, 
+            91249
+        ], 
+        "467": [
+            57061, 
+            57061
+        ], 
+        "468": [
+            85682, 
+            85682
+        ], 
+        "469": [
+            95190, 
+            95190
+        ], 
+        "470": [
+            97156, 
+            97156
+        ], 
+        "471": [
+            99921, 
+            99921
+        ], 
+        "472": [
+            96753, 
+            96753
+        ], 
+        "473": [
+            98622, 
+            98622
+        ], 
+        "474": [
+            98152, 
+            98152
+        ], 
+        "475": [
+            97838, 
+            97838
+        ], 
+        "476": [
+            98557, 
+            98557
+        ], 
+        "477": [
+            95613, 
+            95613
+        ], 
+        "478": [
+            99209, 
+            99209
+        ], 
+        "479": [
+            99891, 
+            99891
+        ], 
+        "480": [
+            97364, 
+            97364
+        ], 
+        "481": [
+            98139, 
+            98139
+        ], 
+        "482": [
+            99826, 
+            99826
+        ], 
+        "483": [
+            96559, 
+            96559
+        ], 
+        "484": [
+            97074, 
+            97074
+        ], 
+        "485": [
+            94879, 
+            94879
+        ], 
+        "486": [
+            97201, 
+            97201
+        ], 
+        "487": [
+            95402, 
+            95402
+        ], 
+        "488": [
+            97986, 
+            97986
+        ], 
+        "489": [
+            98479, 
+            98479
+        ], 
+        "490": [
+            93777, 
+            93777
+        ], 
+        "491": [
+            96891, 
+            96891
+        ], 
+        "492": [
+            95159, 
+            95159
+        ], 
+        "493": [
+            99065, 
+            99065
+        ], 
+        "494": [
+            5834, 
+            5834
+        ], 
+        "495": [
+            96725, 
+            96725
+        ], 
+        "496": [
+            99598, 
+            99598
+        ], 
+        "497": [
+            99733, 
+            99733
+        ], 
+        "498": [
+            86778, 
+            86778
+        ], 
+        "499": [
+            93558, 
+            93558
+        ], 
+        "500": [
+            98066, 
+            98066
+        ], 
+        "501": [
+            40976, 
+            40976
+        ], 
+        "502": [
+            82768, 
+            82768
+        ], 
+        "503": [
+            89309, 
+            89309
+        ], 
+        "504": [
+            97518, 
+            97518
+        ], 
+        "505": [
+            60431, 
+            60431
+        ], 
+        "506": [
+            94243, 
+            94243
+        ], 
+        "507": [
+            93611, 
+            93611
+        ], 
+        "508": [
+            99918, 
+            99918
+        ], 
+        "509": [
+            96958, 
+            96958
+        ], 
+        "510": [
+            99719, 
+            99719
+        ], 
+        "511": [
+            96546, 
+            96546
+        ], 
+        "512": [
+            99554, 
+            99554
+        ], 
+        "513": [
+            94140, 
+            94140
+        ], 
+        "514": [
+            99648, 
+            99648
+        ], 
+        "515": [
+            97370, 
+            97370
+        ], 
+        "516": [
+            99997, 
+            99997
+        ], 
+        "517": [
+            98782, 
+            98782
+        ], 
+        "518": [
+            12135, 
+            12135
+        ], 
+        "519": [
+            58742, 
+            58742
+        ], 
+        "520": [
+            0, 
+            0
+        ], 
+        "521": [
+            0, 
+            0
+        ], 
+        "522": [
+            0, 
+            0
+        ], 
+        "523": [
+            0, 
+            0
+        ], 
+        "524": [
+            0, 
+            0
+        ], 
+        "525": [
+            0, 
+            0
+        ], 
+        "526": [
+            0, 
+            0
+        ], 
+        "527": [
+            29, 
+            29
+        ], 
+        "528": [
+            51, 
+            51
+        ], 
+        "529": [
+            0, 
+            0
+        ], 
+        "530": [
+            3, 
+            3
+        ], 
+        "531": [
+            0, 
+            0
+        ], 
+        "532": [
+            0, 
+            0
+        ], 
+        "533": [
+            12, 
+            12
+        ], 
+        "534": [
+            61, 
+            61
+        ], 
+        "535": [
+            413, 
+            413
+        ], 
+        "536": [
+            87, 
+            87
+        ], 
+        "537": [
+            0, 
+            0
+        ], 
+        "538": [
+            0, 
+            0
+        ], 
+        "539": [
+            936, 
+            936
+        ], 
+        "540": [
+            185, 
+            185
+        ], 
+        "541": [
+            33991, 
+            33991
+        ], 
+        "542": [
+            83613, 
+            83613
+        ], 
+        "543": [
+            30247, 
+            30247
+        ], 
+        "544": [
+            93428, 
+            93428
+        ], 
+        "545": [
+            82549, 
+            82549
+        ], 
+        "546": [
+            89574, 
+            89574
+        ], 
+        "547": [
+            98968, 
+            98968
+        ], 
+        "548": [
+            93288, 
+            93288
+        ], 
+        "549": [
+            97268, 
+            97268
+        ], 
+        "550": [
+            6835, 
+            6835
+        ], 
+        "551": [
+            18624, 
+            18624
+        ], 
+        "552": [
+            93212, 
+            93212
+        ], 
+        "553": [
+            88078, 
+            88078
+        ], 
+        "554": [
+            95664, 
+            95664
+        ], 
+        "555": [
+            83325, 
+            83325
+        ], 
+        "556": [
+            88358, 
+            88358
+        ], 
+        "557": [
+            93882, 
+            93882
+        ], 
+        "558": [
+            80437, 
+            80437
+        ], 
+        "559": [
+            95381, 
+            95381
+        ], 
+        "560": [
+            89310, 
+            89310
+        ], 
+        "561": [
+            91379, 
+            91379
+        ], 
+        "562": [
+            95083, 
+            95083
+        ], 
+        "563": [
+            99540, 
+            99540
+        ], 
+        "564": [
+            83702, 
+            83702
+        ], 
+        "565": [
+            99366, 
+            99366
+        ], 
+        "566": [
+            95675, 
+            95675
+        ], 
+        "567": [
+            99142, 
+            99142
+        ], 
+        "568": [
+            97115, 
+            97115
+        ], 
+        "569": [
+            95467, 
+            95467
+        ], 
+        "570": [
+            94489, 
+            94489
+        ], 
+        "571": [
+            97574, 
+            97574
+        ], 
+        "572": [
+            87145, 
+            87145
+        ], 
+        "573": [
+            95019, 
+            95019
+        ], 
+        "574": [
+            93282, 
+            93282
+        ], 
+        "575": [
+            98090, 
+            98090
+        ], 
+        "576": [
+            94986, 
+            94986
+        ], 
+        "577": [
+            97015, 
+            97015
+        ], 
+        "578": [
+            95019, 
+            95019
+        ], 
+        "579": [
+            99950, 
+            99950
+        ], 
+        "580": [
+            46242, 
+            46242
+        ], 
+        "581": [
+            99891, 
+            99891
+        ], 
+        "582": [
+            98342, 
+            98342
+        ], 
+        "583": [
+            96613, 
+            96613
+        ], 
+        "584": [
+            96413, 
+            96413
+        ], 
+        "585": [
+            58348, 
+            58348
+        ], 
+        "586": [
+            99751, 
+            99751
+        ], 
+        "587": [
+            94129, 
+            94129
+        ], 
+        "588": [
+            93756, 
+            93756
+        ], 
+        "589": [
+            94361, 
+            94361
+        ], 
+        "590": [
+            99020, 
+            99020
+        ], 
+        "591": [
+            98376, 
+            98376
+        ], 
+        "592": [
+            135, 
+            135
+        ], 
+        "593": [
+            91836, 
+            91836
+        ], 
+        "594": [
+            84979, 
+            84979
+        ], 
+        "595": [
+            95937, 
+            95937
+        ], 
+        "596": [
+            85572, 
+            85572
+        ], 
+        "597": [
+            84104, 
+            84104
+        ], 
+        "598": [
+            87435, 
+            87435
+        ], 
+        "599": [
+            49181, 
+            49181
+        ], 
+        "600": [
+            94312, 
+            94312
+        ], 
+        "601": [
+            94552, 
+            94552
+        ], 
+        "602": [
+            97403, 
+            97403
+        ], 
+        "603": [
+            98112, 
+            98112
+        ], 
+        "604": [
+            96792, 
+            96792
+        ], 
+        "605": [
+            99832, 
+            99832
+        ], 
+        "606": [
+            94942, 
+            94942
+        ], 
+        "607": [
+            95761, 
+            95761
+        ], 
+        "608": [
+            97333, 
+            97333
+        ], 
+        "609": [
+            97983, 
+            97983
+        ], 
+        "610": [
+            97101, 
+            97101
+        ], 
+        "611": [
+            97180, 
+            97180
+        ], 
+        "612": [
+            95279, 
+            95279
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            10, 
+            100
+        ], 
+        "2": [
+            101, 
+            102
+        ], 
+        "3": [
+            103, 
+            104
+        ], 
+        "4": [
+            105, 
+            106
+        ], 
+        "5": [
+            107, 
+            108
+        ], 
+        "6": [
+            109, 
+            11
+        ], 
+        "7": [
+            110, 
+            111
+        ], 
+        "8": [
+            112, 
+            114
+        ], 
+        "9": [
+            115, 
+            116
+        ], 
+        "10": [
+            117, 
+            118
+        ], 
+        "11": [
+            119, 
+            12, 
+            120
+        ], 
+        "12": [
+            121, 
+            122
+        ], 
+        "13": [
+            123, 
+            127, 
+            128
+        ], 
+        "14": [
+            129, 
+            13, 
+            130, 
+            131, 
+            132, 
+            133, 
+            134
+        ], 
+        "15": [
+            135, 
+            136
+        ], 
+        "16": [
+            137, 
+            138, 
+            139
+        ], 
+        "17": [
+            14, 
+            140
+        ], 
+        "18": [
+            142, 
+            143, 
+            144
+        ], 
+        "19": [
+            145, 
+            146, 
+            147, 
+            148, 
+            149, 
+            15
+        ], 
+        "20": [
+            150, 
+            151, 
+            152
+        ], 
+        "21": [
+            153, 
+            154, 
+            155, 
+            156, 
+            157
+        ], 
+        "22": [
+            158, 
+            159, 
+            16
+        ], 
+        "23": [
+            160, 
+            161
+        ], 
+        "24": [
+            162, 
+            165, 
+            166, 
+            167, 
+            168, 
+            169, 
+            17
+        ], 
+        "25": [
+            170, 
+            171
+        ], 
+        "26": [
+            172, 
+            173
+        ], 
+        "27": [
+            174, 
+            175
+        ], 
+        "28": [
+            176, 
+            177
+        ], 
+        "29": [
+            178, 
+            179
+        ], 
+        "30": [
+            18, 
+            180
+        ], 
+        "31": [
+            181, 
+            182
+        ], 
+        "32": [
+            183, 
+            184, 
+            185, 
+            186
+        ], 
+        "33": [
+            187, 
+            188
+        ], 
+        "34": [
+            189, 
+            19
+        ], 
+        "35": [
+            190, 
+            191, 
+            192
+        ], 
+        "36": [
+            193, 
+            194
+        ], 
+        "37": [
+            195, 
+            196
+        ], 
+        "38": [
+            197, 
+            198
+        ], 
+        "39": [
+            199, 
+            2
+        ], 
+        "40": [
+            20, 
+            200
+        ], 
+        "41": [
+            201, 
+            203, 
+            205, 
+            206
+        ], 
+        "42": [
+            207, 
+            208
+        ], 
+        "43": [
+            209, 
+            21
+        ], 
+        "44": [
+            210, 
+            211
+        ], 
+        "45": [
+            212, 
+            213, 
+            214, 
+            215, 
+            216
+        ], 
+        "46": [
+            217, 
+            218
+        ], 
+        "47": [
+            219, 
+            22, 
+            220
+        ], 
+        "48": [
+            221, 
+            222
+        ], 
+        "49": [
+            223, 
+            224
+        ], 
+        "50": [
+            225, 
+            226
+        ], 
+        "51": [
+            227, 
+            228
+        ], 
+        "52": [
+            229, 
+            23
+        ], 
+        "53": [
+            230, 
+            231
+        ], 
+        "54": [
+            232, 
+            233
+        ], 
+        "55": [
+            234, 
+            235
+        ], 
+        "56": [
+            236, 
+            237
+        ], 
+        "57": [
+            238, 
+            239
+        ], 
+        "58": [
+            24, 
+            240
+        ], 
+        "59": [
+            241, 
+            242
+        ], 
+        "60": [
+            243, 
+            244
+        ], 
+        "61": [
+            245, 
+            246
+        ], 
+        "62": [
+            247, 
+            248
+        ], 
+        "63": [
+            249, 
+            25
+        ], 
+        "64": [
+            250, 
+            251
+        ], 
+        "65": [
+            252, 
+            253
+        ], 
+        "66": [
+            254, 
+            255
+        ], 
+        "67": [
+            256, 
+            257
+        ], 
+        "68": [
+            259, 
+            26, 
+            260, 
+            261, 
+            262, 
+            263, 
+            264, 
+            265
+        ], 
+        "69": [
+            266, 
+            267, 
+            268, 
+            269, 
+            27, 
+            270, 
+            271, 
+            272, 
+            274
+        ], 
+        "70": [
+            275, 
+            277
+        ], 
+        "71": [
+            278, 
+            279
+        ], 
+        "72": [
+            28, 
+            280
+        ], 
+        "73": [
+            281, 
+            282
+        ], 
+        "74": [
+            283, 
+            284
+        ], 
+        "75": [
+            285, 
+            286
+        ], 
+        "76": [
+            287, 
+            288
+        ], 
+        "77": [
+            289, 
+            29
+        ], 
+        "78": [
+            290, 
+            291, 
+            292
+        ], 
+        "79": [
+            293, 
+            294, 
+            295
+        ], 
+        "80": [
+            296, 
+            297, 
+            298
+        ], 
+        "81": [
+            299, 
+            3, 
+            30
+        ], 
+        "82": [
+            300, 
+            301
+        ], 
+        "83": [
+            302, 
+            303
+        ], 
+        "84": [
+            304, 
+            305
+        ], 
+        "85": [
+            306, 
+            307
+        ], 
+        "86": [
+            308, 
+            309
+        ], 
+        "87": [
+            31, 
+            310
+        ], 
+        "88": [
+            311, 
+            312
+        ], 
+        "89": [
+            313, 
+            315, 
+            316
+        ], 
+        "90": [
+            317, 
+            318
+        ], 
+        "91": [
+            319, 
+            32
+        ], 
+        "92": [
+            320, 
+            321
+        ], 
+        "93": [
+            322, 
+            323
+        ], 
+        "94": [
+            324, 
+            325
+        ], 
+        "95": [
+            326, 
+            327
+        ], 
+        "96": [
+            328, 
+            329
+        ], 
+        "97": [
+            33, 
+            330
+        ], 
+        "98": [
+            331, 
+            332, 
+            333
+        ], 
+        "99": [
+            335, 
+            336
+        ], 
+        "100": [
+            337, 
+            338
+        ], 
+        "101": [
+            339, 
+            34
+        ], 
+        "102": [
+            340, 
+            341
+        ], 
+        "103": [
+            342, 
+            343, 
+            344
+        ], 
+        "104": [
+            345, 
+            346
+        ], 
+        "105": [
+            347, 
+            348
+        ], 
+        "106": [
+            349, 
+            35
+        ], 
+        "107": [
+            350, 
+            351
+        ], 
+        "108": [
+            352, 
+            353
+        ], 
+        "109": [
+            354, 
+            355
+        ], 
+        "110": [
+            356, 
+            357
+        ], 
+        "111": [
+            358, 
+            359, 
+            36
+        ], 
+        "112": [
+            360, 
+            361
+        ], 
+        "113": [
+            362, 
+            363, 
+            364
+        ], 
+        "114": [
+            365, 
+            366, 
+            367
+        ], 
+        "115": [
+            368, 
+            369
+        ], 
+        "116": [
+            37, 
+            370, 
+            371
+        ], 
+        "117": [
+            372, 
+            373, 
+            374, 
+            375
+        ], 
+        "118": [
+            376, 
+            377, 
+            378
+        ], 
+        "119": [
+            379, 
+            38
+        ], 
+        "120": [
+            380, 
+            381
+        ], 
+        "121": [
+            382, 
+            383
+        ], 
+        "122": [
+            384, 
+            385
+        ], 
+        "123": [
+            386, 
+            387
+        ], 
+        "124": [
+            388, 
+            389
+        ], 
+        "125": [
+            39, 
+            390
+        ], 
+        "126": [
+            391, 
+            392, 
+            393, 
+            394
+        ], 
+        "127": [
+            395, 
+            396, 
+            397
+        ], 
+        "128": [
+            398, 
+            399
+        ], 
+        "129": [
+            4, 
+            40, 
+            400
+        ], 
+        "130": [
+            401, 
+            402
+        ], 
+        "131": [
+            403, 
+            404
+        ], 
+        "132": [
+            405, 
+            406
+        ], 
+        "133": [
+            407, 
+            408, 
+            409, 
+            41
+        ], 
+        "134": [
+            410, 
+            411
+        ], 
+        "135": [
+            412, 
+            413
+        ], 
+        "136": [
+            414, 
+            415
+        ], 
+        "137": [
+            416, 
+            417
+        ], 
+        "138": [
+            418, 
+            419
+        ], 
+        "139": [
+            42, 
+            420, 
+            421
+        ], 
+        "140": [
+            422, 
+            423
+        ], 
+        "141": [
+            424, 
+            425
+        ], 
+        "142": [
+            426, 
+            427, 
+            428
+        ], 
+        "143": [
+            429, 
+            43, 
+            430
+        ], 
+        "144": [
+            431, 
+            432, 
+            433
+        ], 
+        "145": [
+            434, 
+            435, 
+            436
+        ], 
+        "146": [
+            437, 
+            438
+        ], 
+        "147": [
+            439, 
+            44
+        ], 
+        "148": [
+            440, 
+            441
+        ], 
+        "149": [
+            442, 
+            443
+        ], 
+        "150": [
+            444, 
+            445
+        ], 
+        "151": [
+            446, 
+            447
+        ], 
+        "152": [
+            448, 
+            449
+        ], 
+        "153": [
+            45, 
+            450
+        ], 
+        "154": [
+            451, 
+            452
+        ], 
+        "155": [
+            453, 
+            454
+        ], 
+        "156": [
+            455, 
+            456
+        ], 
+        "157": [
+            457, 
+            458
+        ], 
+        "158": [
+            459, 
+            46
+        ], 
+        "159": [
+            460, 
+            461
+        ], 
+        "160": [
+            462, 
+            463, 
+            464
+        ], 
+        "161": [
+            465, 
+            466
+        ], 
+        "162": [
+            467, 
+            468
+        ], 
+        "163": [
+            469, 
+            47
+        ], 
+        "164": [
+            470, 
+            471
+        ], 
+        "165": [
+            472, 
+            473
+        ], 
+        "166": [
+            474, 
+            475
+        ], 
+        "167": [
+            476, 
+            477
+        ], 
+        "168": [
+            478, 
+            479
+        ], 
+        "169": [
+            48, 
+            480
+        ], 
+        "170": [
+            481, 
+            482
+        ], 
+        "171": [
+            483, 
+            484
+        ], 
+        "172": [
+            485, 
+            486
+        ], 
+        "173": [
+            487, 
+            488
+        ], 
+        "174": [
+            489, 
+            49
+        ], 
+        "175": [
+            490, 
+            491
+        ], 
+        "176": [
+            492, 
+            493
+        ], 
+        "177": [
+            494, 
+            495, 
+            496
+        ], 
+        "178": [
+            497, 
+            498
+        ], 
+        "179": [
+            499, 
+            5
+        ], 
+        "180": [
+            50, 
+            500
+        ], 
+        "181": [
+            501, 
+            502
+        ], 
+        "182": [
+            503, 
+            504
+        ], 
+        "183": [
+            505, 
+            506
+        ], 
+        "184": [
+            507, 
+            508
+        ], 
+        "185": [
+            509, 
+            51
+        ], 
+        "186": [
+            510, 
+            511
+        ], 
+        "187": [
+            512, 
+            513
+        ], 
+        "188": [
+            514, 
+            515
+        ], 
+        "189": [
+            516, 
+            517
+        ], 
+        "190": [
+            518, 
+            519, 
+            52, 
+            527, 
+            528, 
+            53
+        ], 
+        "191": [
+            530, 
+            533, 
+            534, 
+            535, 
+            536, 
+            539, 
+            54, 
+            540, 
+            541, 
+            542
+        ], 
+        "192": [
+            543, 
+            544
+        ], 
+        "193": [
+            545, 
+            546
+        ], 
+        "194": [
+            547, 
+            548
+        ], 
+        "195": [
+            549, 
+            55
+        ], 
+        "196": [
+            550, 
+            551, 
+            552
+        ], 
+        "197": [
+            553, 
+            554
+        ], 
+        "198": [
+            555, 
+            556
+        ], 
+        "199": [
+            557, 
+            558
+        ], 
+        "200": [
+            559, 
+            56, 
+            560
+        ], 
+        "201": [
+            561, 
+            562
+        ], 
+        "202": [
+            563, 
+            564
+        ], 
+        "203": [
+            565, 
+            566
+        ], 
+        "204": [
+            567, 
+            568
+        ], 
+        "205": [
+            569, 
+            57, 
+            570
+        ], 
+        "206": [
+            571, 
+            572
+        ], 
+        "207": [
+            573, 
+            574
+        ], 
+        "208": [
+            575, 
+            576
+        ], 
+        "209": [
+            577, 
+            578
+        ], 
+        "210": [
+            579, 
+            58, 
+            580
+        ], 
+        "211": [
+            581, 
+            582
+        ], 
+        "212": [
+            583, 
+            584
+        ], 
+        "213": [
+            585, 
+            586
+        ], 
+        "214": [
+            587, 
+            588
+        ], 
+        "215": [
+            589, 
+            59, 
+            590
+        ], 
+        "216": [
+            591, 
+            592, 
+            593
+        ], 
+        "217": [
+            594, 
+            595
+        ], 
+        "218": [
+            596, 
+            597
+        ], 
+        "219": [
+            598, 
+            599
+        ], 
+        "220": [
+            6, 
+            60
+        ], 
+        "221": [
+            600, 
+            601
+        ], 
+        "222": [
+            602, 
+            603
+        ], 
+        "223": [
+            604, 
+            605
+        ], 
+        "224": [
+            606, 
+            607
+        ], 
+        "225": [
+            608, 
+            609
+        ], 
+        "226": [
+            61, 
+            610, 
+            611
+        ], 
+        "227": [
+            612, 
+            62, 
+            63
+        ], 
+        "228": [
+            64, 
+            65
+        ], 
+        "229": [
+            66, 
+            67
+        ], 
+        "230": [
+            68, 
+            69
+        ], 
+        "231": [
+            7, 
+            70
+        ], 
+        "232": [
+            71, 
+            72
+        ], 
+        "233": [
+            73, 
+            74
+        ], 
+        "234": [
+            75, 
+            76
+        ], 
+        "235": [
+            77, 
+            78
+        ], 
+        "236": [
+            79, 
+            8
+        ], 
+        "237": [
+            80, 
+            81, 
+            82
+        ], 
+        "238": [
+            83, 
+            84
+        ], 
+        "239": [
+            85, 
+            86
+        ], 
+        "240": [
+            87, 
+            88
+        ], 
+        "241": [
+            89, 
+            9
+        ], 
+        "242": [
+            90, 
+            91
+        ], 
+        "243": [
+            92, 
+            93
+        ], 
+        "244": [
+            94, 
+            95
+        ], 
+        "245": [
+            96, 
+            97
+        ], 
+        "246": [
+            98, 
+            99
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.0, 
+    "nevents_DAS": 45069715, 
+    "nevents_merged": 45069715, 
+    "nevents_unmerged": 45069715, 
+    "postprocessing": {
+        "done": 246, 
+        "idle": 0, 
+        "running": 0, 
+        "total": 246
+    }, 
+    "pset": "DataProduction2015_NoFilter_RECO_cfg.py", 
+    "shortname": "SinglePhoton_Run2016B-PromptReco-v2", 
+    "sparms": [], 
+    "specialdir": "run2_data", 
+    "status": "postprocessing", 
+    "type": "CMS3", 
+    "user": "cwelke", 
+    "xsec": 1.0
+}
