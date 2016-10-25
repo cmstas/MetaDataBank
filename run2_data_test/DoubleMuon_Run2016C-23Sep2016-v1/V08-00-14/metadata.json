@@ -1,0 +1,2986 @@
+{
+    "basedir": "/home/users/namin/rereco/NtupleTools/AutoTwopler/", 
+    "checks": {
+        "nproblems": 0, 
+        "problems": []
+    }, 
+    "cms3tag": "CMS3_V08-00-14", 
+    "cmsswver": "CMSSW_8_0_20", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 0, 
+            "finished": 326, 
+            "idle": 0, 
+            "running": 0, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": null, 
+        "datetime": "161021_185945", 
+        "jobs_left": [], 
+        "jobs_left_tail": [], 
+        "njobs": 326, 
+        "outputdir": "/hadoop/cms/store/user/namin/DoubleMuon/crab_DoubleMuon_Run2016C-23Sep2016-v1/161021_185945/0000/", 
+        "requestname": "DoubleMuon_Run2016C-23Sep2016-v1", 
+        "resubmissions": 0, 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "", 
+        "task_warning": [
+            "Task requests 3000 MB of memory, but only 2500 MB are guaranteed to be available. Jobs may not find a site where to run and stay idle forever."
+        ], 
+        "taskdir": "crab/crab_DoubleMuon_Run2016C-23Sep2016-v1", 
+        "time": 1477334307, 
+        "uniquerequestname": "161021_185945:namin_crab_DoubleMuon_Run2016C-23Sep2016-v1"
+    }, 
+    "dataset": "/DoubleMuon/Run2016C-23Sep2016-v1/MINIAOD", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/run2_data_test/DoubleMuon_Run2016C-23Sep2016-v1/V08-00-14/", 
+    "gtag": "80X_dataRun2_2016SeptRepro_v3", 
+    "ijob_to_miniaod": {
+        "1": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/80590ACD-FC87-E611-9D76-00259057490C.root"
+        ], 
+        "2": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/281068F2-FC87-E611-A23C-001E673C7EF4.root"
+        ], 
+        "3": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E8C998A1-5D8C-E611-8233-001E67F8F9FC.root"
+        ], 
+        "4": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0E0CE712-FC89-E611-B0B5-848F69FD46BB.root"
+        ], 
+        "5": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2689C000-C68B-E611-94C0-008CFA00317C.root"
+        ], 
+        "6": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/26B798DC-0088-E611-94C7-848F69FD46C1.root"
+        ], 
+        "7": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3E58E1FB-CA88-E611-80DB-008CFA002434.root"
+        ], 
+        "8": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DABEE8C2-BE8C-E611-86AD-180373FF8CD4.root"
+        ], 
+        "9": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DEEAD5FE-4C8C-E611-8A6A-848F69FD29AF.root"
+        ], 
+        "10": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3E245421-FC89-E611-8D43-001E67E6F841.root"
+        ], 
+        "11": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/50E6219E-3B8B-E611-B45F-001E67E6F7CE.root"
+        ], 
+        "12": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D42CDFD4-CA88-E611-8B72-001E67E6F4A9.root"
+        ], 
+        "13": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/16220E0D-ED8B-E611-9FE5-6C3BE5B5B080.root"
+        ], 
+        "14": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/586E95F3-638C-E611-9200-6C3BE5B56490.root"
+        ], 
+        "15": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A635030B-ED8B-E611-AEAF-009C029C120A.root"
+        ], 
+        "16": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A689FAD0-CC8B-E611-9252-6C3BE5B50170.root"
+        ], 
+        "17": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D01A979B-1788-E611-B56B-6C3BE5B5C0C0.root"
+        ], 
+        "18": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/C010ED25-BB8C-E611-93CE-0CC47A7FC6D0.root"
+        ], 
+        "19": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D69798E1-F88B-E611-9001-002590DE7230.root"
+        ], 
+        "20": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E6965DAD-0288-E611-AE1D-00266CF94AB8.root"
+        ], 
+        "21": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7646B295-DF88-E611-ACF8-0CC47A7E6A4E.root"
+        ], 
+        "22": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A414EC8B-B08B-E611-8E53-E41D2D08DEB0.root"
+        ], 
+        "23": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/FED176B0-6B8C-E611-A949-0242AC110003.root"
+        ], 
+        "24": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2CB5AD98-548C-E611-816F-D8D385AF8A16.root"
+        ], 
+        "25": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A65D3732-D98A-E611-93F1-001E0BC1EDC6.root"
+        ], 
+        "26": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/C28B5D6E-0C88-E611-B9F2-00215E2EB6EE.root"
+        ], 
+        "27": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2E5F1929-1088-E611-B972-0023AEEEB55F.root"
+        ], 
+        "28": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/903EE201-248C-E611-9E27-0026B9278637.root"
+        ], 
+        "29": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0044DA75-708B-E611-8F8B-008CFA1974A4.root"
+        ], 
+        "30": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/007641FA-1A8C-E611-BE98-901B0E5427B6.root"
+        ], 
+        "31": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0222853B-248C-E611-9E67-00304867FD5F.root"
+        ], 
+        "32": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/027BFA95-A28A-E611-8E3D-0242AC130002.root"
+        ], 
+        "33": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/02F41AE3-748B-E611-80BD-0242AC130002.root"
+        ], 
+        "34": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/04EA5957-398A-E611-9721-0242AC130004.root"
+        ], 
+        "35": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/06598D02-248C-E611-BB9D-0CC47A4D765E.root"
+        ], 
+        "36": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/06D51BF9-FA8B-E611-962A-0CC47A78A2EC.root"
+        ], 
+        "37": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0885BC85-BB8C-E611-8152-0025905A60A6.root"
+        ], 
+        "38": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/08AB7877-768A-E611-A421-0025901ABB72.root"
+        ], 
+        "39": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0A171B30-5F88-E611-8328-0CC47A78A446.root"
+        ], 
+        "40": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0AFB34BC-FE8B-E611-91B6-0025905B85FE.root"
+        ], 
+        "41": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0C29FEFE-1C8C-E611-93EE-0CC47A7452D8.root"
+        ], 
+        "42": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0CFB148E-828B-E611-BA8D-008CFA197DA8.root"
+        ], 
+        "43": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0EDD53C0-1D8C-E611-8F1C-00304867FEBB.root"
+        ], 
+        "44": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0EEB2A70-1F8C-E611-8D58-008CFA197E0C.root"
+        ], 
+        "45": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/10577C7E-E089-E611-9D50-0025905488FC.root"
+        ], 
+        "46": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/108D7D63-FE8B-E611-AEC5-FA163E0CCFE1.root"
+        ], 
+        "47": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/10F9D8DF-5B8B-E611-871C-0CC47A4D76A2.root"
+        ], 
+        "48": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/120EA8E0-3C8C-E611-BBEB-002618FDA265.root"
+        ], 
+        "49": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/128659D9-D98B-E611-A9BC-549F35AC7E8A.root"
+        ], 
+        "50": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/14D686AC-828B-E611-990C-0CC47A4D7690.root"
+        ], 
+        "51": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/16847FAA-B38B-E611-B63F-0CC47A7C35A4.root"
+        ], 
+        "52": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/18930C29-198C-E611-8358-008CFA111280.root"
+        ], 
+        "53": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/18B28483-828B-E611-B93E-0025901AC3EE.root"
+        ], 
+        "54": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/1A2001D8-E18B-E611-BEA6-0242AC130004.root"
+        ], 
+        "55": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/1E03AC15-EF8B-E611-B531-0025905A48F0.root"
+        ], 
+        "56": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/224167D9-E28B-E611-8354-0242AC130004.root"
+        ], 
+        "57": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/22ABD48B-FE8B-E611-96C4-0242AC130005.root"
+        ], 
+        "58": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/22BD1ED9-698B-E611-B3BC-0025905B85FC.root"
+        ], 
+        "59": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/242B363A-128C-E611-B19E-0CC47A78A2EC.root"
+        ], 
+        "60": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/245E60C2-968B-E611-98E1-0CC47A78A408.root"
+        ], 
+        "61": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2473871B-E38B-E611-B4B4-0025905B857A.root"
+        ], 
+        "62": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/280DC175-BB8B-E611-8790-0CC47A57CD88.root"
+        ], 
+        "63": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2A9ABF69-E98B-E611-93F7-0CC47A745294.root"
+        ], 
+        "64": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2C73AC16-0B8C-E611-B1A7-0CC47A7C3404.root"
+        ], 
+        "65": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2E56D015-2B8C-E611-8F75-0025905B855A.root"
+        ], 
+        "66": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2E71992A-5B8B-E611-A2D0-002590574658.root"
+        ], 
+        "67": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2E7A9D0A-2C87-E611-9A77-FA163EC80D44.root"
+        ], 
+        "68": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2E9B632A-F188-E611-B8F8-008CFA1974DC.root"
+        ], 
+        "69": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/2EBD02FE-B38B-E611-B7D6-002590D9D8B8.root"
+        ], 
+        "70": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/302C7824-1F8C-E611-B08F-0CC47A4D75F8.root"
+        ], 
+        "71": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3071BF5D-E68B-E611-980D-0CC47AB0B826.root"
+        ], 
+        "72": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/30BD8BAA-B38B-E611-B947-0CC47A4C8EB0.root"
+        ], 
+        "73": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/32210444-9B8B-E611-8FFE-0025905B8590.root"
+        ], 
+        "74": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/32523C70-198C-E611-A231-0025905A60F4.root"
+        ], 
+        "75": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/32C3694B-748A-E611-AE1D-FA163E582BE0.root"
+        ], 
+        "76": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/34459D77-1B8C-E611-81C3-0CC47A4D76B6.root"
+        ], 
+        "77": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/347843F2-548B-E611-8784-0025905B857C.root"
+        ], 
+        "78": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/34A955B4-FE8B-E611-9BCA-0CC47A7C347A.root"
+        ], 
+        "79": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/34FB54A3-E18B-E611-8F27-0CC47A4D75F8.root"
+        ], 
+        "80": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/36097C13-2B8C-E611-B8BC-0CC47A4C8E16.root"
+        ], 
+        "81": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/38389AC2-6887-E611-974A-001E67504255.root"
+        ], 
+        "82": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3887956A-BD8B-E611-AE34-0242AC130005.root"
+        ], 
+        "83": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/38D6E577-C08B-E611-AA5E-0025905B85FE.root"
+        ], 
+        "84": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/38D765D4-FB8B-E611-BFA7-00259057454E.root"
+        ], 
+        "85": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3A548E27-0B8C-E611-AC91-0CC47A4D76D2.root"
+        ], 
+        "86": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3AFBB4F1-4F87-E611-977A-FA163E7762EF.root"
+        ], 
+        "87": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3C3E88F4-E48B-E611-9B17-0242AC130006.root"
+        ], 
+        "88": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3C776058-BB8B-E611-AFD3-0025905A612C.root"
+        ], 
+        "89": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3CEAD2E7-4F87-E611-BC60-FA163EDF098D.root"
+        ], 
+        "90": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3E282674-5887-E611-88C2-008CFA580920.root"
+        ], 
+        "91": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3EA06A5B-4D8A-E611-A524-1418774120C3.root"
+        ], 
+        "92": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3ED074BF-C68B-E611-B93D-0CC47A0AD668.root"
+        ], 
+        "93": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3EE1D5F9-238C-E611-B250-0025905B8564.root"
+        ], 
+        "94": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/404E753B-1988-E611-89E5-02163E013AA5.root"
+        ], 
+        "95": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/409603C9-9D8B-E611-AF99-0242AC130005.root"
+        ], 
+        "96": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/42193B75-398C-E611-9733-0CC47A78A3D8.root"
+        ], 
+        "97": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/423121C0-5987-E611-94F0-0CC47A7452D8.root"
+        ], 
+        "98": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/42DBDA50-C08B-E611-AFD9-0CC47A0AD6E0.root"
+        ], 
+        "99": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/42E42029-4D8C-E611-A739-0CC47A4D7646.root"
+        ], 
+        "100": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/42E84497-C18B-E611-A535-008CFA197DE4.root"
+        ], 
+        "101": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/44C0B43D-4F8B-E611-A328-0CC47A4C8E96.root"
+        ], 
+        "102": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/44EF370A-2A8C-E611-AF31-0CC47A57CB8E.root"
+        ], 
+        "103": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/466E49FA-3B89-E611-BD09-002618FDA207.root"
+        ], 
+        "104": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4684CD9C-7388-E611-BF8C-0242AC130003.root"
+        ], 
+        "105": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/46928AA6-148B-E611-A362-0CC47A4D76BE.root"
+        ], 
+        "106": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/48111342-7D87-E611-AB67-008CFA197A28.root"
+        ], 
+        "107": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4885B4D6-9687-E611-9650-0025905B859A.root"
+        ], 
+        "108": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/48D98F63-0D8C-E611-A01F-0025905A6060.root"
+        ], 
+        "109": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4A8BBF12-718B-E611-96F7-0025905A60D0.root"
+        ], 
+        "110": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4A90BBA2-AD8B-E611-A495-002590D9D9BC.root"
+        ], 
+        "111": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4CA94ED5-308C-E611-ACD0-0CC47A7C340E.root"
+        ], 
+        "112": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4E068D5C-078C-E611-8458-0CC47A4D76C8.root"
+        ], 
+        "113": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4E219A66-E98B-E611-875A-0CC47A4D76A2.root"
+        ], 
+        "114": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4E941C9C-4F8C-E611-922E-008CFA11121C.root"
+        ], 
+        "115": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4EB17E47-118C-E611-8336-00259075D706.root"
+        ], 
+        "116": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4EF6DCC4-E18B-E611-B79C-0CC47A4C8EEA.root"
+        ], 
+        "117": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/508C3784-BB8C-E611-A30C-0025905A609A.root"
+        ], 
+        "118": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/5228F771-F38B-E611-82C3-0025905B8612.root"
+        ], 
+        "119": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/52413883-A587-E611-939F-0242AC130004.root"
+        ], 
+        "120": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/54104D8E-3C8C-E611-BF72-00259075D706.root"
+        ], 
+        "121": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/54B718B0-768B-E611-8698-0025905B857C.root"
+        ], 
+        "122": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/54D55754-BB8B-E611-85E3-0CC47A4D7658.root"
+        ], 
+        "123": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/56386A55-BB8B-E611-906F-0CC47A7C347A.root"
+        ], 
+        "124": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/563C1AA1-CA8B-E611-9A4E-008CFA1974A0.root"
+        ], 
+        "125": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/56A9B5EB-FE8B-E611-BCF3-0CC47A7C34A6.root"
+        ], 
+        "126": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/56DF95DF-308C-E611-B3D2-008CFA111268.root"
+        ], 
+        "127": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/5815E2B5-FE8B-E611-B34C-0025905B85EE.root"
+        ], 
+        "128": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/5A27FF97-EB8B-E611-9A39-0CC47A7C3420.root"
+        ], 
+        "129": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/5A9B03B5-568B-E611-A2DA-0CC47A7C35F8.root"
+        ], 
+        "130": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/5AB625D0-F88B-E611-B881-002590D9D98E.root"
+        ], 
+        "131": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/5C197C70-A78B-E611-9716-0242AC130004.root"
+        ], 
+        "132": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/5C44ABCD-E08B-E611-845D-0CC47A7C3628.root"
+        ], 
+        "133": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6006B633-9B8B-E611-9B5A-0CC47A57CEB4.root"
+        ], 
+        "134": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6009EA13-0B8C-E611-90E4-0CC47A4D767A.root"
+        ], 
+        "135": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/62971984-A98B-E611-A15A-0CC47A4D7630.root"
+        ], 
+        "136": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6643B1D0-5D89-E611-B041-0242AC130004.root"
+        ], 
+        "137": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6681E2CD-7B8B-E611-BCC6-0242AC130002.root"
+        ], 
+        "138": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/68211DB1-0B8C-E611-8ECD-002590D9D8B4.root"
+        ], 
+        "139": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/689AD620-6F8B-E611-B75C-0025907859C4.root"
+        ], 
+        "140": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6A2AD1CA-928B-E611-A4AB-0CC47A4D769E.root"
+        ], 
+        "141": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6A994157-788A-E611-9016-00259055079C.root"
+        ], 
+        "142": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6AA98493-7E8B-E611-9BF0-0025905A6122.root"
+        ], 
+        "143": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6AC0918E-418B-E611-B025-0025905A48F2.root"
+        ], 
+        "144": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6C21C31D-318C-E611-B2C2-0242AC130004.root"
+        ], 
+        "145": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6E058D03-378C-E611-9605-0CC47A78A45A.root"
+        ], 
+        "146": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6E5F9C68-138C-E611-9C74-0242AC130003.root"
+        ], 
+        "147": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6E71143D-D38B-E611-AAC1-002590791D6A.root"
+        ], 
+        "148": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6EC609F9-4A8B-E611-AB20-0025905B85FE.root"
+        ], 
+        "149": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7081C94F-E58B-E611-A05F-003048FFD7A4.root"
+        ], 
+        "150": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7082FC53-F38B-E611-82EA-0025905A48C0.root"
+        ], 
+        "151": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7095DF8D-F58B-E611-B3BB-0CC47A4C8E8A.root"
+        ], 
+        "152": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/70ECC105-2B8C-E611-956D-0CC47A78A41C.root"
+        ], 
+        "153": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/70FC60D7-FA8B-E611-961B-0CC47A4C8E1C.root"
+        ], 
+        "154": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/74D43E30-FC8B-E611-9A4E-0025904A894A.root"
+        ], 
+        "155": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7A3786B3-828B-E611-8C9C-0CC47A4D7600.root"
+        ], 
+        "156": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7A450148-3B88-E611-BF02-20CF3027A580.root"
+        ], 
+        "157": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7AD8E174-BA8B-E611-92F1-002590D9D956.root"
+        ], 
+        "158": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7C2C2C54-0D91-E611-9FEA-0CC47A4C8E98.root"
+        ], 
+        "159": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7C695472-358B-E611-9B7A-0242AC130004.root"
+        ], 
+        "160": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7CB63B9E-BA8C-E611-A110-00304867FDCF.root"
+        ], 
+        "161": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7EB6EC69-E588-E611-AC63-842B2B758AD8.root"
+        ], 
+        "162": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/7EFFA693-7E8B-E611-96B9-0CC47A4C8EC6.root"
+        ], 
+        "163": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/808CDDAD-6A88-E611-ACF7-0CC47A4D76AA.root"
+        ], 
+        "164": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/80BAE824-3E8C-E611-8A8A-0025905B8562.root"
+        ], 
+        "165": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/80D8F46C-FE8B-E611-9387-008CFA16615C.root"
+        ], 
+        "166": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/820BC0A7-EA87-E611-BFDB-1CC1DE19316E.root"
+        ], 
+        "167": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/82374B39-3E8C-E611-BA85-0CC47A78A3F8.root"
+        ], 
+        "168": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/82BAE188-B78B-E611-90C3-008CFA11123C.root"
+        ], 
+        "169": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8683583F-4F8B-E611-9FC0-0025905A6126.root"
+        ], 
+        "170": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/86DAB8C6-AC8A-E611-A440-008CFA1111AC.root"
+        ], 
+        "171": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/86DCABE4-A28B-E611-A87F-0242AC130002.root"
+        ], 
+        "172": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/880E446C-178C-E611-B51F-00259075D706.root"
+        ], 
+        "173": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/88A626AB-3A8C-E611-82E8-0242AC130003.root"
+        ], 
+        "174": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8A4D8C90-418C-E611-8FBE-0242AC130006.root"
+        ], 
+        "175": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8A6A996D-E58B-E611-9659-0CC47A7C340C.root"
+        ], 
+        "176": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8A9F05FF-EE8B-E611-84B9-0025905B85D2.root"
+        ], 
+        "177": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8C43B23F-3D87-E611-9621-FA163E00656B.root"
+        ], 
+        "178": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8C79076B-EB8B-E611-9EAA-0CC47A4C8E70.root"
+        ], 
+        "179": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8CBD8BB6-1D8C-E611-AED0-0CC47A57CE00.root"
+        ], 
+        "180": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8E0C3BC3-AC8B-E611-89EA-008CFA197E30.root"
+        ], 
+        "181": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8E508E45-448A-E611-A685-FA163E6B6E4F.root"
+        ], 
+        "182": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/8E9D11CA-518C-E611-8C4A-00266CF8586C.root"
+        ], 
+        "183": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/90363B0A-2A8C-E611-9A8A-0CC47A57CB8E.root"
+        ], 
+        "184": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/921DB8C3-5B8B-E611-8497-002590D9D8A4.root"
+        ], 
+        "185": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/9266FE6E-398C-E611-8CE4-0CC47A4D7634.root"
+        ], 
+        "186": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/92CC50B0-B38B-E611-B554-0CC47A78A3E8.root"
+        ], 
+        "187": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/92F32D79-8C8B-E611-B396-008CFA197E0C.root"
+        ], 
+        "188": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/94085603-CD8B-E611-BF58-0025901AEDA4.root"
+        ], 
+        "189": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/969029DF-1A8C-E611-B8D1-0CC47A4D767C.root"
+        ], 
+        "190": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/98FFA316-B78B-E611-B936-0242AC130002.root"
+        ], 
+        "191": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/9A631055-BA8B-E611-9D07-0242AC130002.root"
+        ], 
+        "192": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/9E58EED0-818A-E611-9472-008CFA11134C.root"
+        ], 
+        "193": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/9EAD98D3-EC8B-E611-B26C-0242AC130004.root"
+        ], 
+        "194": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A2C8E138-F28B-E611-8D9A-0CC47A0AD792.root"
+        ], 
+        "195": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A2C943CC-EC8B-E611-AFA9-0025905B855C.root"
+        ], 
+        "196": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A2F0DCCA-EC8B-E611-B9FA-0CC47A4D768E.root"
+        ], 
+        "197": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A43816CB-458C-E611-BD2F-0CC47A4D7674.root"
+        ], 
+        "198": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A4538E5A-9C8B-E611-A253-0CC47A78A478.root"
+        ], 
+        "199": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A4781E87-198C-E611-8A75-0025905B861C.root"
+        ], 
+        "200": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A4F410D2-FB8B-E611-AC23-008CFA197A88.root"
+        ], 
+        "201": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A62C122D-E38B-E611-B4C7-0CC47A4C8E26.root"
+        ], 
+        "202": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A64308B0-768B-E611-8902-0025905A48BA.root"
+        ], 
+        "203": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A6648C85-198C-E611-AD90-0CC47A78A4BA.root"
+        ], 
+        "204": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A69974C1-8E8B-E611-8970-0CC47A57D168.root"
+        ], 
+        "205": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A80631D6-C18B-E611-B2F1-0025905A6080.root"
+        ], 
+        "206": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A84AF384-DF8B-E611-8B45-00259029E66E.root"
+        ], 
+        "207": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A8717320-248C-E611-9DB0-0025905B857A.root"
+        ], 
+        "208": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/A8AE9B8F-368C-E611-9F55-00304867FCE3.root"
+        ], 
+        "209": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/AA40090F-0C8B-E611-9B09-0242AC130002.root"
+        ], 
+        "210": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/AA4D4904-A68B-E611-AC0D-0CC47A4C8E16.root"
+        ], 
+        "211": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/AA95C5F9-FA8B-E611-B8CE-0CC47A7C3420.root"
+        ], 
+        "212": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/AC3F3190-BB8B-E611-8709-008CFA11134C.root"
+        ], 
+        "213": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/AC4BF2E3-A48B-E611-BF58-0CC47A4D7630.root"
+        ], 
+        "214": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/ACBC8FCE-2288-E611-941B-008CFA165F60.root"
+        ], 
+        "215": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/ACD46427-E38B-E611-A53E-0CC47A4C8F06.root"
+        ], 
+        "216": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/AE144010-648C-E611-A22F-02163E0176B2.root"
+        ], 
+        "217": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/AE5F4B44-7B8B-E611-9159-002590D9D8C4.root"
+        ], 
+        "218": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B0982238-3D87-E611-BA91-FA163EFDF57C.root"
+        ], 
+        "219": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B0987C7B-828B-E611-9250-008CFA11113C.root"
+        ], 
+        "220": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B0D701A4-FE8B-E611-9290-0CC47A0AD69E.root"
+        ], 
+        "221": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B0F7E109-E48B-E611-A7EF-0CC47A74524E.root"
+        ], 
+        "222": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B20BD85C-1B8C-E611-90BF-0CC47A4C8E22.root"
+        ], 
+        "223": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B2CDDA65-E98B-E611-A5D7-0CC47A4D7638.root"
+        ], 
+        "224": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B4CA5E1C-888B-E611-B749-0242AC130005.root"
+        ], 
+        "225": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B68F524A-688B-E611-8961-0242AC130002.root"
+        ], 
+        "226": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B691998B-928B-E611-B8C3-0CC47A78A340.root"
+        ], 
+        "227": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B6DF6AAA-B38B-E611-AF9A-0CC47A4C8F26.root"
+        ], 
+        "228": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B84F0235-A78B-E611-A9AA-002590FD5A52.root"
+        ], 
+        "229": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/BA15B45B-1F8C-E611-8F96-0CC47A4D76B6.root"
+        ], 
+        "230": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/BAA49B89-BB8C-E611-9514-0025905749D6.root"
+        ], 
+        "231": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/BABC56B2-A28B-E611-A120-0242AC130002.root"
+        ], 
+        "232": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/BC132FFB-FA8B-E611-8147-0CC47A7C3450.root"
+        ], 
+        "233": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/C079B7EB-A48B-E611-A3A2-0025905A60D0.root"
+        ], 
+        "234": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/C253596A-078C-E611-AE85-0025905A60BC.root"
+        ], 
+        "235": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/C40E2ADA-FA8B-E611-99FF-0025905B85EE.root"
+        ], 
+        "236": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/C4178F9D-928B-E611-9111-0CC47A4C8E7E.root"
+        ], 
+        "237": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/CA0B02DC-EB8B-E611-8FDE-0CC47A0AD780.root"
+        ], 
+        "238": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/CAA7DE65-E98B-E611-9F03-0CC47A4D766C.root"
+        ], 
+        "239": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/CE13D3FC-528B-E611-8244-00259070E152.root"
+        ], 
+        "240": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D209987F-7B8A-E611-B218-0242AC130002.root"
+        ], 
+        "241": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D21165D0-B38B-E611-983C-008CFA1979BC.root"
+        ], 
+        "242": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D2F63DC5-5B8B-E611-ACBC-0242AC130003.root"
+        ], 
+        "243": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D419CEF1-E28B-E611-B74F-0025905B85D6.root"
+        ], 
+        "244": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D630E91A-B98A-E611-B4F5-0CC47A0AD6FE.root"
+        ], 
+        "245": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D64889A4-BB8C-E611-8501-0242AC130004.root"
+        ], 
+        "246": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D64EA307-718B-E611-9B05-0025905A605E.root"
+        ], 
+        "247": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D80B70AA-2288-E611-8814-A0369F7FC54C.root"
+        ], 
+        "248": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D8CC4B77-0988-E611-BFB6-C81F66B7C6E1.root"
+        ], 
+        "249": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D8ED4D17-0B8C-E611-94FD-0CC47A4C8E96.root"
+        ], 
+        "250": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DC0868B0-E38B-E611-8C0C-0242AC130005.root"
+        ], 
+        "251": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DC854EFB-AD8B-E611-8C26-0CC47A4C8E1E.root"
+        ], 
+        "252": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DC903119-3887-E611-85B5-0025905A60CA.root"
+        ], 
+        "253": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DE884C45-1F8C-E611-A01D-0242AC130004.root"
+        ], 
+        "254": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DE9E2A06-0B8C-E611-905B-008CFA1113F8.root"
+        ], 
+        "255": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DEB5CC82-078C-E611-BD94-0242AC130002.root"
+        ], 
+        "256": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DEEB2AB0-648B-E611-884E-0025905B85F6.root"
+        ], 
+        "257": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E0C105A8-648B-E611-A6FA-0025905A60CE.root"
+        ], 
+        "258": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E20C503F-E08B-E611-9D5B-0CC47A7C34B0.root"
+        ], 
+        "259": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E2379BB1-BA8C-E611-8CE0-FA163E7E34AB.root"
+        ], 
+        "260": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E2A4486A-C08B-E611-950D-0242AC130003.root"
+        ], 
+        "261": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E2D4FF4F-F38B-E611-A20F-0CC47A78A478.root"
+        ], 
+        "262": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E4636B8A-F787-E611-BFE3-3417EBE528F4.root"
+        ], 
+        "263": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E48B026A-0E8C-E611-BD87-0242AC130002.root"
+        ], 
+        "264": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E6A96660-9D87-E611-9BBD-0CC47A7C361E.root"
+        ], 
+        "265": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/EA0E53D7-E08B-E611-B766-003048FFD7A4.root"
+        ], 
+        "266": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/ECD19B68-148C-E611-B8DE-0CC47A4D76A2.root"
+        ], 
+        "267": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F253605B-A88B-E611-B444-0CC47A4D7692.root"
+        ], 
+        "268": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F28FA16A-398C-E611-8717-0CC47A4D7600.root"
+        ], 
+        "269": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F2961820-248C-E611-AC25-0025905B8564.root"
+        ], 
+        "270": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F2B1521F-3E8C-E611-B22B-0025905AA9F0.root"
+        ], 
+        "271": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F2E59889-F58B-E611-80AD-0025905A6082.root"
+        ], 
+        "272": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F440B377-308C-E611-B97E-002590D9D8B2.root"
+        ], 
+        "273": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F4482DCF-4D8B-E611-8321-002590D9D92A.root"
+        ], 
+        "274": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F48D41CA-FD8B-E611-81F9-008CFA111348.root"
+        ], 
+        "275": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F4A320F8-AD8B-E611-BFCD-0CC47A7C3636.root"
+        ], 
+        "276": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F6A55958-1988-E611-B5DE-02163E013D69.root"
+        ], 
+        "277": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/F8DD075D-4B8C-E611-96F5-0025901ABD1A.root"
+        ], 
+        "278": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/FA016242-9B8B-E611-BF17-0CC47A4C8E22.root"
+        ], 
+        "279": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/FA3D3F46-328C-E611-B72E-0CC47A4C8F18.root"
+        ], 
+        "280": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/FA5FC385-6087-E611-93A3-0025905B855C.root"
+        ], 
+        "281": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/FC104CA2-4F8B-E611-B386-0242AC130004.root"
+        ], 
+        "282": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/FCD0D053-0D91-E611-BBB6-0025905A4964.root"
+        ], 
+        "283": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/FCEE53C2-168C-E611-A88F-0CC47A4D769E.root"
+        ], 
+        "284": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/FE2EF076-C08B-E611-84B1-0025905B85B2.root"
+        ], 
+        "285": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/FEDB333A-BC8B-E611-B365-0242AC130003.root"
+        ], 
+        "286": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/9ABF5BAC-BE88-E611-8D2D-0CC47A1E0478.root"
+        ], 
+        "287": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/44CC4A77-C88B-E611-BDC0-6CC2173C3E80.root"
+        ], 
+        "288": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/9025B863-4B8C-E611-A947-0017A4770C2C.root"
+        ], 
+        "289": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/C44E1CC7-4487-E611-8531-002481DE4A28.root"
+        ], 
+        "290": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/EE78D724-6987-E611-BEED-0017A4770C00.root"
+        ], 
+        "291": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/86E2016F-438C-E611-9029-44A842B4B418.root"
+        ], 
+        "292": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/0A1BC77F-F28B-E611-BF32-0025901D08BA.root"
+        ], 
+        "293": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/143C7A2D-BB8C-E611-8FF0-0CC47AA98F9A.root"
+        ], 
+        "294": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/26BD607A-698B-E611-A56C-90B11C2CB121.root"
+        ], 
+        "295": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/32D08A60-A88B-E611-87B3-0CC47AA98F96.root"
+        ], 
+        "296": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/36DD6400-138C-E611-9ABD-0CC47AA98B8C.root"
+        ], 
+        "297": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3EED5BB4-1D8C-E611-832C-002590E1E9B8.root"
+        ], 
+        "298": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/4CA2234F-FB88-E611-9BC0-0CC47A6C1034.root"
+        ], 
+        "299": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/56054D29-B789-E611-9DF3-0CC47A6C186C.root"
+        ], 
+        "300": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/5E73E800-EA8B-E611-8C29-002590E39D90.root"
+        ], 
+        "301": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6AC47505-378C-E611-85DE-0CC47A6C1054.root"
+        ], 
+        "302": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/6EFC148A-188C-E611-BD0B-002590E2F65E.root"
+        ], 
+        "303": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/826D109E-5187-E611-818D-0CC47A6C183A.root"
+        ], 
+        "304": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/86098DF8-358B-E611-AD9B-002590E39F2E.root"
+        ], 
+        "305": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/922FE05C-B08B-E611-92E1-0025904897C2.root"
+        ], 
+        "306": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/92AF276D-798B-E611-AB61-002590E39D90.root"
+        ], 
+        "307": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/98B8B63F-968A-E611-A03C-003048F7CC8A.root"
+        ], 
+        "308": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/9E1B8939-C98B-E611-9FF8-0025901D0C50.root"
+        ], 
+        "309": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B629D620-BA8B-E611-9706-0CC47A6C115C.root"
+        ], 
+        "310": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/BC6FA829-1F8C-E611-BF19-0CC47AA992C8.root"
+        ], 
+        "311": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/BE1BB4DE-2288-E611-9C21-90B11C2CA412.root"
+        ], 
+        "312": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/BED05E67-EB8B-E611-89A3-0CC47A13D16E.root"
+        ], 
+        "313": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/D062B378-FF8B-E611-8317-00259048812E.root"
+        ], 
+        "314": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DC9CCBDE-308C-E611-BB97-90B11C2C93B1.root"
+        ], 
+        "315": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/E60D4C81-898B-E611-B3EF-00238BBD7658.root"
+        ], 
+        "316": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/ECE368F9-548B-E611-997D-0CC47A6C06C4.root"
+        ], 
+        "317": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/3EDBC61F-C188-E611-A739-00266CFFCCBC.root"
+        ], 
+        "318": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/B2AF252A-F38B-E611-BC84-C4346BC8C638.root"
+        ], 
+        "319": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/005599F4-5787-E611-A034-0025905C54C6.root"
+        ], 
+        "320": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/608D98D6-BA8C-E611-9C13-0025905C3DF6.root"
+        ], 
+        "321": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/86133530-978B-E611-ACC8-0025905C53DA.root"
+        ], 
+        "322": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/9C9DB799-2288-E611-AD73-0025905C54DA.root"
+        ], 
+        "323": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/C46FE040-748A-E611-A763-0025904C6566.root"
+        ], 
+        "324": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/30DDFF9C-E087-E611-968A-002590E7DD98.root"
+        ], 
+        "325": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/AAECB8DA-C388-E611-997C-20CF305B05A8.root"
+        ], 
+        "326": [
+            "/store/data/Run2016C/DoubleMuon/MINIAOD/23Sep2016-v1/80000/DAA4CE02-318C-E611-BBA4-002590E7DD98.root"
+        ]
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            50890, 
+            50890
+        ], 
+        "2": [
+            50531, 
+            50531
+        ], 
+        "3": [
+            38403, 
+            38403
+        ], 
+        "4": [
+            2254, 
+            2254
+        ], 
+        "5": [
+            88140, 
+            88140
+        ], 
+        "6": [
+            93921, 
+            93921
+        ], 
+        "7": [
+            4975, 
+            4975
+        ], 
+        "8": [
+            6348, 
+            6348
+        ], 
+        "9": [
+            76020, 
+            76020
+        ], 
+        "10": [
+            0, 
+            0
+        ], 
+        "11": [
+            81541, 
+            81541
+        ], 
+        "12": [
+            10012, 
+            10012
+        ], 
+        "13": [
+            117765, 
+            117765
+        ], 
+        "14": [
+            15717, 
+            15717
+        ], 
+        "15": [
+            116496, 
+            116496
+        ], 
+        "16": [
+            87013, 
+            87013
+        ], 
+        "17": [
+            17590, 
+            17590
+        ], 
+        "18": [
+            5604, 
+            5604
+        ], 
+        "19": [
+            65227, 
+            65227
+        ], 
+        "20": [
+            40807, 
+            40807
+        ], 
+        "21": [
+            5233, 
+            5233
+        ], 
+        "22": [
+            92207, 
+            92207
+        ], 
+        "23": [
+            5344, 
+            5344
+        ], 
+        "24": [
+            54047, 
+            54047
+        ], 
+        "25": [
+            2700, 
+            2700
+        ], 
+        "26": [
+            53090, 
+            53090
+        ], 
+        "27": [
+            12765, 
+            12765
+        ], 
+        "28": [
+            41573, 
+            41573
+        ], 
+        "29": [
+            81408, 
+            81408
+        ], 
+        "30": [
+            30080, 
+            30080
+        ], 
+        "31": [
+            97838, 
+            97838
+        ], 
+        "32": [
+            83793, 
+            83793
+        ], 
+        "33": [
+            96867, 
+            96867
+        ], 
+        "34": [
+            888, 
+            888
+        ], 
+        "35": [
+            108330, 
+            108330
+        ], 
+        "36": [
+            95148, 
+            95148
+        ], 
+        "37": [
+            13123, 
+            13123
+        ], 
+        "38": [
+            81768, 
+            81768
+        ], 
+        "39": [
+            74879, 
+            74879
+        ], 
+        "40": [
+            87710, 
+            87710
+        ], 
+        "41": [
+            138631, 
+            138631
+        ], 
+        "42": [
+            108682, 
+            108682
+        ], 
+        "43": [
+            106692, 
+            106692
+        ], 
+        "44": [
+            106288, 
+            106288
+        ], 
+        "45": [
+            87167, 
+            87167
+        ], 
+        "46": [
+            23399, 
+            23399
+        ], 
+        "47": [
+            85673, 
+            85673
+        ], 
+        "48": [
+            126126, 
+            126126
+        ], 
+        "49": [
+            79912, 
+            79912
+        ], 
+        "50": [
+            94906, 
+            94906
+        ], 
+        "51": [
+            93032, 
+            93032
+        ], 
+        "52": [
+            88817, 
+            88817
+        ], 
+        "53": [
+            98188, 
+            98188
+        ], 
+        "54": [
+            84969, 
+            84969
+        ], 
+        "55": [
+            93618, 
+            93618
+        ], 
+        "56": [
+            91799, 
+            91799
+        ], 
+        "57": [
+            93630, 
+            93630
+        ], 
+        "58": [
+            96266, 
+            96266
+        ], 
+        "59": [
+            126601, 
+            126601
+        ], 
+        "60": [
+            114420, 
+            114420
+        ], 
+        "61": [
+            113582, 
+            113582
+        ], 
+        "62": [
+            89056, 
+            89056
+        ], 
+        "63": [
+            144119, 
+            144119
+        ], 
+        "64": [
+            107489, 
+            107489
+        ], 
+        "65": [
+            108771, 
+            108771
+        ], 
+        "66": [
+            95418, 
+            95418
+        ], 
+        "67": [
+            93196, 
+            93196
+        ], 
+        "68": [
+            10345, 
+            10345
+        ], 
+        "69": [
+            97840, 
+            97840
+        ], 
+        "70": [
+            109955, 
+            109955
+        ], 
+        "71": [
+            94404, 
+            94404
+        ], 
+        "72": [
+            85058, 
+            85058
+        ], 
+        "73": [
+            89816, 
+            89816
+        ], 
+        "74": [
+            111206, 
+            111206
+        ], 
+        "75": [
+            2255, 
+            2255
+        ], 
+        "76": [
+            109138, 
+            109138
+        ], 
+        "77": [
+            95565, 
+            95565
+        ], 
+        "78": [
+            119196, 
+            119196
+        ], 
+        "79": [
+            101419, 
+            101419
+        ], 
+        "80": [
+            94850, 
+            94850
+        ], 
+        "81": [
+            91148, 
+            91148
+        ], 
+        "82": [
+            85056, 
+            85056
+        ], 
+        "83": [
+            96005, 
+            96005
+        ], 
+        "84": [
+            85225, 
+            85225
+        ], 
+        "85": [
+            123219, 
+            123219
+        ], 
+        "86": [
+            83493, 
+            83493
+        ], 
+        "87": [
+            99207, 
+            99207
+        ], 
+        "88": [
+            113486, 
+            113486
+        ], 
+        "89": [
+            84036, 
+            84036
+        ], 
+        "90": [
+            91265, 
+            91265
+        ], 
+        "91": [
+            1, 
+            1
+        ], 
+        "92": [
+            109501, 
+            109501
+        ], 
+        "93": [
+            100112, 
+            100112
+        ], 
+        "94": [
+            74409, 
+            74409
+        ], 
+        "95": [
+            88276, 
+            88276
+        ], 
+        "96": [
+            155596, 
+            155596
+        ], 
+        "97": [
+            88411, 
+            88411
+        ], 
+        "98": [
+            108525, 
+            108525
+        ], 
+        "99": [
+            118407, 
+            118407
+        ], 
+        "100": [
+            107503, 
+            107503
+        ], 
+        "101": [
+            90236, 
+            90236
+        ], 
+        "102": [
+            127657, 
+            127657
+        ], 
+        "103": [
+            1, 
+            1
+        ], 
+        "104": [
+            33596, 
+            33596
+        ], 
+        "105": [
+            920, 
+            920
+        ], 
+        "106": [
+            85987, 
+            85987
+        ], 
+        "107": [
+            94645, 
+            94645
+        ], 
+        "108": [
+            99131, 
+            99131
+        ], 
+        "109": [
+            92510, 
+            92510
+        ], 
+        "110": [
+            83142, 
+            83142
+        ], 
+        "111": [
+            148182, 
+            148182
+        ], 
+        "112": [
+            94358, 
+            94358
+        ], 
+        "113": [
+            107814, 
+            107814
+        ], 
+        "114": [
+            104134, 
+            104134
+        ], 
+        "115": [
+            99035, 
+            99035
+        ], 
+        "116": [
+            101006, 
+            101006
+        ], 
+        "117": [
+            20711, 
+            20711
+        ], 
+        "118": [
+            136853, 
+            136853
+        ], 
+        "119": [
+            87612, 
+            87612
+        ], 
+        "120": [
+            97540, 
+            97540
+        ], 
+        "121": [
+            97007, 
+            97007
+        ], 
+        "122": [
+            90267, 
+            90267
+        ], 
+        "123": [
+            85425, 
+            85425
+        ], 
+        "124": [
+            86617, 
+            86617
+        ], 
+        "125": [
+            103843, 
+            103843
+        ], 
+        "126": [
+            99189, 
+            99189
+        ], 
+        "127": [
+            112881, 
+            112881
+        ], 
+        "128": [
+            117177, 
+            117177
+        ], 
+        "129": [
+            84908, 
+            84908
+        ], 
+        "130": [
+            98204, 
+            98204
+        ], 
+        "131": [
+            83275, 
+            83275
+        ], 
+        "132": [
+            106770, 
+            106770
+        ], 
+        "133": [
+            82827, 
+            82827
+        ], 
+        "134": [
+            103972, 
+            103972
+        ], 
+        "135": [
+            95658, 
+            95658
+        ], 
+        "136": [
+            29916, 
+            29916
+        ], 
+        "137": [
+            95095, 
+            95095
+        ], 
+        "138": [
+            103292, 
+            103292
+        ], 
+        "139": [
+            86211, 
+            86211
+        ], 
+        "140": [
+            87729, 
+            87729
+        ], 
+        "141": [
+            79127, 
+            79127
+        ], 
+        "142": [
+            86636, 
+            86636
+        ], 
+        "143": [
+            87778, 
+            87778
+        ], 
+        "144": [
+            105888, 
+            105888
+        ], 
+        "145": [
+            176354, 
+            176354
+        ], 
+        "146": [
+            103174, 
+            103174
+        ], 
+        "147": [
+            87745, 
+            87745
+        ], 
+        "148": [
+            95443, 
+            95443
+        ], 
+        "149": [
+            93061, 
+            93061
+        ], 
+        "150": [
+            107402, 
+            107402
+        ], 
+        "151": [
+            94358, 
+            94358
+        ], 
+        "152": [
+            122482, 
+            122482
+        ], 
+        "153": [
+            127268, 
+            127268
+        ], 
+        "154": [
+            103843, 
+            103843
+        ], 
+        "155": [
+            84985, 
+            84985
+        ], 
+        "156": [
+            59176, 
+            59176
+        ], 
+        "157": [
+            87896, 
+            87896
+        ], 
+        "158": [
+            26867, 
+            26867
+        ], 
+        "159": [
+            80628, 
+            80628
+        ], 
+        "160": [
+            24962, 
+            24962
+        ], 
+        "161": [
+            4808, 
+            4808
+        ], 
+        "162": [
+            100867, 
+            100867
+        ], 
+        "163": [
+            29615, 
+            29615
+        ], 
+        "164": [
+            107831, 
+            107831
+        ], 
+        "165": [
+            91372, 
+            91372
+        ], 
+        "166": [
+            50263, 
+            50263
+        ], 
+        "167": [
+            144970, 
+            144970
+        ], 
+        "168": [
+            82937, 
+            82937
+        ], 
+        "169": [
+            90941, 
+            90941
+        ], 
+        "170": [
+            81100, 
+            81100
+        ], 
+        "171": [
+            96784, 
+            96784
+        ], 
+        "172": [
+            118488, 
+            118488
+        ], 
+        "173": [
+            102374, 
+            102374
+        ], 
+        "174": [
+            99600, 
+            99600
+        ], 
+        "175": [
+            123223, 
+            123223
+        ], 
+        "176": [
+            140018, 
+            140018
+        ], 
+        "177": [
+            87325, 
+            87325
+        ], 
+        "178": [
+            89714, 
+            89714
+        ], 
+        "179": [
+            104152, 
+            104152
+        ], 
+        "180": [
+            81855, 
+            81855
+        ], 
+        "181": [
+            3277, 
+            3277
+        ], 
+        "182": [
+            6156, 
+            6156
+        ], 
+        "183": [
+            101002, 
+            101002
+        ], 
+        "184": [
+            83325, 
+            83325
+        ], 
+        "185": [
+            125676, 
+            125676
+        ], 
+        "186": [
+            95304, 
+            95304
+        ], 
+        "187": [
+            82239, 
+            82239
+        ], 
+        "188": [
+            94574, 
+            94574
+        ], 
+        "189": [
+            181983, 
+            181983
+        ], 
+        "190": [
+            84081, 
+            84081
+        ], 
+        "191": [
+            103767, 
+            103767
+        ], 
+        "192": [
+            83693, 
+            83693
+        ], 
+        "193": [
+            86179, 
+            86179
+        ], 
+        "194": [
+            90424, 
+            90424
+        ], 
+        "195": [
+            100248, 
+            100248
+        ], 
+        "196": [
+            119297, 
+            119297
+        ], 
+        "197": [
+            112006, 
+            112006
+        ], 
+        "198": [
+            121724, 
+            121724
+        ], 
+        "199": [
+            142513, 
+            142513
+        ], 
+        "200": [
+            90710, 
+            90710
+        ], 
+        "201": [
+            95738, 
+            95738
+        ], 
+        "202": [
+            111346, 
+            111346
+        ], 
+        "203": [
+            95133, 
+            95133
+        ], 
+        "204": [
+            82842, 
+            82842
+        ], 
+        "205": [
+            112598, 
+            112598
+        ], 
+        "206": [
+            105576, 
+            105576
+        ], 
+        "207": [
+            112174, 
+            112174
+        ], 
+        "208": [
+            115944, 
+            115944
+        ], 
+        "209": [
+            79361, 
+            79361
+        ], 
+        "210": [
+            99643, 
+            99643
+        ], 
+        "211": [
+            106130, 
+            106130
+        ], 
+        "212": [
+            87848, 
+            87848
+        ], 
+        "213": [
+            116160, 
+            116160
+        ], 
+        "214": [
+            87862, 
+            87862
+        ], 
+        "215": [
+            110662, 
+            110662
+        ], 
+        "216": [
+            4484, 
+            4484
+        ], 
+        "217": [
+            82463, 
+            82463
+        ], 
+        "218": [
+            97682, 
+            97682
+        ], 
+        "219": [
+            84257, 
+            84257
+        ], 
+        "220": [
+            105047, 
+            105047
+        ], 
+        "221": [
+            86463, 
+            86463
+        ], 
+        "222": [
+            128795, 
+            128795
+        ], 
+        "223": [
+            114505, 
+            114505
+        ], 
+        "224": [
+            86451, 
+            86451
+        ], 
+        "225": [
+            87394, 
+            87394
+        ], 
+        "226": [
+            97149, 
+            97149
+        ], 
+        "227": [
+            114097, 
+            114097
+        ], 
+        "228": [
+            87741, 
+            87741
+        ], 
+        "229": [
+            101638, 
+            101638
+        ], 
+        "230": [
+            12837, 
+            12837
+        ], 
+        "231": [
+            88222, 
+            88222
+        ], 
+        "232": [
+            102426, 
+            102426
+        ], 
+        "233": [
+            99012, 
+            99012
+        ], 
+        "234": [
+            99502, 
+            99502
+        ], 
+        "235": [
+            97161, 
+            97161
+        ], 
+        "236": [
+            104051, 
+            104051
+        ], 
+        "237": [
+            86482, 
+            86482
+        ], 
+        "238": [
+            117218, 
+            117218
+        ], 
+        "239": [
+            79948, 
+            79948
+        ], 
+        "240": [
+            83732, 
+            83732
+        ], 
+        "241": [
+            85638, 
+            85638
+        ], 
+        "242": [
+            90355, 
+            90355
+        ], 
+        "243": [
+            100936, 
+            100936
+        ], 
+        "244": [
+            80604, 
+            80604
+        ], 
+        "245": [
+            6912, 
+            6912
+        ], 
+        "246": [
+            107777, 
+            107777
+        ], 
+        "247": [
+            41969, 
+            41969
+        ], 
+        "248": [
+            1, 
+            1
+        ], 
+        "249": [
+            120243, 
+            120243
+        ], 
+        "250": [
+            93369, 
+            93369
+        ], 
+        "251": [
+            96683, 
+            96683
+        ], 
+        "252": [
+            86154, 
+            86154
+        ], 
+        "253": [
+            108698, 
+            108698
+        ], 
+        "254": [
+            88988, 
+            88988
+        ], 
+        "255": [
+            86889, 
+            86889
+        ], 
+        "256": [
+            88773, 
+            88773
+        ], 
+        "257": [
+            90223, 
+            90223
+        ], 
+        "258": [
+            115083, 
+            115083
+        ], 
+        "259": [
+            13014, 
+            13014
+        ], 
+        "260": [
+            90274, 
+            90274
+        ], 
+        "261": [
+            106483, 
+            106483
+        ], 
+        "262": [
+            32548, 
+            32548
+        ], 
+        "263": [
+            96624, 
+            96624
+        ], 
+        "264": [
+            96749, 
+            96749
+        ], 
+        "265": [
+            88136, 
+            88136
+        ], 
+        "266": [
+            126874, 
+            126874
+        ], 
+        "267": [
+            88446, 
+            88446
+        ], 
+        "268": [
+            125237, 
+            125237
+        ], 
+        "269": [
+            108170, 
+            108170
+        ], 
+        "270": [
+            124526, 
+            124526
+        ], 
+        "271": [
+            168741, 
+            168741
+        ], 
+        "272": [
+            116575, 
+            116575
+        ], 
+        "273": [
+            106470, 
+            106470
+        ], 
+        "274": [
+            89103, 
+            89103
+        ], 
+        "275": [
+            84136, 
+            84136
+        ], 
+        "276": [
+            77986, 
+            77986
+        ], 
+        "277": [
+            98662, 
+            98662
+        ], 
+        "278": [
+            87338, 
+            87338
+        ], 
+        "279": [
+            145085, 
+            145085
+        ], 
+        "280": [
+            95054, 
+            95054
+        ], 
+        "281": [
+            138821, 
+            138821
+        ], 
+        "282": [
+            21003, 
+            21003
+        ], 
+        "283": [
+            167843, 
+            167843
+        ], 
+        "284": [
+            130710, 
+            130710
+        ], 
+        "285": [
+            106840, 
+            106840
+        ], 
+        "286": [
+            29481, 
+            29481
+        ], 
+        "287": [
+            106352, 
+            106352
+        ], 
+        "288": [
+            18261, 
+            18261
+        ], 
+        "289": [
+            85183, 
+            85183
+        ], 
+        "290": [
+            91694, 
+            91694
+        ], 
+        "291": [
+            38402, 
+            38402
+        ], 
+        "292": [
+            88467, 
+            88467
+        ], 
+        "293": [
+            59803, 
+            59803
+        ], 
+        "294": [
+            88599, 
+            88599
+        ], 
+        "295": [
+            99190, 
+            99190
+        ], 
+        "296": [
+            105310, 
+            105310
+        ], 
+        "297": [
+            101974, 
+            101974
+        ], 
+        "298": [
+            18256, 
+            18256
+        ], 
+        "299": [
+            83210, 
+            83210
+        ], 
+        "300": [
+            92250, 
+            92250
+        ], 
+        "301": [
+            100375, 
+            100375
+        ], 
+        "302": [
+            103457, 
+            103457
+        ], 
+        "303": [
+            87369, 
+            87369
+        ], 
+        "304": [
+            85186, 
+            85186
+        ], 
+        "305": [
+            83302, 
+            83302
+        ], 
+        "306": [
+            83052, 
+            83052
+        ], 
+        "307": [
+            17599, 
+            17599
+        ], 
+        "308": [
+            94372, 
+            94372
+        ], 
+        "309": [
+            85275, 
+            85275
+        ], 
+        "310": [
+            150425, 
+            150425
+        ], 
+        "311": [
+            51857, 
+            51857
+        ], 
+        "312": [
+            84746, 
+            84746
+        ], 
+        "313": [
+            112385, 
+            112385
+        ], 
+        "314": [
+            117304, 
+            117304
+        ], 
+        "315": [
+            83094, 
+            83094
+        ], 
+        "316": [
+            82368, 
+            82368
+        ], 
+        "317": [
+            19860, 
+            19860
+        ], 
+        "318": [
+            82666, 
+            82666
+        ], 
+        "319": [
+            90822, 
+            90822
+        ], 
+        "320": [
+            12689, 
+            12689
+        ], 
+        "321": [
+            91009, 
+            91009
+        ], 
+        "322": [
+            75098, 
+            75098
+        ], 
+        "323": [
+            1916, 
+            1916
+        ], 
+        "324": [
+            67169, 
+            67169
+        ], 
+        "325": [
+            14444, 
+            14444
+        ], 
+        "326": [
+            32600, 
+            32600
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            100
+        ], 
+        "2": [
+            101, 
+            102
+        ], 
+        "3": [
+            103, 
+            104, 
+            105, 
+            106
+        ], 
+        "4": [
+            107, 
+            108
+        ], 
+        "5": [
+            109, 
+            11
+        ], 
+        "6": [
+            110, 
+            111
+        ], 
+        "7": [
+            112, 
+            113
+        ], 
+        "8": [
+            114, 
+            115
+        ], 
+        "9": [
+            116, 
+            117
+        ], 
+        "10": [
+            118
+        ], 
+        "11": [
+            119, 
+            12, 
+            120
+        ], 
+        "12": [
+            121, 
+            122
+        ], 
+        "13": [
+            123, 
+            124
+        ], 
+        "14": [
+            125, 
+            126
+        ], 
+        "15": [
+            127
+        ], 
+        "16": [
+            128
+        ], 
+        "17": [
+            129, 
+            13
+        ], 
+        "18": [
+            130, 
+            131
+        ], 
+        "19": [
+            132, 
+            133
+        ], 
+        "20": [
+            134, 
+            135
+        ], 
+        "21": [
+            136, 
+            137
+        ], 
+        "22": [
+            138, 
+            139
+        ], 
+        "23": [
+            14, 
+            140, 
+            141
+        ], 
+        "24": [
+            142, 
+            143
+        ], 
+        "25": [
+            144, 
+            145
+        ], 
+        "26": [
+            146, 
+            147
+        ], 
+        "27": [
+            148, 
+            149
+        ], 
+        "28": [
+            15, 
+            150
+        ], 
+        "29": [
+            151, 
+            152
+        ], 
+        "30": [
+            153
+        ], 
+        "31": [
+            154, 
+            155
+        ], 
+        "32": [
+            156, 
+            157
+        ], 
+        "33": [
+            158, 
+            159, 
+            16
+        ], 
+        "34": [
+            160, 
+            161, 
+            162
+        ], 
+        "35": [
+            163, 
+            164
+        ], 
+        "36": [
+            165, 
+            166
+        ], 
+        "37": [
+            167
+        ], 
+        "38": [
+            168, 
+            169
+        ], 
+        "39": [
+            17, 
+            170, 
+            171
+        ], 
+        "40": [
+            172, 
+            173
+        ], 
+        "41": [
+            174, 
+            175
+        ], 
+        "42": [
+            176
+        ], 
+        "43": [
+            177, 
+            178
+        ], 
+        "44": [
+            179, 
+            18, 
+            180
+        ], 
+        "45": [
+            181, 
+            182, 
+            183, 
+            184
+        ], 
+        "46": [
+            185
+        ], 
+        "47": [
+            186, 
+            187
+        ], 
+        "48": [
+            188, 
+            189
+        ], 
+        "49": [
+            19, 
+            190
+        ], 
+        "50": [
+            191, 
+            192
+        ], 
+        "51": [
+            193, 
+            194
+        ], 
+        "52": [
+            195, 
+            196
+        ], 
+        "53": [
+            197, 
+            198
+        ], 
+        "54": [
+            199
+        ], 
+        "55": [
+            2, 
+            20, 
+            200
+        ], 
+        "56": [
+            201, 
+            202
+        ], 
+        "57": [
+            203, 
+            204
+        ], 
+        "58": [
+            205
+        ], 
+        "59": [
+            206, 
+            207
+        ], 
+        "60": [
+            208, 
+            209
+        ], 
+        "61": [
+            21, 
+            210, 
+            211
+        ], 
+        "62": [
+            212, 
+            213
+        ], 
+        "63": [
+            214, 
+            215
+        ], 
+        "64": [
+            216, 
+            217, 
+            218
+        ], 
+        "65": [
+            219, 
+            22
+        ], 
+        "66": [
+            220, 
+            221
+        ], 
+        "67": [
+            222
+        ], 
+        "68": [
+            223
+        ], 
+        "69": [
+            224, 
+            225
+        ], 
+        "70": [
+            226, 
+            227
+        ], 
+        "71": [
+            228, 
+            229
+        ], 
+        "72": [
+            23, 
+            230, 
+            231, 
+            232
+        ], 
+        "73": [
+            233, 
+            234
+        ], 
+        "74": [
+            235, 
+            236
+        ], 
+        "75": [
+            237, 
+            238
+        ], 
+        "76": [
+            239, 
+            24
+        ], 
+        "77": [
+            240, 
+            241
+        ], 
+        "78": [
+            242, 
+            243
+        ], 
+        "79": [
+            244, 
+            245, 
+            246
+        ], 
+        "80": [
+            247, 
+            248, 
+            249
+        ], 
+        "81": [
+            25, 
+            250, 
+            251
+        ], 
+        "82": [
+            252, 
+            253
+        ], 
+        "83": [
+            254, 
+            255
+        ], 
+        "84": [
+            256, 
+            257
+        ], 
+        "85": [
+            258
+        ], 
+        "86": [
+            259, 
+            26, 
+            260
+        ], 
+        "87": [
+            261, 
+            262
+        ], 
+        "88": [
+            263, 
+            264
+        ], 
+        "89": [
+            265, 
+            266
+        ], 
+        "90": [
+            267, 
+            268
+        ], 
+        "91": [
+            269, 
+            27, 
+            270
+        ], 
+        "92": [
+            271
+        ], 
+        "93": [
+            272, 
+            273
+        ], 
+        "94": [
+            274, 
+            275
+        ], 
+        "95": [
+            276, 
+            277
+        ], 
+        "96": [
+            278, 
+            279
+        ], 
+        "97": [
+            28, 
+            280
+        ], 
+        "98": [
+            281
+        ], 
+        "99": [
+            282, 
+            283
+        ], 
+        "100": [
+            284
+        ], 
+        "101": [
+            285, 
+            286
+        ], 
+        "102": [
+            287, 
+            288
+        ], 
+        "103": [
+            289, 
+            29
+        ], 
+        "104": [
+            290, 
+            291
+        ], 
+        "105": [
+            292, 
+            293
+        ], 
+        "106": [
+            294, 
+            295
+        ], 
+        "107": [
+            296, 
+            297
+        ], 
+        "108": [
+            298, 
+            299, 
+            3
+        ], 
+        "109": [
+            30, 
+            300
+        ], 
+        "110": [
+            301, 
+            302
+        ], 
+        "111": [
+            303, 
+            304
+        ], 
+        "112": [
+            305, 
+            306
+        ], 
+        "113": [
+            307, 
+            308, 
+            309
+        ], 
+        "114": [
+            31, 
+            310
+        ], 
+        "115": [
+            311, 
+            312
+        ], 
+        "116": [
+            313, 
+            314
+        ], 
+        "117": [
+            315, 
+            316
+        ], 
+        "118": [
+            317, 
+            318, 
+            319
+        ], 
+        "119": [
+            32, 
+            320, 
+            321
+        ], 
+        "120": [
+            322, 
+            323, 
+            324
+        ], 
+        "121": [
+            325, 
+            326, 
+            33
+        ], 
+        "122": [
+            34, 
+            35, 
+            36
+        ], 
+        "123": [
+            37, 
+            38, 
+            39
+        ], 
+        "124": [
+            4, 
+            40, 
+            41
+        ], 
+        "125": [
+            42, 
+            43
+        ], 
+        "126": [
+            44, 
+            45
+        ], 
+        "127": [
+            46, 
+            47
+        ], 
+        "128": [
+            48, 
+            49
+        ], 
+        "129": [
+            5, 
+            50
+        ], 
+        "130": [
+            51, 
+            52
+        ], 
+        "131": [
+            53, 
+            54
+        ], 
+        "132": [
+            55, 
+            56
+        ], 
+        "133": [
+            57, 
+            58
+        ], 
+        "134": [
+            59
+        ], 
+        "135": [
+            6, 
+            60
+        ], 
+        "136": [
+            61
+        ], 
+        "137": [
+            62, 
+            63
+        ], 
+        "138": [
+            64, 
+            65
+        ], 
+        "139": [
+            66, 
+            67
+        ], 
+        "140": [
+            68, 
+            69
+        ], 
+        "141": [
+            7, 
+            70, 
+            71
+        ], 
+        "142": [
+            72, 
+            73
+        ], 
+        "143": [
+            74, 
+            75, 
+            76
+        ], 
+        "144": [
+            77, 
+            78
+        ], 
+        "145": [
+            79, 
+            8, 
+            80
+        ], 
+        "146": [
+            81, 
+            82
+        ], 
+        "147": [
+            83, 
+            84
+        ], 
+        "148": [
+            85
+        ], 
+        "149": [
+            86, 
+            87
+        ], 
+        "150": [
+            88
+        ], 
+        "151": [
+            89, 
+            9
+        ], 
+        "152": [
+            90, 
+            91, 
+            92
+        ], 
+        "153": [
+            93, 
+            94
+        ], 
+        "154": [
+            95, 
+            96
+        ], 
+        "155": [
+            97, 
+            98
+        ], 
+        "156": [
+            99
+        ]
+    }, 
+    "isdata": true, 
+    "kfact": 1.0, 
+    "nevents_DAS": 27934629, 
+    "nevents_merged": 27934629, 
+    "nevents_unmerged": 27934629, 
+    "postprocessing": {
+        "done": 156, 
+        "idle": 0, 
+        "running": 0, 
+        "total": 156
+    }, 
+    "pset": "DataProduction2015_NoFilter_RECO_cfg.py", 
+    "shortname": "DoubleMuon_Run2016C-23Sep2016-v1", 
+    "sparms": [], 
+    "specialdir": "run2_data_test", 
+    "status": "postprocessing", 
+    "type": "CMS3", 
+    "user": "namin", 
+    "xsec": 1.0
+}
