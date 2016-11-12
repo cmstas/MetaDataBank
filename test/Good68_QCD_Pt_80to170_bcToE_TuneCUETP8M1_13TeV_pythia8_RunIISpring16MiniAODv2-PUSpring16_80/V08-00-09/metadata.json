@@ -1,0 +1,85 @@
+{
+    "basedir": "/home/users/namin/sandbox/corrupt/09/NtupleTools/AutoTwopler/", 
+    "checks": {
+        "nproblems": 0, 
+        "problems": []
+    }, 
+    "cms3tag": "CMS3_V08-00-09", 
+    "cmsswver": "CMSSW_8_0_5_patch1", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 0, 
+            "finished": 2, 
+            "idle": 0, 
+            "running": 0, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": null, 
+        "datetime": "161111_005609", 
+        "jobs_left": [], 
+        "jobs_left_tail": [], 
+        "njobs": 2, 
+        "outputdir": "/hadoop/cms/store/user/namin/Good68_QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8_RunIISpring16MiniAODv2-PUSpring16_80/crab_Good68_QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8_RunIISpring16MiniAODv2-PUSpring16_80/161111_005609/0000/", 
+        "requestname": "Good68_QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8_RunIISpring16MiniAODv2-PUSpring16_80", 
+        "resubmissions": 32, 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "The CRAB server backend was not able to resubmit the task, because the Grid scheduler answered with an error. This is probably a temporary glitch. Please try again later. If the error persists send an e-mail to hn-cms-computing-tools@cern.ch. Error reason: Trapped exception in Dagman.Fork: <type 'exceptions.TypeError'> No registered converter was able to produce a C++ rvalue of type std::string from this Python object of type list <traceback object at 0x7f9df09ac878> \n  File \"/data/srv/TaskManager/3.3.1611.rc1/slc6_amd64_gcc493/cms/crabtaskworker/3.3.1611.rc1/lib/python2.7/site-packages/TaskWorker/Actions/DagmanResubmitter.py\", line 146, in executeInternal\n    schedd.edit(rootConst, adparam, ad[taskparam])\n", 
+        "task_warning": [
+            "The following sites from the user site whitelist are blacklisted by the CRAB server: [u'T2_US_Florida', u'T2_US_Vanderbilt']. Since the CRAB server blacklist has precedence, these sites are not considered in the user whitelist."
+        ], 
+        "taskdir": "crab/crab_Good68_QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8_RunIISpring16MiniAODv2-PUSpring16_80", 
+        "time": 1478886186, 
+        "uniquerequestname": "161111_005609:namin_crab_Good68_QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8_RunIISpring16MiniAODv2-PUSpring16_80"
+    }, 
+    "dataset": "/Good68_QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8/RunIISpring16MiniAODv2-PUSpring16_80/USER", 
+    "efact": 0.01183, 
+    "finaldir": "/hadoop/cms/store/group/snt/test/Good68_QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8_RunIISpring16MiniAODv2-PUSpring16_80/V08-00-09/", 
+    "gtag": "80X_mcRun2_asymptotic_2016_miniAODv2_v0", 
+    "ijob_to_miniaod": {
+        "1": [
+            "/store/mc/RunIISpring16MiniAODv2/QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v2/50000/78B89725-C258-E611-8F74-001E67396D79.root"
+        ], 
+        "2": [
+            "/store/mc/RunIISpring16MiniAODv2/QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v2/50000/BE0089D9-D458-E611-8805-0025905A6118.root"
+        ]
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            91041, 
+            91041
+        ], 
+        "2": [
+            77834, 
+            77834
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            2
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.0, 
+    "nevents_DAS": 0, 
+    "nevents_merged": 168875, 
+    "nevents_unmerged": 168875, 
+    "postprocessing": {
+        "done": 1, 
+        "idle": 0, 
+        "running": 0, 
+        "total": 1
+    }, 
+    "pset": "MCProduction2015_NoFilter_cfg.py", 
+    "shortname": "Good68_QCD_Pt_80to170_bcToE_TuneCUETP8M1_13TeV_pythia8_RunIISpring16MiniAODv2-PUSpring16_80", 
+    "sparms": [], 
+    "specialdir": "test", 
+    "status": "postprocessing", 
+    "type": "CMS3", 
+    "user": "namin", 
+    "xsec": 3221000.0
+}
