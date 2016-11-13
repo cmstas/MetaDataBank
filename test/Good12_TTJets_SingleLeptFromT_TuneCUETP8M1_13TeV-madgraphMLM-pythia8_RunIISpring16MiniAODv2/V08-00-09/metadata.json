@@ -1,0 +1,77 @@
+{
+    "basedir": "/home/users/namin/sandbox/corrupt/09/NtupleTools/AutoTwopler/", 
+    "checks": {
+        "nproblems": 0, 
+        "problems": []
+    }, 
+    "cms3tag": "CMS3_V08-00-09", 
+    "cmsswver": "CMSSW_8_0_5_patch1", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 0, 
+            "finished": 1, 
+            "idle": 0, 
+            "running": 0, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": null, 
+        "datetime": "161111_005706", 
+        "jobs_left": [], 
+        "jobs_left_tail": [], 
+        "njobs": 1, 
+        "outputdir": "/hadoop/cms/store/user/namin/Good12_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISpring16MiniAODv2/crab_Good12_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISpring16MiniAODv2/161111_005706/0000/", 
+        "requestname": "Good12_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISpring16MiniAODv2", 
+        "resubmissions": 2, 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "The CRAB server backend was not able to resubmit the task, because the Grid scheduler answered with an error. This is probably a temporary glitch. Please try again later. If the error persists send an e-mail to hn-cms-computing-tools@cern.ch. Error reason: Trapped exception in Dagman.Fork: <type 'exceptions.TypeError'> No registered converter was able to produce a C++ rvalue of type std::string from this Python object of type list <traceback object at 0x7f9df0e4ba70> \n  File \"/data/srv/TaskManager/3.3.1611.rc1/slc6_amd64_gcc493/cms/crabtaskworker/3.3.1611.rc1/lib/python2.7/site-packages/TaskWorker/Actions/DagmanResubmitter.py\", line 146, in executeInternal\n    schedd.edit(rootConst, adparam, ad[taskparam])\n", 
+        "task_warning": [
+            "The following sites from the user site whitelist are blacklisted by the CRAB server: [u'T2_US_Florida', u'T2_US_Vanderbilt']. Since the CRAB server blacklist has precedence, these sites are not considered in the user whitelist."
+        ], 
+        "taskdir": "crab/crab_Good12_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISpring16MiniAODv2", 
+        "time": 1478992049, 
+        "uniquerequestname": "161111_005706:namin_crab_Good12_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISpring16MiniAODv2"
+    }, 
+    "dataset": "/Good12_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISpring16MiniAODv2/USER", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/test/Good12_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISpring16MiniAODv2/V08-00-09/", 
+    "gtag": "80X_mcRun2_asymptotic_2016_miniAODv2_v0", 
+    "ijob_to_miniaod": {
+        "1": [
+            "/store/mc/RunIISpring16MiniAODv2/TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0_ext1-v1/50000/00201EE1-B858-E611-8300-A0369F7F9B10.root"
+        ]
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            113225, 
+            113225
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.594, 
+    "nevents_DAS": 0, 
+    "nevents_merged": 113225, 
+    "nevents_unmerged": 113225, 
+    "postprocessing": {
+        "done": 1, 
+        "idle": 0, 
+        "running": 0, 
+        "total": 1
+    }, 
+    "pset": "MCProduction2015_NoFilter_cfg.py", 
+    "shortname": "Good12_TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISpring16MiniAODv2", 
+    "sparms": [], 
+    "specialdir": "test", 
+    "status": "postprocessing", 
+    "type": "CMS3", 
+    "user": "namin", 
+    "xsec": 114.6
+}
