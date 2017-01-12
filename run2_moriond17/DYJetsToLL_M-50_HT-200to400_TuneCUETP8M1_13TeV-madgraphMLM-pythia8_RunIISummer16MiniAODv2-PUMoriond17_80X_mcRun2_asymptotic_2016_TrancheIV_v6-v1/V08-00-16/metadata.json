@@ -1,0 +1,381 @@
+{
+    "basedir": "/home/users/namin/2016/moriond/NtupleTools/AutoTwopler/", 
+    "checks": {
+        "nproblems": 0, 
+        "problems": []
+    }, 
+    "cms3tag": "CMS3_V08-00-16", 
+    "cmsswver": "CMSSW_8_0_21", 
+    "crab": {
+        "breakdown": {
+            "cooloff": 0, 
+            "failed": 1, 
+            "finished": 36, 
+            "idle": 0, 
+            "running": 3, 
+            "transferred": 0, 
+            "transferring": 0, 
+            "unsubmitted": 0
+        }, 
+        "commonerror": "1 jobs (2.5%) failed with error code 90000: Got fatal stageout exception:\nStageout failed with code 1.\nThere were 2 failed/killed stageout jobs. 2 of those jobs had a permanent failure.\nFailure reasons (per document) follow:\n- 6cc8f41e1d315d67ad8af4982ed10237ffa4b4c4190388037e785d87:\n  ['Cancelled ASO transfer after timeout of 86400 seconds.']\n  The last failure reason is permanent.\n- f1dbc3fbe4b5650571114b37ba77fe85b9e5eaa91e1474899a04a82a:\n  ['Cancelled ASO transfer after timeout of 86400 seconds.']\n  The last failure reason is permanent.", 
+        "datetime": "170110_033106", 
+        "jobs_left": [
+            3, 
+            9, 
+            36, 
+            33
+        ], 
+        "jobs_left_tail": [
+            3, 
+            9, 
+            36, 
+            33
+        ], 
+        "njobs": 40, 
+        "outputdir": "/hadoop/cms/store/user/namin/AutoTwopler/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/crab_DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISummer16MiniAODv2-PUMoriond/170110_033106/0000/", 
+        "requestname": "DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISummer16MiniAODv2-PUMoriond", 
+        "resubmissions": 1, 
+        "status": "COMPLETED", 
+        "status_failure": "", 
+        "task_failure": "", 
+        "task_warning": [
+            "The CRAB3 server got a non-critical error while checking stageout permissions. Please use checkwrite to check if everything is fine.", 
+            "The following sites from the user site whitelist are blacklisted by the CRAB server: [u'T2_GR_Ioannina', u'T2_BR_UERJ', u'T2_CH_CERN_HLT', u'T2_PL_Warsaw', u'T2_MY_UPM_BIRUNI', u'T2_RU_SINP', u'T2_TH_CUNSTDA', u'T2_CH_CERN_AI', u'T2_RU_INR', u'T2_RU_PNPI', u'T2_ES_IFCA']. Since the CRAB server blacklist has precedence, these sites are not considered in the user whitelist.", 
+            "Task requests 3500 MB of memory, but only 2500 MB are guaranteed to be available. Jobs may not find a site where to run and stay idle forever."
+        ], 
+        "taskdir": "crab/crab_DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISummer16MiniAODv2-PUMoriond", 
+        "time": 1484137234, 
+        "uniquerequestname": "170110_033106:namin_crab_DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISummer16MiniAODv2-PUMoriond"
+    }, 
+    "dataset": "/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/MINIAODSIM", 
+    "efact": 1.0, 
+    "finaldir": "/hadoop/cms/store/group/snt/run2_moriond17/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/V08-00-16/", 
+    "gtag": "80X_mcRun2_asymptotic_2016_TrancheIV_v6", 
+    "ijob_to_miniaod": {
+        "1": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/0AD9C544-FCD2-E611-B4EE-008CFA197E0C.root"
+        ], 
+        "2": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/B6BE34A7-07D3-E611-88C0-008CFA111270.root"
+        ], 
+        "4": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/20253442-FCD2-E611-BB61-002590D9D8B6.root"
+        ], 
+        "5": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/46D467BA-CBD2-E611-86EB-002590E2F9D4.root"
+        ], 
+        "6": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/4AD80D86-FCD2-E611-9714-0025905B858A.root"
+        ], 
+        "7": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/5AD8FEBB-CAD2-E611-8405-0025905A48F0.root"
+        ], 
+        "8": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/7058283A-01D2-E611-B723-E0071B7A48A0.root"
+        ], 
+        "10": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/BE584F07-00D2-E611-A9EC-A0000420FE80.root"
+        ], 
+        "11": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/C0A4F58C-C6D2-E611-8433-5065F3820351.root"
+        ], 
+        "12": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/CC64858A-04D2-E611-83AA-D4AE527EDE00.root"
+        ], 
+        "13": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/DA3136CE-CFD2-E611-BE3D-B083FECF83AB.root"
+        ], 
+        "14": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/F6FEFB6F-11D2-E611-93D0-0CC47A0AD69E.root"
+        ], 
+        "15": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/50000/1AABB91F-05D3-E611-92B0-A0000420FE80.root"
+        ], 
+        "16": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/50000/2CB427CE-04D3-E611-A4C3-A4BF01025B0D.root"
+        ], 
+        "17": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/50000/5E97F1F8-04D3-E611-9E11-549F3525DB98.root"
+        ], 
+        "18": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/50000/A40F2CBF-04D3-E611-AFD9-FA163EE355DD.root"
+        ], 
+        "19": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/50000/A4F7BD3E-2AD2-E611-9720-5065F381A242.root"
+        ], 
+        "20": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/50000/BEDB9AE2-04D3-E611-AE1E-02163E0165A2.root"
+        ], 
+        "21": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/50000/E03550CC-D0D2-E611-963C-0025901FB100.root"
+        ], 
+        "22": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/70000/0472BF59-3DD2-E611-883B-D067E5FA0623.root"
+        ], 
+        "23": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/70000/3E3C8E53-1FD3-E611-AFA2-001E67457A5D.root"
+        ], 
+        "24": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/70000/6493464C-0AD3-E611-BFB4-001E674FAF23.root"
+        ], 
+        "25": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/70000/BC150A1F-31D2-E611-A5A1-001E67457107.root"
+        ], 
+        "26": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/0C297DD8-CDD2-E611-9718-0CC47A13CD9C.root"
+        ], 
+        "27": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/34A7EB36-CED2-E611-9E4E-FA163E3C6237.root"
+        ], 
+        "28": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/3A15659C-07D3-E611-82CA-141877411FCD.root"
+        ], 
+        "29": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/4CA7F055-C4D2-E611-A882-FA163ED98FDB.root"
+        ], 
+        "30": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/50E3F38E-02D2-E611-89C7-0CC47A13D176.root"
+        ], 
+        "31": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/5A1CAB38-FFD1-E611-B1FA-A0000420FE80.root"
+        ], 
+        "32": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/6E3A407E-BAD2-E611-B989-B083FECF837B.root"
+        ], 
+        "34": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/78FB37FA-07D3-E611-9C25-5065F37D9171.root"
+        ], 
+        "35": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/AE8027E5-08D3-E611-BE5B-90B11C0701C1.root"
+        ], 
+        "37": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/D868591F-08D3-E611-85D4-0CC47A78A340.root"
+        ], 
+        "38": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/F4696DA3-07D3-E611-88C6-02163E00C754.root"
+        ], 
+        "39": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/FC83B99E-07D3-E611-AD37-0025901AC0FC.root"
+        ], 
+        "40": [
+            "/store/mc/RunIISummer16MiniAODv2/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/80000/FEC349EF-07D3-E611-80CC-02163E00C754.root"
+        ]
+    }, 
+    "ijob_to_nevents": {
+        "1": [
+            2402, 
+            2402
+        ], 
+        "2": [
+            6120, 
+            6120
+        ], 
+        "4": [
+            5595, 
+            5595
+        ], 
+        "5": [
+            6880, 
+            6880
+        ], 
+        "6": [
+            778, 
+            778
+        ], 
+        "7": [
+            17945, 
+            17945
+        ], 
+        "8": [
+            52873, 
+            52873
+        ], 
+        "10": [
+            96071, 
+            96071
+        ], 
+        "11": [
+            52411, 
+            52411
+        ], 
+        "12": [
+            62394, 
+            62394
+        ], 
+        "13": [
+            12543, 
+            12543
+        ], 
+        "14": [
+            58869, 
+            58869
+        ], 
+        "15": [
+            1501, 
+            1501
+        ], 
+        "16": [
+            276, 
+            276
+        ], 
+        "17": [
+            31188, 
+            31188
+        ], 
+        "18": [
+            4423, 
+            4423
+        ], 
+        "19": [
+            61908, 
+            61908
+        ], 
+        "20": [
+            3054, 
+            3054
+        ], 
+        "21": [
+            6944, 
+            6944
+        ], 
+        "22": [
+            52909, 
+            52909
+        ], 
+        "23": [
+            30280, 
+            30280
+        ], 
+        "24": [
+            35919, 
+            35919
+        ], 
+        "25": [
+            61361, 
+            61361
+        ], 
+        "26": [
+            22006, 
+            22006
+        ], 
+        "27": [
+            7816, 
+            7816
+        ], 
+        "28": [
+            3085, 
+            3085
+        ], 
+        "29": [
+            20131, 
+            20131
+        ], 
+        "30": [
+            54251, 
+            54251
+        ], 
+        "31": [
+            63855, 
+            63855
+        ], 
+        "32": [
+            31061, 
+            31061
+        ], 
+        "34": [
+            6286, 
+            6286
+        ], 
+        "35": [
+            788, 
+            788
+        ], 
+        "37": [
+            6591, 
+            6591
+        ], 
+        "38": [
+            2389, 
+            2389
+        ], 
+        "39": [
+            4544, 
+            4544
+        ], 
+        "40": [
+            1525, 
+            1525
+        ]
+    }, 
+    "imerged_to_ijob": {
+        "1": [
+            1, 
+            10, 
+            11
+        ], 
+        "2": [
+            12, 
+            13, 
+            14
+        ], 
+        "3": [
+            15, 
+            16, 
+            17, 
+            18, 
+            19, 
+            2
+        ], 
+        "4": [
+            20, 
+            21, 
+            22, 
+            23, 
+            24
+        ], 
+        "5": [
+            25, 
+            26, 
+            27, 
+            28, 
+            29
+        ], 
+        "6": [
+            30, 
+            31
+        ], 
+        "7": [
+            32, 
+            34, 
+            35, 
+            37, 
+            38, 
+            39, 
+            4, 
+            40, 
+            5, 
+            6, 
+            7, 
+            8
+        ]
+    }, 
+    "isdata": false, 
+    "kfact": 1.23, 
+    "nevents_DAS": 962195, 
+    "nevents_merged": 888972, 
+    "nevents_unmerged": 888972, 
+    "postprocessing": {
+        "done": 7, 
+        "idle": 0, 
+        "running": 0, 
+        "total": 7
+    }, 
+    "pset": "MCProduction2015_NoFilter_cfg.py", 
+    "shortname": "DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8_RunIISummer16MiniAODv2-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1", 
+    "sparms": [], 
+    "specialdir": "run2_moriond17", 
+    "status": "postprocessing", 
+    "type": "CMS3", 
+    "user": "namin", 
+    "xsec": 40.99
+}
